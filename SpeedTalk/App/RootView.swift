@@ -4,6 +4,7 @@ import SwiftData
 struct RootView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var profiles: [UserProfile]
+    @Query private var planProgress: [PlanProgress]
 
     var body: some View {
         Group {
@@ -15,7 +16,10 @@ struct RootView: View {
                 OnboardingView()
             }
         }
-        .task { seedForSmokeTestIfNeeded() }
+        .task {
+            seedForSmokeTestIfNeeded()
+            resetAdvanceBudgetIfNeeded()
+        }
     }
 
     /// 仅 Debug 构建支持 `-skipOnboarding`，用于模拟器冒烟与截图验收。
@@ -36,6 +40,20 @@ struct RootView: View {
         modelContext.insert(profile)
         modelContext.insert(PlanProgress(planID: "01"))
         try? modelContext.save()
+        #endif
+    }
+
+    /// 仅 Debug 构建支持 `-resetAdvanceBudget`：清掉跨用例残留的当日推进额度。
+    private func resetAdvanceBudgetIfNeeded() {
+        #if DEBUG
+        guard ProcessInfo.processInfo.arguments.contains("-resetAdvanceBudget") else { return }
+        var changed = false
+        for plan in planProgress where plan.advanceDate != nil || plan.advanceCount != 0 {
+            plan.advanceDate = nil
+            plan.advanceCount = 0
+            changed = true
+        }
+        if changed { try? modelContext.save() }
         #endif
     }
 }
