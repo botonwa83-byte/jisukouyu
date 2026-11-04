@@ -15,6 +15,18 @@ struct RootView: View {
 
 struct ContentView: View {
     var body: some View {
-        Text("今日")
+        TabView {
+            TodayView()
+                .tabItem { Label("今日", systemImage: "sun.max") }
+            Text("课表")
+                .tabItem { Label("课表", systemImage: "list.bullet.rectangle") }
+            Text("场景")
+                .tabItem { Label("场景", systemImage: "square.grid.2x2") }
+            Text("对练")
+                .tabItem { Label("对练", systemImage: "bubble.left.and.bubble.right") }
+            Text("我的")
+                .tabItem { Label("我的", systemImage: "person.crop.circle") }
+        }
+        .tint(Theme.accent)
     }
 }
