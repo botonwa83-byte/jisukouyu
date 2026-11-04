@@ -14,12 +14,20 @@
       "level": 1,
       "focus": "gonna = going to，口语里几乎必缩",
       "register": "casual",
-      "tags": ["缩略", "同事闲聊"],
+      "tags": [
+        "缩略",
+        "同事闲聊"
+      ],
       "pronunciation": {
         "ipa": "/aɪm ˈɡʌnə ɡræb ə ˈkɔːfi/",
-        "notes": ["gonna 读 /ˈɡʌnə/，不要读成 /ˈɡoʊɪŋ tuː/", "grab a 连读 /ˈɡræbə/"]
+        "notes": [
+          "gonna 读 /ˈɡʌnə/，不要读成 /ˈɡoʊɪŋ tuː/",
+          "grab a 连读 /ˈɡræbə/"
+        ]
       },
-      "variants": ["I'm grabbing a coffee — want one?"],
+      "variants": [
+        "I'm grabbing a coffee — want one?"
+      ],
       "avoid": "I am going to buy a cup of coffee. Do you want anything?",
       "transfer": "I'm gonna grab ___ — want anything?",
       "context": "办公室午后，随口问同事要不要带咖啡"
@@ -37,12 +45,21 @@
       "level": 1,
       "focus": "to go = 外带，比 take away 更美式",
       "register": "neutral",
-      "tags": ["点单", "外带"],
+      "tags": [
+        "点单",
+        "外带"
+      ],
       "pronunciation": {
         "ipa": "/kʊd aɪ ɡɛt ðæt tə ɡoʊ/",
-        "notes": ["Could I 连读 /ˈkʊdaɪ/", "get that 的 t 只做口型不爆破"]
+        "notes": [
+          "Could I 连读 /ˈkʊdaɪ/",
+          "get that 的 t 只做口型不爆破"
+        ]
       },
-      "variants": ["Can I get this to go?", "For here or to go?"],
+      "variants": [
+        "Can I get this to go?",
+        "For here or to go?"
+      ],
       "avoid": "Can I take away this?",
       "transfer": "Could I get ___ to go?",
       "context": "咖啡店点完单，店员问堂食还是外带"
@@ -60,12 +77,21 @@
       "level": 1,
       "focus": "I'll have = 点单最常用句式，比 I want 礼貌",
       "register": "neutral",
-      "tags": ["点单", "高频"],
+      "tags": [
+        "点单",
+        "高频"
+      ],
       "pronunciation": {
         "ipa": "/aɪl hæv ðə seɪm/",
-        "notes": ["I'll 读成一个音节 /aɪl/", "have 弱读 /həv/"]
+        "notes": [
+          "I'll 读成一个音节 /aɪl/",
+          "have 弱读 /həv/"
+        ]
       },
-      "variants": ["Same for me.", "I'll get the same."],
+      "variants": [
+        "Same for me.",
+        "I'll get the same."
+      ],
       "avoid": "I want same as him.",
       "transfer": "I'll have ___.",
       "context": "朋友先点了，你懒得选，直接跟一份"
@@ -83,12 +109,21 @@
       "level": 1,
       "focus": "refill 是美式餐厅的免费续杯，进店必会",
       "register": "casual",
-      "tags": ["餐厅", "续杯"],
+      "tags": [
+        "餐厅",
+        "续杯"
+      ],
       "pronunciation": {
         "ipa": "/kən aɪ ɡɛt ə ˈriːfɪl/",
-        "notes": ["Can I 连读 /kənaɪ/", "refill 重音在前 /ˈriːfɪl/"]
+        "notes": [
+          "Can I 连读 /kənaɪ/",
+          "refill 重音在前 /ˈriːfɪl/"
+        ]
       },
-      "variants": ["Could I get a refill?", "Mind topping me off?"],
+      "variants": [
+        "Could I get a refill?",
+        "Mind topping me off?"
+      ],
       "avoid": "Can I add one more cup for free?",
       "transfer": "Can I get a refill of ___?",
       "context": "美式餐厅服务员路过，你杯子空了"
@@ -106,12 +141,21 @@
       "level": 1,
       "focus": "店员一靠近就用这句，礼貌拒绝不尴尬",
       "register": "neutral",
-      "tags": ["购物", "拒绝"],
+      "tags": [
+        "购物",
+        "拒绝"
+      ],
       "pronunciation": {
         "ipa": "/aɪm dʒʌst ˈlʊkɪŋ θæŋks/",
-        "notes": ["just 弱读 /dʒəs/", "looking 的 ing 读 /ɪŋ/，不要读成 /ɪn/"]
+        "notes": [
+          "just 弱读 /dʒəs/",
+          "looking 的 ing 读 /ɪŋ/，不要读成 /ɪn/"
+        ]
       },
-      "variants": ["Just browsing, thanks.", "I'm good, thanks."],
+      "variants": [
+        "Just browsing, thanks.",
+        "I'm good, thanks."
+      ],
       "avoid": "I only see see.",
       "transfer": "I'm just ___, thanks.",
       "context": "进店后店员问 Can I help you?"
@@ -129,12 +173,21 @@
       "level": 1,
       "focus": "店员问你时的原话，听懂就能立刻回答",
       "register": "neutral",
-      "tags": ["点单", "必听句"],
+      "tags": [
+        "点单",
+        "必听句"
+      ],
       "pronunciation": {
         "ipa": "/fər hɪr ɔr tə ɡoʊ/",
-        "notes": ["for here 连读 /fərˈhɪr/", "or 弱读 /ər/"]
+        "notes": [
+          "for here 连读 /fərˈhɪr/",
+          "or 弱读 /ər/"
+        ]
       },
-      "variants": ["Here or to go?", "Is that for here?"],
+      "variants": [
+        "Here or to go?",
+        "Is that for here?"
+      ],
       "avoid": "Eat here or take away?",
       "transfer": "For here or ___?",
       "context": "点完单，收银员抬头问你"
@@ -152,12 +205,20 @@
       "level": 1,
       "focus": "最短回答，两个词解决问题",
       "register": "neutral",
-      "tags": ["点单", "极简回答"],
+      "tags": [
+        "点单",
+        "极简回答"
+      ],
       "pronunciation": {
         "ipa": "/tə ɡoʊ pliːz/",
-        "notes": ["to 弱读 /tə/，不要读 /tuː/"]
+        "notes": [
+          "to 弱读 /tə/，不要读 /tuː/"
+        ]
       },
-      "variants": ["Takeout, please.", "I'll take it to go."],
+      "variants": [
+        "Takeout, please.",
+        "I'll take it to go."
+      ],
       "avoid": "I want take away please.",
       "transfer": "___, please.",
       "context": "回答 For here or to go?"
@@ -175,12 +236,19 @@
       "level": 1,
       "focus": "combo = 套餐，快餐店高频词",
       "register": "casual",
-      "tags": ["快餐", "套餐"],
+      "tags": [
+        "快餐",
+        "套餐"
+      ],
       "pronunciation": {
         "ipa": "/aɪl teɪk ðə ˈkɑmboʊ/",
-        "notes": ["combo 重音在前 /ˈkɑmboʊ/"]
+        "notes": [
+          "combo 重音在前 /ˈkɑmboʊ/"
+        ]
       },
-      "variants": ["I'll do the number two combo."],
+      "variants": [
+        "I'll do the number two combo."
+      ],
       "avoid": "I want the set meal.",
       "transfer": "I'll take the ___ combo.",
       "context": "快餐店菜单上写着 Combo 1/2/3"
@@ -198,12 +266,20 @@
       "level": 1,
       "focus": "swap A for B = 把 A 换成 B，办事万能句式",
       "register": "neutral",
-      "tags": ["换菜", "句式"],
+      "tags": [
+        "换菜",
+        "句式"
+      ],
       "pronunciation": {
         "ipa": "/kən aɪ swɑp ðə fraɪz fər ə ˈsæləd/",
-        "notes": ["swap 的 p 只做口型", "fries for a 连读 /fraɪzfərə/"]
+        "notes": [
+          "swap 的 p 只做口型",
+          "fries for a 连读 /fraɪzfərə/"
+        ]
       },
-      "variants": ["Could I get a salad instead of fries?"],
+      "variants": [
+        "Could I get a salad instead of fries?"
+      ],
       "avoid": "Can I change french fries to salad?",
       "transfer": "Can I swap ___ for ___?",
       "context": "套餐默认配薯条，你想吃轻一点"
@@ -221,12 +297,20 @@
       "level": 1,
       "focus": "点完单收尾的固定说法，比 No more 自然",
       "register": "casual",
-      "tags": ["点单", "收尾"],
+      "tags": [
+        "点单",
+        "收尾"
+      ],
       "pronunciation": {
         "ipa": "/ðæts ɪt θæŋks/",
-        "notes": ["That's it 连成一串 /ˈðætsɪt/"]
+        "notes": [
+          "That's it 连成一串 /ˈðætsɪt/"
+        ]
       },
-      "variants": ["That's all, thanks.", "I think that's everything."],
+      "variants": [
+        "That's all, thanks.",
+        "I think that's everything."
+      ],
       "avoid": "No more, thank you.",
       "transfer": "That's it for ___.",
       "context": "店员问 Anything else?"
@@ -244,12 +328,20 @@
       "level": 1,
       "focus": "问招牌的最地道问法，比 recommend 更随口",
       "register": "casual",
-      "tags": ["问推荐", "高频"],
+      "tags": [
+        "问推荐",
+        "高频"
+      ],
       "pronunciation": {
         "ipa": "/wʌts ɡʊd hɪr/",
-        "notes": ["What's good 连读 /wʌtsɡʊd/", "here 卷舌要到位 /hɪr/"]
+        "notes": [
+          "What's good 连读 /wʌtsɡʊd/",
+          "here 卷舌要到位 /hɪr/"
+        ]
       },
-      "variants": ["What's good to eat here?"],
+      "variants": [
+        "What's good to eat here?"
+      ],
       "avoid": "What food is delicious here?",
       "transfer": "What's good ___?",
       "context": "第一次进这家店，看服务员有空"
@@ -267,12 +359,20 @@
       "level": 1,
       "focus": "I'll do = 我要，比 I'll have 更随意干练",
       "register": "casual",
-      "tags": ["点主食", "牛排熟度"],
+      "tags": [
+        "点主食",
+        "牛排熟度"
+      ],
       "pronunciation": {
         "ipa": "/aɪl du ðə ˈbɜrɡər ˈmidiəm/",
-        "notes": ["I'll do 连读 /aɪldu/", "medium 三个音节别吞音 /ˈmidiəm/"]
+        "notes": [
+          "I'll do 连读 /aɪldu/",
+          "medium 三个音节别吞音 /ˈmidiəm/"
+        ]
       },
-      "variants": ["I'll go with the burger, medium."],
+      "variants": [
+        "I'll go with the burger, medium."
+      ],
       "avoid": "I want hamburger five mature.",
       "transfer": "I'll do the ___, ___.",
       "context": "服务员记单，问你汉堡要几分熟"
@@ -290,12 +390,20 @@
       "level": 1,
       "focus": "come with = 附带，点单看菜单必用",
       "register": "neutral",
-      "tags": ["点主食", "配菜"],
+      "tags": [
+        "点主食",
+        "配菜"
+      ],
       "pronunciation": {
         "ipa": "/dʌz ðæt kʌm wɪð fraɪz/",
-        "notes": ["come with 连读 /kʌmwɪð/", "fries 的 z 音别读成 s"]
+        "notes": [
+          "come with 连读 /kʌmwɪð/",
+          "fries 的 z 音别读成 s"
+        ]
       },
-      "variants": ["Is it served with fries?"],
+      "variants": [
+        "Is it served with fries?"
+      ],
       "avoid": "Does it take fries together?",
       "transfer": "Does that come with ___?",
       "context": "菜单只写了主菜，你想确认配菜"
@@ -313,12 +421,21 @@
       "level": 1,
       "focus": "进店坐下第一句，Could we 比 Can I 更客气",
       "register": "neutral",
-      "tags": ["点主食", "入座"],
+      "tags": [
+        "点主食",
+        "入座"
+      ],
       "pronunciation": {
         "ipa": "/kʊd wi ɡɛt ə ˈmɛnju/",
-        "notes": ["Could we 连读 /ˈkʊdwi/", "menu 重音在前 /ˈmɛnju/"]
+        "notes": [
+          "Could we 连读 /ˈkʊdwi/",
+          "menu 重音在前 /ˈmɛnju/"
+        ]
       },
-      "variants": ["Can we see a menu?", "Menu, please."],
+      "variants": [
+        "Can we see a menu?",
+        "Menu, please."
+      ],
       "avoid": "Give me the menu.",
       "transfer": "Could we get ___?",
       "context": "坐下后服务员还没递菜单"
@@ -336,12 +453,20 @@
       "level": 1,
       "focus": "starving 比 hungry 情绪强，日常口语首选",
       "register": "casual",
-      "tags": ["点主食", "情绪表达"],
+      "tags": [
+        "点主食",
+        "情绪表达"
+      ],
       "pronunciation": {
         "ipa": "/aɪm ˈstɑrvɪŋ lɛts ˈɔrdər ə bʌntʃ/",
-        "notes": ["starving 的 ar 卷舌 /ˈstɑrvɪŋ/", "let's 读 /lɛts/ 一个音节"]
+        "notes": [
+          "starving 的 ar 卷舌 /ˈstɑrvɪŋ/",
+          "let's 读 /lɛts/ 一个音节"
+        ]
       },
-      "variants": ["I'm starving — let's go big."],
+      "variants": [
+        "I'm starving — let's go big."
+      ],
       "avoid": "I am very hunger, let us order more.",
       "transfer": "I'm starving — let's ___.",
       "context": "和朋友进店，饿到不行"
@@ -359,12 +484,21 @@
       "level": 1,
       "focus": "allergic to 是固定搭配，救命句必须背熟",
       "register": "neutral",
-      "tags": ["忌口", "过敏", "安全"],
+      "tags": [
+        "忌口",
+        "过敏",
+        "安全"
+      ],
       "pronunciation": {
         "ipa": "/aɪm əˈlɜrdʒɪk tə ˈpinʌts/",
-        "notes": ["allergic 重音在第二音节 /əˈlɜrdʒɪk/", "to 弱读 /tə/"]
+        "notes": [
+          "allergic 重音在第二音节 /əˈlɜrdʒɪk/",
+          "to 弱读 /tə/"
+        ]
       },
-      "variants": ["I have a peanut allergy."],
+      "variants": [
+        "I have a peanut allergy."
+      ],
       "avoid": "I am allergy with peanut.",
       "transfer": "I'm allergic to ___.",
       "context": "点菜前主动告知，避免出事"
@@ -382,12 +516,21 @@
       "level": 1,
       "focus": "最短忌口表达，直接加 please 就礼貌",
       "register": "neutral",
-      "tags": ["忌口", "极简"],
+      "tags": [
+        "忌口",
+        "极简"
+      ],
       "pronunciation": {
         "ipa": "/noʊ ˈʌnjənz pliːz/",
-        "notes": ["onions 连读 /ˈʌnjənz/", "别加 s 音到 please 前"]
+        "notes": [
+          "onions 连读 /ˈʌnjənz/",
+          "别加 s 音到 please 前"
+        ]
       },
-      "variants": ["Hold the onions, please.", "Without onions, please."],
+      "variants": [
+        "Hold the onions, please.",
+        "Without onions, please."
+      ],
       "avoid": "Don't put onion.",
       "transfer": "No ___, please.",
       "context": "点汉堡时顺口补一句"
@@ -405,12 +548,21 @@
       "level": 1,
       "focus": "without 是最稳的忌口句式，任何菜都能套",
       "register": "neutral",
-      "tags": ["忌口", "句式"],
+      "tags": [
+        "忌口",
+        "句式"
+      ],
       "pronunciation": {
         "ipa": "/kən aɪ ɡɛt ðæt wɪˈðaʊt tʃiz/",
-        "notes": ["without 的 th 咬舌 /wɪˈðaʊt/", "cheese 长音 /tʃiz/"]
+        "notes": [
+          "without 的 th 咬舌 /wɪˈðaʊt/",
+          "cheese 长音 /tʃiz/"
+        ]
       },
-      "variants": ["Could I get it without cheese?", "No cheese on that, please."],
+      "variants": [
+        "Could I get it without cheese?",
+        "No cheese on that, please."
+      ],
       "avoid": "Can I no cheese?",
       "transfer": "Can I get that without ___?",
       "context": "菜单写着 cheeseburger，你不吃芝士"
@@ -428,12 +580,21 @@
       "level": 1,
       "focus": "三个词的必问句，辣度不合会毁一顿饭",
       "register": "neutral",
-      "tags": ["忌口", "辣度"],
+      "tags": [
+        "忌口",
+        "辣度"
+      ],
       "pronunciation": {
         "ipa": "/ɪz ðɪs ˈspaɪsi/",
-        "notes": ["spicy 的 sp 别加音 /ˈspaɪsi/", "this 的 th 咬舌"]
+        "notes": [
+          "spicy 的 sp 别加音 /ˈspaɪsi/",
+          "this 的 th 咬舌"
+        ]
       },
-      "variants": ["How spicy is this?", "Is it very hot?"],
+      "variants": [
+        "How spicy is this?",
+        "Is it very hot?"
+      ],
       "avoid": "Is this pepper?",
       "transfer": "Is this ___?",
       "context": "点了不熟悉的菜，先问辣不辣"
@@ -451,12 +612,21 @@
       "level": 1,
       "focus": "pass on = 不要了，比 no 更委婉有分寸",
       "register": "casual",
-      "tags": ["忌口", "委婉"],
+      "tags": [
+        "忌口",
+        "委婉"
+      ],
       "pronunciation": {
         "ipa": "/aɪl pæs ɑn ðə sɔs/",
-        "notes": ["pass on 连读 /pæsɑn/", "sauce 的 au 读 /ɔ/"]
+        "notes": [
+          "pass on 连读 /pæsɑn/",
+          "sauce 的 au 读 /ɔ/"
+        ]
       },
-      "variants": ["I'll skip the sauce.", "No sauce for me, thanks."],
+      "variants": [
+        "I'll skip the sauce.",
+        "No sauce for me, thanks."
+      ],
       "avoid": "I don't want sauce.",
       "transfer": "I'll pass on the ___.",
       "context": "服务员问要不要加特制酱"
@@ -474,12 +644,21 @@
       "level": 1,
       "focus": "万能问推荐句，餐厅、理发、买车都能用",
       "register": "neutral",
-      "tags": ["问推荐", "万能"],
+      "tags": [
+        "问推荐",
+        "万能"
+      ],
       "pronunciation": {
         "ipa": "/wʌt du ju ˌrɛkəˈmɛnd/",
-        "notes": ["do you 弱读 /dju/", "recommend 重音在最后 /ˌrɛkəˈmɛnd/"]
+        "notes": [
+          "do you 弱读 /dju/",
+          "recommend 重音在最后 /ˌrɛkəˈmɛnd/"
+        ]
       },
-      "variants": ["What would you recommend?", "Any recommendations?"],
+      "variants": [
+        "What would you recommend?",
+        "Any recommendations?"
+      ],
       "avoid": "What do you suggest me to eat?",
       "transfer": "What do you recommend for ___?",
       "context": "菜单太多看不懂，直接问服务员"
@@ -497,12 +676,21 @@
       "level": 1,
       "focus": "问招牌菜，比 best seller 更自然",
       "register": "neutral",
-      "tags": ["问推荐", "招牌菜"],
+      "tags": [
+        "问推荐",
+        "招牌菜"
+      ],
       "pronunciation": {
         "ipa": "/wʌts jʊr moʊst ˈpɑpjələr dɪʃ/",
-        "notes": ["What's your 连读 /wʌtsjʊr/", "popular 三个音节 /ˈpɑpjələr/"]
+        "notes": [
+          "What's your 连读 /wʌtsjʊr/",
+          "popular 三个音节 /ˈpɑpjələr/"
+        ]
       },
-      "variants": ["What's the crowd favorite?", "What sells the most?"],
+      "variants": [
+        "What's the crowd favorite?",
+        "What sells the most?"
+      ],
       "avoid": "What is your most fire dish?",
       "transfer": "What's your most popular ___?",
       "context": "新店不确定点什么"
@@ -520,12 +708,21 @@
       "level": 1,
       "focus": "any good = 好不好，最轻的口语问法",
       "register": "casual",
-      "tags": ["问推荐", "轻问句"],
+      "tags": [
+        "问推荐",
+        "轻问句"
+      ],
       "pronunciation": {
         "ipa": "/ɪz ðɪs ˈɛni ɡʊd/",
-        "notes": ["any good 连读 /ˈɛniɡʊd/", "good 的 d 轻收"]
+        "notes": [
+          "any good 连读 /ˈɛniɡʊd/",
+          "good 的 d 轻收"
+        ]
       },
-      "variants": ["Is that any good?", "Would you get this?"],
+      "variants": [
+        "Is that any good?",
+        "Would you get this?"
+      ],
       "avoid": "Is this delicious or not?",
       "transfer": "Is ___ any good?",
       "context": "指着菜单上某道菜问服务员"
@@ -543,12 +740,20 @@
       "level": 1,
       "focus": "省略主语的随口语序，真实对话就是这个节奏",
       "register": "casual",
-      "tags": ["问推荐", "问配料"],
+      "tags": [
+        "问推荐",
+        "问配料"
+      ],
       "pronunciation": {
         "ipa": "/ˈnɛvər hæd ðɪs wʌts ɪn ɪt/",
-        "notes": ["Never had 连读 /ˈnɛvərhæd/", "what's in it 连成一串 /wʌtsɪnɪt/"]
+        "notes": [
+          "Never had 连读 /ˈnɛvərhæd/",
+          "what's in it 连成一串 /wʌtsɪnɪt/"
+        ]
       },
-      "variants": ["I've never had this. What's in it?"],
+      "variants": [
+        "I've never had this. What's in it?"
+      ],
       "avoid": "I never eat this, inside have what?",
       "transfer": "Never had this — what's in ___?",
       "context": "看到不认识的菜名直接问"
@@ -566,12 +771,21 @@
       "level": 1,
       "focus": "把选择权交出去，比 I don't know 更从容",
       "register": "casual",
-      "tags": ["问推荐", "托付"],
+      "tags": [
+        "问推荐",
+        "托付"
+      ],
       "pronunciation": {
         "ipa": "/aɪl trʌst ju ɑn ðɪs wʌn/",
-        "notes": ["trust you 连读 /trʌstju/", "on this 的 n 转音 /ɑnðɪs/"]
+        "notes": [
+          "trust you 连读 /trʌstju/",
+          "on this 的 n 转音 /ɑnðɪs/"
+        ]
       },
-      "variants": ["I'll go with your pick.", "Your call."],
+      "variants": [
+        "I'll go with your pick.",
+        "Your call."
+      ],
       "avoid": "I listen to you.",
       "transfer": "I'll trust you on ___.",
       "context": "服务员列了三样，你不想纠结"
@@ -589,12 +803,20 @@
       "level": 1,
       "focus": "美式咖啡的固定说法，直接说 americano",
       "register": "neutral",
-      "tags": ["点饮料", "咖啡"],
+      "tags": [
+        "点饮料",
+        "咖啡"
+      ],
       "pronunciation": {
         "ipa": "/kən aɪ ɡɛt ən aɪst əˌmɛrɪˈkɑnoʊ/",
-        "notes": ["iced americano 连读 /aɪst̬əˌmɛrɪˈkɑnoʊ/", "americano 重音在倒数第二音节"]
+        "notes": [
+          "iced americano 连读 /aɪst̬əˌmɛrɪˈkɑnoʊ/",
+          "americano 重音在倒数第二音节"
+        ]
       },
-      "variants": ["Could I get a large iced americano?"],
+      "variants": [
+        "Could I get a large iced americano?"
+      ],
       "avoid": "I want ice American coffee.",
       "transfer": "Can I get an ___?",
       "context": "咖啡店柜台，前面没人"
@@ -612,12 +834,21 @@
       "level": 1,
       "focus": "make it = 改成，点单时可以连续追加要求",
       "register": "casual",
-      "tags": ["点饮料", "杯型"],
+      "tags": [
+        "点饮料",
+        "杯型"
+      ],
       "pronunciation": {
         "ipa": "/meɪk ɪt ə lɑrdʒ pliːz/",
-        "notes": ["make it a 连读 /meɪkɪtə/", "large 的 ar 卷舌 /lɑrdʒ/"]
+        "notes": [
+          "make it a 连读 /meɪkɪtə/",
+          "large 的 ar 卷舌 /lɑrdʒ/"
+        ]
       },
-      "variants": ["Large, please.", "Can you make it large?"],
+      "variants": [
+        "Large, please.",
+        "Can you make it large?"
+      ],
       "avoid": "Give me big cup.",
       "transfer": "Make it a ___, please.",
       "context": "店员问 What size?"
@@ -635,12 +866,21 @@
       "level": 1,
       "focus": "easy on = 少放点，比 less ice 更地道",
       "register": "casual",
-      "tags": ["点饮料", "少冰"],
+      "tags": [
+        "点饮料",
+        "少冰"
+      ],
       "pronunciation": {
         "ipa": "/ˈizi ɑn ði aɪs/",
-        "notes": ["easy on 连读 /ˈiziɑn/", "the ice 连读 /ðiaɪs/"]
+        "notes": [
+          "easy on 连读 /ˈiziɑn/",
+          "the ice 连读 /ðiaɪs/"
+        ]
       },
-      "variants": ["Light ice, please.", "Not too much ice."],
+      "variants": [
+        "Light ice, please.",
+        "Not too much ice."
+      ],
       "avoid": "Less ice, small ice.",
       "transfer": "Easy on the ___.",
       "context": "点冰饮时补一句"
@@ -658,12 +898,21 @@
       "level": 1,
       "focus": "with + 奶类，是美国咖啡店的标准换奶说法",
       "register": "neutral",
-      "tags": ["点饮料", "换奶"],
+      "tags": [
+        "点饮料",
+        "换奶"
+      ],
       "pronunciation": {
         "ipa": "/kʊd aɪ ɡɛt ðæt wɪð oʊt mɪlk/",
-        "notes": ["with oat 连读 /wɪˈðoʊt/", "milk 的 l 要含糊到位"]
+        "notes": [
+          "with oat 连读 /wɪˈðoʊt/",
+          "milk 的 l 要含糊到位"
+        ]
       },
-      "variants": ["Can you make it with oat milk?", "Oat milk instead, please."],
+      "variants": [
+        "Can you make it with oat milk?",
+        "Oat milk instead, please."
+      ],
       "avoid": "Can I change to oat milk?",
       "transfer": "Could I get that with ___?",
       "context": "乳糖不耐，点拿铁时换奶"
@@ -681,15 +930,3355 @@
       "level": 1,
       "focus": "for me = 给我的，集体点单时最省事",
       "register": "neutral",
-      "tags": ["点饮料", "集体点单"],
+      "tags": [
+        "点饮料",
+        "集体点单"
+      ],
       "pronunciation": {
         "ipa": "/dʒʌst ˈwɔtər fər mi θæŋks/",
-        "notes": ["water 的美音 /ˈwɔtər/，t 变闪音", "for me 弱读 /fər mi/"]
+        "notes": [
+          "water 的美音 /ˈwɔtər/，t 变闪音",
+          "for me 弱读 /fər mi/"
+        ]
       },
-      "variants": ["Water's fine for me.", "I'll just have water."],
+      "variants": [
+        "Water's fine for me.",
+        "I'll just have water."
+      ],
       "avoid": "I only drink water, no other.",
       "transfer": "Just ___ for me, thanks.",
       "context": "服务员挨个问喝什么，轮到你"
+    },
+    {
+      "id": "01-a-007-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 7,
+      "index": 1,
+      "en": "What's the soup of the day?",
+      "zh": "今天的例汤是什么？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "soup of the day = 每日例汤，坐下先问",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌts ðə sup əv ðə deɪ/",
+        "notes": [
+          "soup of 连读 /supəv/",
+          "the 弱读 /ðə/"
+        ]
+      },
+      "variants": [
+        "What soup do you have today?"
+      ],
+      "avoid": "What is today soup?",
+      "transfer": "What's the ___ of the day?",
+      "context": "翻开菜单想喝汤"
+    },
+    {
+      "id": "01-a-007-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 7,
+      "index": 2,
+      "en": "Can I get extra napkins?",
+      "zh": "能多给点纸巾吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "extra + 名词 = 多来点，万能加量句式",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ ɡɛt ˈɛkstrə ˈnæpkɪnz/",
+        "notes": [
+          "extra 的 x 读 /ks/",
+          "napkins 结尾是 z 音"
+        ]
+      },
+      "variants": [
+        "Could I get some extra napkins?"
+      ],
+      "avoid": "Give me more paper.",
+      "transfer": "Can I get extra ___?",
+      "context": "吃汉堡手弄脏了"
+    },
+    {
+      "id": "01-a-007-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 7,
+      "index": 3,
+      "en": "Could we split the bill?",
+      "zh": "我们能分开付吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "split the bill = 分摊账单，聚餐高频",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kʊd wi splɪt ðə bɪl/",
+        "notes": [
+          "split 的 t 只做口型",
+          "bill 短音 /bɪl/"
+        ]
+      },
+      "variants": [
+        "Can we split it?"
+      ],
+      "avoid": "Can we cut the bill?",
+      "transfer": "Could we split the ___?",
+      "context": "三个人吃完要结账"
+    },
+    {
+      "id": "01-a-007-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 7,
+      "index": 4,
+      "en": "I'm good, just the check.",
+      "zh": "我不用了，结账就行。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "I'm good = 够了不要了，比 No 礼貌",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ɡʊd dʒʌst ðə tʃɛk/",
+        "notes": [
+          "just 弱读 /dʒəs/",
+          "check 的 ch 读 /tʃ/"
+        ]
+      },
+      "variants": [
+        "I'm all set, just the check."
+      ],
+      "avoid": "I don't want, give me bill.",
+      "transfer": "I'm good, just the ___.",
+      "context": "服务员问要不要甜点"
+    },
+    {
+      "id": "01-a-007-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 7,
+      "index": 5,
+      "en": "Do you take Apple Pay?",
+      "zh": "你们收 Apple Pay 吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "take + 支付方式 = 收不收，购物必问",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du ju teɪk ˈæpəl peɪ/",
+        "notes": [
+          "Do you 连读 /dju/",
+          "Apple Pay 重音在前"
+        ]
+      },
+      "variants": [
+        "Can I pay with Apple Pay?"
+      ],
+      "avoid": "Do you accept Apple Pay?",
+      "transfer": "Do you take ___?",
+      "context": "结账时掏出手机"
+    },
+    {
+      "id": "01-a-008-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 8,
+      "index": 1,
+      "en": "Are you open?",
+      "zh": "你们营业吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "三个词确认营业，避免白跑",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ər ju ˈoʊpən/",
+        "notes": [
+          "Are you 连读 /ərju/",
+          "open 双元音 /ˈoʊpən/"
+        ]
+      },
+      "variants": [
+        "Are you guys open?"
+      ],
+      "avoid": "You are open or not?",
+      "transfer": "Are you ___?",
+      "context": "早上路过店门口"
+    },
+    {
+      "id": "01-a-008-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 8,
+      "index": 2,
+      "en": "Where's the fitting room?",
+      "zh": "试衣间在哪？",
+      "scene": "life",
+      "level": 1,
+      "focus": "fitting room = 试衣间，进店必找",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɛrz ðə ˈfɪtɪŋ rum/",
+        "notes": [
+          "Where's the 连读 /wɛrzðə/",
+          "room 长音 /rum/"
+        ]
+      },
+      "variants": [
+        "Where are the fitting rooms?"
+      ],
+      "avoid": "Where is try clothes room?",
+      "transfer": "Where's the ___?",
+      "context": "拿着衣服找不到试衣间"
+    },
+    {
+      "id": "01-a-008-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 8,
+      "index": 3,
+      "en": "I'm looking for a jacket.",
+      "zh": "我在找一件外套。",
+      "scene": "life",
+      "level": 1,
+      "focus": "be looking for = 我在找，店员最常听到的句子",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ˈlʊkɪŋ fər ə ˈdʒækɪt/",
+        "notes": [
+          "looking for 连读 /ˈlʊkɪŋfər/",
+          "jacket 短音 /ˈdʒækɪt/"
+        ]
+      },
+      "variants": [
+        "I'm after a jacket."
+      ],
+      "avoid": "I look for a jacket.",
+      "transfer": "I'm looking for ___.",
+      "context": "进店主动说明来意"
+    },
+    {
+      "id": "01-a-008-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 8,
+      "index": 4,
+      "en": "Is this on sale?",
+      "zh": "这个打折吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "on sale = 打折，for sale 才是出售",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ðɪs ɑn seɪl/",
+        "notes": [
+          "on sale 连读 /ɑnseɪl/",
+          "sale 长音 /seɪl/"
+        ]
+      },
+      "variants": [
+        "Is it on sale?"
+      ],
+      "avoid": "Is this discount?",
+      "transfer": "Is this ___?",
+      "context": "看到价格牌没写折扣"
+    },
+    {
+      "id": "01-a-008-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 8,
+      "index": 5,
+      "en": "Do you have this in my size?",
+      "zh": "这个有我的码吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "in my size = 我的尺码，试穿必备",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du ju hæv ðɪs ɪn maɪ saɪz/",
+        "notes": [
+          "have this 连读 /hævðɪs/",
+          "size 的 z 音"
+        ]
+      },
+      "variants": [
+        "Do you have my size?"
+      ],
+      "avoid": "Do you have my number?",
+      "transfer": "Do you have this in ___?",
+      "context": "看中一件但码不全"
+    },
+    {
+      "id": "01-a-009-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 9,
+      "index": 1,
+      "en": "How much is this?",
+      "zh": "这个多少钱？",
+      "scene": "life",
+      "level": 1,
+      "focus": "最基础的问价句，任何场合都能用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/haʊ mʌtʃ ɪz ðɪs/",
+        "notes": [
+          "How much 连读 /haʊmʌtʃ/",
+          "this 咬舌"
+        ]
+      },
+      "variants": [
+        "How much does this cost?"
+      ],
+      "avoid": "How much money?",
+      "transfer": "How much is ___?",
+      "context": "拿起商品问店员"
+    },
+    {
+      "id": "01-a-009-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 9,
+      "index": 2,
+      "en": "That's a bit steep.",
+      "zh": "有点贵了。",
+      "scene": "life",
+      "level": 1,
+      "focus": "steep 形容价格高，比 expensive 口语",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæts ə bɪt stip/",
+        "notes": [
+          "That's a 连读 /ðætsə/",
+          "steep 长音 /stip/"
+        ]
+      },
+      "variants": [
+        "That's kind of pricey."
+      ],
+      "avoid": "That is too expensive for me.",
+      "transfer": "That's a bit ___.",
+      "context": "听完报价想还价"
+    },
+    {
+      "id": "01-a-009-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 9,
+      "index": 3,
+      "en": "Any discount if I buy two?",
+      "zh": "买两个能便宜点吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "Any discount = 有折扣吗，还价开场",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈɛni ˈdɪskaʊnt ɪf aɪ baɪ tu/",
+        "notes": [
+          "discount 重音在前",
+          "if I 连读 /ɪfaɪ/"
+        ]
+      },
+      "variants": [
+        "Could I get a deal for two?"
+      ],
+      "avoid": "Can you cheap if two?",
+      "transfer": "Any discount if I ___?",
+      "context": "买第二件时试探"
+    },
+    {
+      "id": "01-a-009-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 9,
+      "index": 4,
+      "en": "Is tax included?",
+      "zh": "含税吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "美国标价常不含税，必须问",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz tæks ɪnˈkludɪd/",
+        "notes": [
+          "tax 的 x 读 /ks/",
+          "included 重音在第二音节"
+        ]
+      },
+      "variants": [
+        "Does that include tax?"
+      ],
+      "avoid": "Is the price with tax?",
+      "transfer": "Is ___ included?",
+      "context": "结账前确认总价"
+    },
+    {
+      "id": "01-a-009-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 9,
+      "index": 5,
+      "en": "It's out of my budget.",
+      "zh": "超出我预算了。",
+      "scene": "life",
+      "level": 1,
+      "focus": "out of my budget = 超预算，礼貌拒绝",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts aʊt əv maɪ ˈbʌdʒɪt/",
+        "notes": [
+          "out of 连读 /aʊtəv/",
+          "budget 短音 /ˈbʌdʒɪt/"
+        ]
+      },
+      "variants": [
+        "That's over my budget."
+      ],
+      "avoid": "I have no money for this.",
+      "transfer": "It's out of my ___.",
+      "context": "销售一直推荐更贵的"
+    },
+    {
+      "id": "01-a-010-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 10,
+      "index": 1,
+      "en": "Can I try this on?",
+      "zh": "我能试穿吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "try on = 试穿，代词要放中间 try it on",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ traɪ ðɪs ɑn/",
+        "notes": [
+          "try this on 连读 /traɪðɪsɑn/"
+        ]
+      },
+      "variants": [
+        "Could I try it on?"
+      ],
+      "avoid": "Can I wear it?",
+      "transfer": "Can I try ___ on?",
+      "context": "拿着衣服问店员"
+    },
+    {
+      "id": "01-a-010-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 10,
+      "index": 2,
+      "en": "It's too tight around the waist.",
+      "zh": "腰部太紧了。",
+      "scene": "life",
+      "level": 1,
+      "focus": "around the waist = 腰部一圈，描述版型",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts tu taɪt əˈraʊnd ðə weɪst/",
+        "notes": [
+          "tight 的 t 轻收",
+          "around the 连读 /əˈraʊndðə/"
+        ]
+      },
+      "variants": [
+        "It's tight in the waist."
+      ],
+      "avoid": "The waist is too small.",
+      "transfer": "It's too ___ around the ___.",
+      "context": "试穿后觉得紧"
+    },
+    {
+      "id": "01-a-010-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 10,
+      "index": 3,
+      "en": "Do you have a bigger size?",
+      "zh": "有大一号的吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "bigger size = 大一码，试穿必说",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du ju hæv ə ˈbɪɡər saɪz/",
+        "notes": [
+          "bigger 的 g 只发一个",
+          "size 的 z 音"
+        ]
+      },
+      "variants": [
+        "Could I get one size up?"
+      ],
+      "avoid": "Do you have large one?",
+      "transfer": "Do you have a ___ size?",
+      "context": "拉链拉不上"
+    },
+    {
+      "id": "01-a-010-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 10,
+      "index": 4,
+      "en": "How does this look on me?",
+      "zh": "我穿这个怎么样？",
+      "scene": "life",
+      "level": 1,
+      "focus": "look on me = 穿我身上，问朋友意见",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/haʊ dʌz ðɪs lʊk ɑn mi/",
+        "notes": [
+          "does this 连读 /dʌzðɪs/",
+          "look on 连读 /lʊkɑn/"
+        ]
+      },
+      "variants": [
+        "How do I look?"
+      ],
+      "avoid": "How about this on me?",
+      "transfer": "How does this look on ___?",
+      "context": "从试衣间出来"
+    },
+    {
+      "id": "01-a-010-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 10,
+      "index": 5,
+      "en": "I'll think about it.",
+      "zh": "我再考虑一下。",
+      "scene": "life",
+      "level": 1,
+      "focus": "逛店的优雅退出句，不用解释",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl θɪŋk əˈbaʊt ɪt/",
+        "notes": [
+          "I'll 读一个音节 /aɪl/",
+          "about it 连读 /əˈbaʊtɪt/"
+        ]
+      },
+      "variants": [
+        "Let me think about it."
+      ],
+      "avoid": "I will consider again.",
+      "transfer": "I'll think about ___.",
+      "context": "店员一直劝你买"
+    },
+    {
+      "id": "01-a-011-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 11,
+      "index": 1,
+      "en": "I'm a medium in this brand.",
+      "zh": "这个牌子我穿中号。",
+      "scene": "life",
+      "level": 1,
+      "focus": "in this brand = 在这个牌子，说明尺码习惯",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ə ˈmidiəm ɪn ðɪs brænd/",
+        "notes": [
+          "medium 三音节 /ˈmidiəm/",
+          "brand 的 r 卷舌"
+        ]
+      },
+      "variants": [
+        "Medium fits me here."
+      ],
+      "avoid": "I wear middle size.",
+      "transfer": "I'm a ___ in this brand.",
+      "context": "店员问你要什么码"
+    },
+    {
+      "id": "01-a-011-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 11,
+      "index": 2,
+      "en": "Do you have it in black?",
+      "zh": "有黑色的吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "in + 颜色，问颜色最简说法",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du ju hæv ɪt ɪn blæk/",
+        "notes": [
+          "have it 连读 /hævɪt/",
+          "black 短音 /blæk/"
+        ]
+      },
+      "variants": [
+        "Any chance you have it in black?"
+      ],
+      "avoid": "Do you have black color?",
+      "transfer": "Do you have it in ___?",
+      "context": "只有米色但想要黑"
+    },
+    {
+      "id": "01-a-011-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 11,
+      "index": 3,
+      "en": "This runs small.",
+      "zh": "这个偏小。",
+      "scene": "life",
+      "level": 1,
+      "focus": "runs small / runs big 是尺码固定说法",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðɪs rʌnz smɔl/",
+        "notes": [
+          "runs 的 z 别吞",
+          "small 的 l 含糊"
+        ]
+      },
+      "variants": [
+        "These run small."
+      ],
+      "avoid": "This size is small than normal.",
+      "transfer": "This runs ___.",
+      "context": "提醒朋友尺码偏小"
+    },
+    {
+      "id": "01-a-011-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 11,
+      "index": 4,
+      "en": "Do you carry petites?",
+      "zh": "你们有娇小码吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "carry = 有卖，比 have 更店铺化",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du ju ˈkæri pəˈtits/",
+        "notes": [
+          "carry 的 r 闪音",
+          "petites 重音在后"
+        ]
+      },
+      "variants": [
+        "Do you have a petites section?"
+      ],
+      "avoid": "Do you sell small size for short?",
+      "transfer": "Do you carry ___?",
+      "context": "个子小找不到合适尺码"
+    },
+    {
+      "id": "01-a-011-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 11,
+      "index": 5,
+      "en": "I'll take it in navy.",
+      "zh": "我要藏青那件。",
+      "scene": "life",
+      "level": 1,
+      "focus": "take it in + 颜色 = 就要这个颜色",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl teɪk ɪt ɪn ˈneɪvi/",
+        "notes": [
+          "take it 连读 /teɪkɪt/",
+          "navy 重音在前"
+        ]
+      },
+      "variants": [
+        "I'll get the navy one."
+      ],
+      "avoid": "I want blue dark.",
+      "transfer": "I'll take it in ___.",
+      "context": "决定买下藏青色"
+    },
+    {
+      "id": "01-a-012-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 12,
+      "index": 1,
+      "en": "Card or cash?",
+      "zh": "刷卡还是现金？",
+      "scene": "life",
+      "level": 1,
+      "focus": "收银员问你，听懂就能秒回",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kɑrd ɔr kæʃ/",
+        "notes": [
+          "card 的 ar 卷舌",
+          "or 弱读 /ər/"
+        ]
+      },
+      "variants": [
+        "How would you like to pay?"
+      ],
+      "avoid": "You pay card or cash?",
+      "transfer": "___ or ___?",
+      "context": "结账时收银员问"
+    },
+    {
+      "id": "01-a-012-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 12,
+      "index": 2,
+      "en": "I'll pay by card.",
+      "zh": "我刷卡。",
+      "scene": "life",
+      "level": 1,
+      "focus": "pay by + 方式，最稳回答",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl peɪ baɪ kɑrd/",
+        "notes": [
+          "pay by 连读 /peɪbaɪ/"
+        ]
+      },
+      "variants": [
+        "Card, please."
+      ],
+      "avoid": "I use card.",
+      "transfer": "I'll pay by ___.",
+      "context": "回答 Card or cash"
+    },
+    {
+      "id": "01-a-012-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 12,
+      "index": 3,
+      "en": "Can I tap?",
+      "zh": "能碰一下吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "tap = 闪付，美国结账超常用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ tæp/",
+        "notes": [
+          "tap 的 p 只做口型"
+        ]
+      },
+      "variants": [
+        "Can I just tap?"
+      ],
+      "avoid": "Can I touch pay?",
+      "transfer": "Can I ___?",
+      "context": "掏出手机想闪付"
+    },
+    {
+      "id": "01-a-012-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 12,
+      "index": 4,
+      "en": "Could I get a receipt?",
+      "zh": "能给我小票吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "receipt 的 p 不发音，重点词",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kʊd aɪ ɡɛt ə rɪˈsit/",
+        "notes": [
+          "receipt 读 /rɪˈsit/，p 不发音"
+        ]
+      },
+      "variants": [
+        "Can I have the receipt?"
+      ],
+      "avoid": "Give me the bill paper.",
+      "transfer": "Could I get ___?",
+      "context": "付完钱想要凭证"
+    },
+    {
+      "id": "01-a-012-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 12,
+      "index": 5,
+      "en": "Keep the change.",
+      "zh": "零钱不用找了。",
+      "scene": "life",
+      "level": 1,
+      "focus": "给小费的经典说法",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kip ðə tʃeɪndʒ/",
+        "notes": [
+          "keep the 连读 /kipðə/",
+          "change 的 ch 读 /tʃ/"
+        ]
+      },
+      "variants": [
+        "Keep it."
+      ],
+      "avoid": "You can keep rest money.",
+      "transfer": "Keep the ___.",
+      "context": "付现金不用找零"
+    },
+    {
+      "id": "01-a-013-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 13,
+      "index": 1,
+      "en": "Could I get a bag?",
+      "zh": "能给我个袋子吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "Could I get = 能给我，购物高频",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kʊd aɪ ɡɛt ə bæɡ/",
+        "notes": [
+          "Could I 连读 /ˈkʊdaɪ/",
+          "bag 的 æ 张大"
+        ]
+      },
+      "variants": [
+        "Can I have a bag?"
+      ],
+      "avoid": "Give me a bag.",
+      "transfer": "Could I get a ___?",
+      "context": "买完东西手里拿不下"
+    },
+    {
+      "id": "01-a-013-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 13,
+      "index": 2,
+      "en": "No bag, thanks.",
+      "zh": "不用袋子，谢谢。",
+      "scene": "life",
+      "level": 1,
+      "focus": "环保拒绝，两个词搞定",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/noʊ bæɡ θæŋks/",
+        "notes": [
+          "No bag 连读 /noʊbæɡ/"
+        ]
+      },
+      "variants": [
+        "I'm good without a bag."
+      ],
+      "avoid": "Don't need bag.",
+      "transfer": "No ___, thanks.",
+      "context": "收银员问要不要袋子"
+    },
+    {
+      "id": "01-a-013-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 13,
+      "index": 3,
+      "en": "Can you email me the receipt?",
+      "zh": "小票能发我邮箱吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "email me + 东西 = 发我，办事常用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən ju ˈimeɪl mi ðə rɪˈsit/",
+        "notes": [
+          "email me 连读 /ˈimeɪlmi/"
+        ]
+      },
+      "variants": [
+        "Could you send it to my email?"
+      ],
+      "avoid": "Can you send receipt to email?",
+      "transfer": "Can you email me ___?",
+      "context": "不想拿纸质小票"
+    },
+    {
+      "id": "01-a-013-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 13,
+      "index": 4,
+      "en": "I need a gift receipt.",
+      "zh": "我要一张礼品小票。",
+      "scene": "life",
+      "level": 1,
+      "focus": "gift receipt = 可退换的礼品凭证",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ nid ə ɡɪft rɪˈsit/",
+        "notes": [
+          "need a 连读 /nidə/",
+          "gift 的 t 轻收"
+        ]
+      },
+      "variants": [
+        "Could I get a gift receipt?"
+      ],
+      "avoid": "I need the receipt for present.",
+      "transfer": "I need a ___ receipt.",
+      "context": "买礼物送人"
+    },
+    {
+      "id": "01-a-013-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 13,
+      "index": 5,
+      "en": "Where's the pickup counter?",
+      "zh": "取货柜台在哪？",
+      "scene": "life",
+      "level": 1,
+      "focus": "pickup counter = 网上下单取货处",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɛrz ðə ˈpɪkʌp ˈkaʊntər/",
+        "notes": [
+          "pickup 连读 /ˈpɪkʌp/",
+          "counter 的 t 闪音"
+        ]
+      },
+      "variants": [
+        "Where do I pick up my order?"
+      ],
+      "avoid": "Where is take goods place?",
+      "transfer": "Where's the ___ counter?",
+      "context": "网上下单后来店里取"
+    },
+    {
+      "id": "01-a-014-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 14,
+      "index": 1,
+      "en": "I'll take this one.",
+      "zh": "我要这个。",
+      "scene": "life",
+      "level": 1,
+      "focus": "take this one = 就这个，决定购买",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl teɪk ðɪs wʌn/",
+        "notes": [
+          "take this 连读 /teɪkðɪs/"
+        ]
+      },
+      "variants": [
+        "I'll go with this one."
+      ],
+      "avoid": "I want this.",
+      "transfer": "I'll take ___.",
+      "context": "挑了半天终于定下"
+    },
+    {
+      "id": "01-a-014-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 14,
+      "index": 2,
+      "en": "Can I return it if it doesn't fit?",
+      "zh": "不合身能退吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "if it doesn't fit = 如果不合身，退货先问清",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ rɪˈtɜrn ɪt ɪf ɪt ˈdʌzənt fɪt/",
+        "notes": [
+          "return 重音在后",
+          "doesn't fit 连读 /ˈdʌzəntfɪt/"
+        ]
+      },
+      "variants": [
+        "What if it doesn't fit?"
+      ],
+      "avoid": "Can I give back if not fit?",
+      "transfer": "Can I return it if ___?",
+      "context": "买衣服前确认退货"
+    },
+    {
+      "id": "01-a-014-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 14,
+      "index": 3,
+      "en": "What's your return policy?",
+      "zh": "你们退货政策是什么？",
+      "scene": "life",
+      "level": 1,
+      "focus": "return policy = 退货政策，购物必知",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌts jʊr rɪˈtɜrn ˈpɑləsi/",
+        "notes": [
+          "What's your 连读 /wʌtsjʊr/",
+          "policy 三音节"
+        ]
+      },
+      "variants": [
+        "How does your return policy work?"
+      ],
+      "avoid": "What is your rule for return?",
+      "transfer": "What's your ___ policy?",
+      "context": "大件商品下单前"
+    },
+    {
+      "id": "01-a-014-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 14,
+      "index": 4,
+      "en": "Do you price match?",
+      "zh": "你们保价吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "price match = 匹配别家更低价",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du ju praɪs mætʃ/",
+        "notes": [
+          "price 的 s 音",
+          "match 的 tʃ"
+        ]
+      },
+      "variants": [
+        "Can you match the online price?"
+      ],
+      "avoid": "Do you same price with others?",
+      "transfer": "Do you ___?",
+      "context": "发现网上更便宜"
+    },
+    {
+      "id": "01-a-014-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 14,
+      "index": 5,
+      "en": "I'm just browsing, thanks.",
+      "zh": "我随便看看，谢谢。",
+      "scene": "life",
+      "level": 1,
+      "focus": "browsing = 随便逛，试穿后不想买",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm dʒʌst ˈbraʊzɪŋ θæŋks/",
+        "notes": [
+          "just 弱读 /dʒəs/",
+          "browsing 的 z 音"
+        ]
+      },
+      "variants": [
+        "Just looking, thanks."
+      ],
+      "avoid": "I only walk around.",
+      "transfer": "I'm just ___, thanks.",
+      "context": "店员第二次过来问"
+    },
+    {
+      "id": "01-a-015-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 15,
+      "index": 1,
+      "en": "Extra sauce on the side, please.",
+      "zh": "酱多给点，单放。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "on the side = 单独放，点单精准表达",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈɛkstrə sɔs ɑn ðə saɪd pliz/",
+        "notes": [
+          "sauce 的 au 读 /ɔ/",
+          "on the 连读 /ɑnðə/"
+        ]
+      },
+      "variants": [
+        "Sauce on the side, please."
+      ],
+      "avoid": "Give me more sauce separately.",
+      "transfer": "Extra ___ on the side.",
+      "context": "怕酱太多泡软面包"
+    },
+    {
+      "id": "01-a-015-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 15,
+      "index": 2,
+      "en": "Easy on the mayo.",
+      "zh": "蛋黄酱少放点。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "easy on = 少放，比 less 更口语",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈizi ɑn ðə ˈmeɪoʊ/",
+        "notes": [
+          "easy on 连读 /ˈiziɑn/",
+          "mayo 重音在前"
+        ]
+      },
+      "variants": [
+        "Go light on the mayo."
+      ],
+      "avoid": "Less mayonnaise please.",
+      "transfer": "Easy on the ___.",
+      "context": "点三明治时叮嘱"
+    },
+    {
+      "id": "01-a-015-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 15,
+      "index": 3,
+      "en": "Can I add avocado?",
+      "zh": "能加牛油果吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "add + 配料 = 加料，加钱也这么说",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ æd ˌævəˈkɑdoʊ/",
+        "notes": [
+          "add avocado 连读 /ædˌævəˈkɑdoʊ/"
+        ]
+      },
+      "variants": [
+        "Could I add avocado to that?"
+      ],
+      "avoid": "Can I plus avocado?",
+      "transfer": "Can I add ___?",
+      "context": "想让三明治更顶饱"
+    },
+    {
+      "id": "01-a-015-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 15,
+      "index": 4,
+      "en": "Hold the pickles.",
+      "zh": "不要酸黄瓜。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "hold = 去掉，快餐店最地道说法",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hoʊld ðə ˈpɪkəlz/",
+        "notes": [
+          "hold the 连读 /hoʊldðə/",
+          "pickles 结尾 z"
+        ]
+      },
+      "variants": [
+        "No pickles, please."
+      ],
+      "avoid": "Don't put cucumber.",
+      "transfer": "Hold the ___.",
+      "context": "点汉堡时快速补一句"
+    },
+    {
+      "id": "01-a-015-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 15,
+      "index": 5,
+      "en": "Make it spicy.",
+      "zh": "做成辣的。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "make it + 形容词 = 做成什么样",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/meɪk ɪt ˈspaɪsi/",
+        "notes": [
+          "make it 连读 /meɪkɪt/",
+          "spicy 的 sp 不加音"
+        ]
+      },
+      "variants": [
+        "Can you make it spicy?"
+      ],
+      "avoid": "Add pepper to make hot.",
+      "transfer": "Make it ___.",
+      "context": "点面时想吃辣"
+    },
+    {
+      "id": "01-a-016-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 16,
+      "index": 1,
+      "en": "I'll take a latte, no foam.",
+      "zh": "我要拿铁，不要奶泡。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "no foam = 不要奶泡，咖啡店精准点单",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl teɪk ə ˈlɑteɪ noʊ foʊm/",
+        "notes": [
+          "latte 的 tt 闪音 /ˈlɑteɪ/",
+          "foam 长音"
+        ]
+      },
+      "variants": [
+        "Latte, no foam, please."
+      ],
+      "avoid": "I want latte without bubble.",
+      "transfer": "I'll take a ___, no ___.",
+      "context": "早上点咖啡"
+    },
+    {
+      "id": "01-a-016-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 16,
+      "index": 2,
+      "en": "Can you make it extra hot?",
+      "zh": "能做得更热一点吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "extra hot = 更热，热饮常用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən ju meɪk ɪt ˈɛkstrə hɑt/",
+        "notes": [
+          "make it 连读 /meɪkɪt/",
+          "hot 的 o 张大"
+        ]
+      },
+      "variants": [
+        "Could you make it hotter?"
+      ],
+      "avoid": "Can you heat it more?",
+      "transfer": "Can you make it extra ___?",
+      "context": "天冷想要热一点"
+    },
+    {
+      "id": "01-a-016-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 16,
+      "index": 3,
+      "en": "One refill, please.",
+      "zh": "续一杯，谢谢。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "refill 名词直接用，最简续杯",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌn ˈriːfɪl pliz/",
+        "notes": [
+          "refill 重音在前 /ˈriːfɪl/"
+        ]
+      },
+      "variants": [
+        "Could I get a refill?"
+      ],
+      "avoid": "Give me another cup.",
+      "transfer": "___ refill, please.",
+      "context": "咖啡喝完了"
+    },
+    {
+      "id": "01-a-016-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 16,
+      "index": 4,
+      "en": "Is the drip coffee bottomless?",
+      "zh": "手冲咖啡能免费续吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "bottomless = 无限续杯，美式餐厅特色",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ðə drɪp ˈkɔfi ˈbɑtəmləs/",
+        "notes": [
+          "drip 的 p 轻收",
+          "bottomless 重音在前"
+        ]
+      },
+      "variants": [
+        "Does the drip come with free refills?"
+      ],
+      "avoid": "Is the coffee free refill?",
+      "transfer": "Is the ___ bottomless?",
+      "context": "第一次进这家餐厅"
+    },
+    {
+      "id": "01-a-016-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 16,
+      "index": 5,
+      "en": "Could I get a cup of water?",
+      "zh": "能给我杯水吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "a cup of water，任何店都能要",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kʊd aɪ ɡɛt ə kʌp əv ˈwɔtər/",
+        "notes": [
+          "cup of 连读 /kʌpəv/",
+          "water 的 t 闪音"
+        ]
+      },
+      "variants": [
+        "Can I get some water?"
+      ],
+      "avoid": "Give me water.",
+      "transfer": "Could I get a cup of ___?",
+      "context": "吃药需要水"
+    },
+    {
+      "id": "01-a-017-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 17,
+      "index": 1,
+      "en": "Check, please.",
+      "zh": "结账。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "两个词结账，美国餐厅最常用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/tʃɛk pliz/",
+        "notes": [
+          "check 的 ch 读 /tʃ/",
+          "结尾 k 轻收"
+        ]
+      },
+      "variants": [
+        "Could we get the check?"
+      ],
+      "avoid": "I want to pay.",
+      "transfer": "___, please.",
+      "context": "吃完想走"
+    },
+    {
+      "id": "01-a-017-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 17,
+      "index": 2,
+      "en": "We're splitting it three ways.",
+      "zh": "我们三个人分。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "split + 份数，说明怎么分账",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɪr ˈsplɪtɪŋ ɪt θri weɪz/",
+        "notes": [
+          "splitting it 连读 /ˈsplɪtɪŋɪt/"
+        ]
+      },
+      "variants": [
+        "Split it three ways, please."
+      ],
+      "avoid": "We three people share.",
+      "transfer": "We're splitting it ___ ways.",
+      "context": "服务员拿账单过来"
+    },
+    {
+      "id": "01-a-017-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 17,
+      "index": 3,
+      "en": "Can we get separate checks?",
+      "zh": "能分开结账吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "separate checks = 各自买单，聚餐必问",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən wi ɡɛt ˈsɛpərət tʃɛks/",
+        "notes": [
+          "separate 重音在前",
+          "checks 的 ch"
+        ]
+      },
+      "variants": [
+        "Could we do separate checks?"
+      ],
+      "avoid": "Can we pay each one?",
+      "transfer": "Can we get separate ___?",
+      "context": "点菜时就先说清"
+    },
+    {
+      "id": "01-a-017-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 17,
+      "index": 4,
+      "en": "Do you take tips on card?",
+      "zh": "小费能刷卡给吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "tips on card = 刷卡付小费",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du ju teɪk tɪps ɑn kɑrd/",
+        "notes": [
+          "tips on 连读 /tɪpsɑn/"
+        ]
+      },
+      "variants": [
+        "Can I tip with a card?"
+      ],
+      "avoid": "Can tips use card?",
+      "transfer": "Do you take ___ on card?",
+      "context": "没带现金付小费"
+    },
+    {
+      "id": "01-a-017-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 17,
+      "index": 5,
+      "en": "I think there's a mistake on the bill.",
+      "zh": "账单好像算错了。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "there's a mistake = 有个错，礼貌指出",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ θɪŋk ðɛrz ə mɪˈsteɪk ɑn ðə bɪl/",
+        "notes": [
+          "there's a 连读 /ðɛrzə/",
+          "mistake 重音在后"
+        ]
+      },
+      "variants": [
+        "I think this is wrong."
+      ],
+      "avoid": "You calculate wrong.",
+      "transfer": "I think there's a mistake on ___.",
+      "context": "发现多算了一道菜"
+    },
+    {
+      "id": "01-a-018-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 18,
+      "index": 1,
+      "en": "I'll take a number three, no pickles.",
+      "zh": "我要三号套餐，不要酸黄瓜。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "免下车点单句式：编号 + 去料",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl teɪk ə ˈnʌmbər θri noʊ ˈpɪkəlz/",
+        "notes": [
+          "number 的 b 轻",
+          "no pickles 连读"
+        ]
+      },
+      "variants": [
+        "Number three, no pickles."
+      ],
+      "avoid": "I want third set no cucumber.",
+      "transfer": "I'll take a number ___, no ___.",
+      "context": "开车到点单牌前"
+    },
+    {
+      "id": "01-a-018-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 18,
+      "index": 2,
+      "en": "Can I get a side of ranch?",
+      "zh": "能加一份牧场酱吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "a side of = 一份配酱，快餐高频",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ ɡɛt ə saɪd əv ræntʃ/",
+        "notes": [
+          "side of 连读 /saɪdəv/",
+          "ranch 的 ch"
+        ]
+      },
+      "variants": [
+        "Could I get some ranch on the side?"
+      ],
+      "avoid": "Give me one ranch.",
+      "transfer": "Can I get a side of ___?",
+      "context": "吃鸡翅想蘸酱"
+    },
+    {
+      "id": "01-a-018-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 18,
+      "index": 3,
+      "en": "Is the machine working?",
+      "zh": "机器好使吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "点单机坏了时的实用句",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ðə məˈʃin ˈwɜrkɪŋ/",
+        "notes": [
+          "machine 重音在后",
+          "working 的 ing 别吞"
+        ]
+      },
+      "variants": [
+        "Is the speaker working?"
+      ],
+      "avoid": "Is the machine broken or not?",
+      "transfer": "Is the ___ working?",
+      "context": "对讲机没反应"
+    },
+    {
+      "id": "01-a-018-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 18,
+      "index": 4,
+      "en": "That's everything, thanks.",
+      "zh": "就这些，谢谢。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "点单收尾，比 That's all 更完整",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæts ˈɛvriθɪŋ θæŋks/",
+        "notes": [
+          "That's everything 连读 /ðætsˈɛvriθɪŋ/"
+        ]
+      },
+      "variants": [
+        "That's all, thanks."
+      ],
+      "avoid": "No more, thank you.",
+      "transfer": "That's ___, thanks.",
+      "context": "店员问 Anything else"
+    },
+    {
+      "id": "01-a-018-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 18,
+      "index": 5,
+      "en": "I'll pull up to the window.",
+      "zh": "我到窗口取餐。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "pull up = 把车开到，免下车场景必听",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl pʊl ʌp tə ðə ˈwɪndoʊ/",
+        "notes": [
+          "pull up 连读 /pʊlʌp/",
+          "window 的 o 弱读"
+        ]
+      },
+      "variants": [
+        "I'll drive up."
+      ],
+      "avoid": "I go to window.",
+      "transfer": "I'll pull up to ___.",
+      "context": "点完单被指引到取餐口"
+    },
+    {
+      "id": "01-a-019-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 19,
+      "index": 1,
+      "en": "Could you heat this up?",
+      "zh": "能帮我热一下吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "heat up = 加热，带走剩菜必用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kʊd ju hit ðɪs ʌp/",
+        "notes": [
+          "heat this up 连读 /hitðɪsʌp/"
+        ]
+      },
+      "variants": [
+        "Can you warm this up?"
+      ],
+      "avoid": "Can you make it hot again?",
+      "transfer": "Could you heat ___ up?",
+      "context": "外卖凉了想再热"
+    },
+    {
+      "id": "01-a-019-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 19,
+      "index": 2,
+      "en": "Can I get a box for this?",
+      "zh": "能给我个打包盒吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "box = 打包盒，比 container 更口语",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ ɡɛt ə bɑks fər ðɪs/",
+        "notes": [
+          "box for 连读 /bɑksfər/"
+        ]
+      },
+      "variants": [
+        "Could I get a to-go box?"
+      ],
+      "avoid": "Give me a bag for this.",
+      "transfer": "Can I get a box for ___?",
+      "context": "菜没吃完想带走"
+    },
+    {
+      "id": "01-a-019-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 19,
+      "index": 3,
+      "en": "Wrap it up, please.",
+      "zh": "帮我打包，谢谢。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "wrap up = 包起来，餐厅常用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ræp ɪt ʌp pliz/",
+        "notes": [
+          "wrap it up 连读 /ræpɪtʌp/",
+          "wrap 的 w 不发音"
+        ]
+      },
+      "variants": [
+        "Could you wrap it up?"
+      ],
+      "avoid": "Pack it for me.",
+      "transfer": "Wrap ___ up, please.",
+      "context": "吃完一半想带走"
+    },
+    {
+      "id": "01-a-019-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 19,
+      "index": 4,
+      "en": "Can I leave this out overnight?",
+      "zh": "这个能放一晚上吗？",
+      "scene": "dining",
+      "level": 1,
+      "focus": "leave out = 放在外面，食物保存常问",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ liv ðɪs aʊt ˈoʊvərnaɪt/",
+        "notes": [
+          "leave this out 连读 /livðɪsaʊt/"
+        ]
+      },
+      "variants": [
+        "Is it okay to leave it out?"
+      ],
+      "avoid": "Can I put it outside one night?",
+      "transfer": "Can I leave this out ___?",
+      "context": "打包回家懒得放冰箱"
+    },
+    {
+      "id": "01-a-019-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 19,
+      "index": 5,
+      "en": "I'll take the leftovers to go.",
+      "zh": "剩下的我打包带走。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "leftovers = 剩菜，to go 收尾",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl teɪk ðə ˈlɛftoʊvərz tə ɡoʊ/",
+        "notes": [
+          "leftovers 三音节",
+          "to go 连读 /təɡoʊ/"
+        ]
+      },
+      "variants": [
+        "Could I take the leftovers home?"
+      ],
+      "avoid": "I want carry the rest.",
+      "transfer": "I'll take the leftovers ___.",
+      "context": "一桌菜吃不完"
+    },
+    {
+      "id": "01-a-020-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 20,
+      "index": 1,
+      "en": "This is spot on.",
+      "zh": "味道正好。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "spot on = 完全到位，夸菜最地道",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðɪs ɪz spɑt ɑn/",
+        "notes": [
+          "spot on 连读 /spɑtɑn/"
+        ]
+      },
+      "variants": [
+        "That's spot on."
+      ],
+      "avoid": "This taste is very correct.",
+      "transfer": "This is ___.",
+      "context": "朋友问你觉得怎么样"
+    },
+    {
+      "id": "01-a-020-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 20,
+      "index": 2,
+      "en": "It's a little bland.",
+      "zh": "有点淡。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "bland = 没味道，比 not salty 准确",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts ə ˈlɪtəl blænd/",
+        "notes": [
+          "little 的美音闪音 /ˈlɪtəl/",
+          "bland 短音"
+        ]
+      },
+      "variants": [
+        "It could use more flavor."
+      ],
+      "avoid": "It has no taste.",
+      "transfer": "It's a little ___.",
+      "context": "吃了一口觉得没味"
+    },
+    {
+      "id": "01-a-020-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 20,
+      "index": 3,
+      "en": "It's way too salty.",
+      "zh": "太咸了。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "way too = 太…了，口语加强",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts weɪ tu ˈsɔlti/",
+        "notes": [
+          "way too 连读 /weɪtu/",
+          "salty 的 l 含糊"
+        ]
+      },
+      "variants": [
+        "It's too salty for me."
+      ],
+      "avoid": "It is very very salt.",
+      "transfer": "It's way too ___.",
+      "context": "汤咸得喝不下"
+    },
+    {
+      "id": "01-a-020-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 20,
+      "index": 4,
+      "en": "What's in this? It's amazing.",
+      "zh": "这里面有什么？太好吃了。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "先问配料再夸，餐厅聊天自然",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌts ɪn ðɪs ɪts əˈmeɪzɪŋ/",
+        "notes": [
+          "What's in this 连读",
+          "amazing 重音在第二音节"
+        ]
+      },
+      "variants": [
+        "This is amazing — what's in it?"
+      ],
+      "avoid": "What inside? Very delicious.",
+      "transfer": "What's in this? It's ___.",
+      "context": "吃到惊艳的菜"
+    },
+    {
+      "id": "01-a-020-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 20,
+      "index": 5,
+      "en": "I could eat this every day.",
+      "zh": "这个我天天吃都行。",
+      "scene": "dining",
+      "level": 1,
+      "focus": "could eat this every day = 夸张式夸奖",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ kʊd it ðɪs ˈɛvri deɪ/",
+        "notes": [
+          "could eat 连读 /kʊdit/",
+          "every 两音节"
+        ]
+      },
+      "variants": [
+        "I'd eat this every day."
+      ],
+      "avoid": "I can eat everyday.",
+      "transfer": "I could eat this ___.",
+      "context": "对方问合不合口味"
+    },
+    {
+      "id": "01-a-021-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 21,
+      "index": 1,
+      "en": "Where's the ATM?",
+      "zh": "取款机在哪？",
+      "scene": "life",
+      "level": 1,
+      "focus": "出门最常问的一句话",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɛrz ði ˌeɪ ti ˈɛm/",
+        "notes": [
+          "ATM 逐字母读 /ˌeɪ ti ˈɛm/"
+        ]
+      },
+      "variants": [
+        "Is there an ATM around here?"
+      ],
+      "avoid": "Where is cash machine?",
+      "transfer": "Where's the ___?",
+      "context": "现金不够用"
+    },
+    {
+      "id": "01-a-021-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 21,
+      "index": 2,
+      "en": "Do you sell phone chargers?",
+      "zh": "你们卖手机充电器吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "sell + 商品 = 卖不卖，便利店高频",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du ju sɛl foʊn ˈtʃɑrdʒərz/",
+        "notes": [
+          "phone charger 连读 /foʊnˈtʃɑrdʒərz/"
+        ]
+      },
+      "variants": [
+        "Do you carry phone chargers?"
+      ],
+      "avoid": "Do you have charge phone?",
+      "transfer": "Do you sell ___?",
+      "context": "手机快没电"
+    },
+    {
+      "id": "01-a-021-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 21,
+      "index": 3,
+      "en": "Can I get cash back?",
+      "zh": "能顺便取现金吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "cash back = 结账时取现，超市常见",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ ɡɛt kæʃ bæk/",
+        "notes": [
+          "cash back 连读 /kæʃbæk/"
+        ]
+      },
+      "variants": [
+        "Could I get cash back?"
+      ],
+      "avoid": "Can I take cash here?",
+      "transfer": "Can I get ___ back?",
+      "context": "刷卡时想拿点现金"
+    },
+    {
+      "id": "01-a-021-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 21,
+      "index": 4,
+      "en": "Is the restroom for customers only?",
+      "zh": "洗手间只给顾客用吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "for customers only = 仅限顾客",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ðə ˈrɛstrum fər ˈkʌstəmərz ˈoʊnli/",
+        "notes": [
+          "restroom 重音在前",
+          "customers 的 s 音"
+        ]
+      },
+      "variants": [
+        "Do I need to buy something to use it?"
+      ],
+      "avoid": "Is toilet only for buyer?",
+      "transfer": "Is the ___ for customers only?",
+      "context": "内急但还没买东西"
+    },
+    {
+      "id": "01-a-021-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 21,
+      "index": 5,
+      "en": "I'll grab a snack and go.",
+      "zh": "我拿个零食就走。",
+      "scene": "life",
+      "level": 1,
+      "focus": "grab = 随手拿，比 buy 轻快",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl ɡræb ə snæk æn ɡoʊ/",
+        "notes": [
+          "grab a 连读 /ɡræbə/",
+          "and 弱读 /ən/"
+        ]
+      },
+      "variants": [
+        "Just grabbing a snack."
+      ],
+      "avoid": "I take snack then leave.",
+      "transfer": "I'll grab ___ and go.",
+      "context": "赶时间进便利店"
+    },
+    {
+      "id": "01-a-022-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 22,
+      "index": 1,
+      "en": "Which aisle is the milk in?",
+      "zh": "牛奶在哪个货道？",
+      "scene": "life",
+      "level": 1,
+      "focus": "aisle 的 s 不发音，超市问货必用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɪtʃ aɪl ɪz ðə mɪlk ɪn/",
+        "notes": [
+          "aisle 读 /aɪl/，s 不发音"
+        ]
+      },
+      "variants": [
+        "What aisle is the milk on?"
+      ],
+      "avoid": "Milk is where?",
+      "transfer": "Which aisle is ___ in?",
+      "context": "超市找不到牛奶"
+    },
+    {
+      "id": "01-a-022-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 22,
+      "index": 2,
+      "en": "Do you have any in stock?",
+      "zh": "有现货吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "in stock = 有货，out of stock 是缺货",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du ju hæv ˈɛni ɪn stɑk/",
+        "notes": [
+          "any in 连读 /ˈɛniɪn/",
+          "stock 短音"
+        ]
+      },
+      "variants": [
+        "Is it in stock?"
+      ],
+      "avoid": "Do you have goods now?",
+      "transfer": "Do you have any in ___?",
+      "context": "货架空了想问仓库"
+    },
+    {
+      "id": "01-a-022-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 22,
+      "index": 3,
+      "en": "Is this the only brand you carry?",
+      "zh": "你们只有这个牌子吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "carry = 进货卖，问品牌选择",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ðɪs ði ˈoʊnli brænd ju ˈkæri/",
+        "notes": [
+          "only 的 l 含糊",
+          "brand you 连读 /brændju/"
+        ]
+      },
+      "variants": [
+        "Do you carry other brands?"
+      ],
+      "avoid": "Only this brand you sell?",
+      "transfer": "Is this the only ___ you carry?",
+      "context": "想换一个牌子"
+    },
+    {
+      "id": "01-a-022-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 22,
+      "index": 4,
+      "en": "Where can I find frozen food?",
+      "zh": "冷冻食品在哪？",
+      "scene": "life",
+      "level": 1,
+      "focus": "frozen food = 冷冻食品，找货句式",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɛr kən aɪ faɪnd ˈfroʊzən fud/",
+        "notes": [
+          "frozen 的 o 读 /oʊ/",
+          "find frozen 连读"
+        ]
+      },
+      "variants": [
+        "Which aisle has frozen food?"
+      ],
+      "avoid": "Frozen food is where?",
+      "transfer": "Where can I find ___?",
+      "context": "第一次来这家超市"
+    },
+    {
+      "id": "01-a-022-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 22,
+      "index": 5,
+      "en": "Can you check in the back?",
+      "zh": "能去后面仓库看看吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "check in the back = 查后仓，缺货必问",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən ju tʃɛk ɪn ðə bæk/",
+        "notes": [
+          "check in 连读 /tʃɛkɪn/",
+          "back 短音"
+        ]
+      },
+      "variants": [
+        "Could you check the back?"
+      ],
+      "avoid": "You go behind see?",
+      "transfer": "Can you check ___?",
+      "context": "货架卖完了"
+    },
+    {
+      "id": "01-a-023-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 23,
+      "index": 1,
+      "en": "Is this line for self-checkout?",
+      "zh": "这队是自助结账吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "self-checkout = 自助收银，排错队很尴尬",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ðɪs laɪn fər ˌsɛlf ˈtʃɛkaʊt/",
+        "notes": [
+          "self-checkout 重音在后半"
+        ]
+      },
+      "variants": [
+        "Is this the self-checkout line?"
+      ],
+      "avoid": "This line is self pay?",
+      "transfer": "Is this line for ___?",
+      "context": "超市排了两条队"
+    },
+    {
+      "id": "01-a-023-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 23,
+      "index": 2,
+      "en": "Are you in line?",
+      "zh": "你在排队吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "确认是否排队，避免插队误会",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ər ju ɪn laɪn/",
+        "notes": [
+          "Are you 连读 /ərju/",
+          "in line 连读 /ɪnlaɪn/"
+        ]
+      },
+      "variants": [
+        "Are you waiting in line?"
+      ],
+      "avoid": "You are queuing?",
+      "transfer": "Are you in ___?",
+      "context": "走到队尾不确定"
+    },
+    {
+      "id": "01-a-023-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 23,
+      "index": 3,
+      "en": "Sorry, I was next.",
+      "zh": "不好意思，轮到我了。",
+      "scene": "life",
+      "level": 1,
+      "focus": "was next = 我排在前，礼貌纠正",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈsɑri aɪ wʌz nɛkst/",
+        "notes": [
+          "was next 连读 /wʌznɛkst/",
+          "next 的 x 读 /ks/"
+        ]
+      },
+      "variants": [
+        "I think I was next."
+      ],
+      "avoid": "I am before you.",
+      "transfer": "Sorry, I was ___.",
+      "context": "有人抢到你前面"
+    },
+    {
+      "id": "01-a-023-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 23,
+      "index": 4,
+      "en": "Do you need a bag?",
+      "zh": "需要袋子吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "收银员高频问句，听懂秒回",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du ju nid ə bæɡ/",
+        "notes": [
+          "need a 连读 /nidə/",
+          "bag 张大"
+        ]
+      },
+      "variants": [
+        "Want a bag?"
+      ],
+      "avoid": "You need bag?",
+      "transfer": "Do you need a ___?",
+      "context": "收银员扫完第一件"
+    },
+    {
+      "id": "01-a-023-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 23,
+      "index": 5,
+      "en": "Let me grab my wallet.",
+      "zh": "我拿一下钱包。",
+      "scene": "life",
+      "level": 1,
+      "focus": "let me = 让我，动作前的缓冲句",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛt mi ɡræb maɪ ˈwɑlɪt/",
+        "notes": [
+          "let me 连读 /lɛtmi/",
+          "wallet 的 t 闪音"
+        ]
+      },
+      "variants": [
+        "Hang on, my wallet."
+      ],
+      "avoid": "Wait me take wallet.",
+      "transfer": "Let me grab my ___.",
+      "context": "结账时发现没掏钱包"
+    },
+    {
+      "id": "01-a-024-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 24,
+      "index": 1,
+      "en": "I'd like to return this.",
+      "zh": "我想退这个。",
+      "scene": "life",
+      "level": 1,
+      "focus": "I'd like to = 我想，最礼貌的办事开头",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪd laɪk tə rɪˈtɜrn ðɪs/",
+        "notes": [
+          "I'd like to 连读 /aɪdlaɪktə/"
+        ]
+      },
+      "variants": [
+        "I want to return this."
+      ],
+      "avoid": "I want give this back.",
+      "transfer": "I'd like to return ___.",
+      "context": "拿着商品到服务台"
+    },
+    {
+      "id": "01-a-024-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 24,
+      "index": 2,
+      "en": "I don't have the receipt.",
+      "zh": "我没有小票。",
+      "scene": "life",
+      "level": 1,
+      "focus": "退货常见障碍，先说清",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ doʊnt hæv ðə rɪˈsit/",
+        "notes": [
+          "don't have 连读 /doʊnthæv/"
+        ]
+      },
+      "variants": [
+        "I lost the receipt."
+      ],
+      "avoid": "I have no bill paper.",
+      "transfer": "I don't have the ___.",
+      "context": "店员问要小票"
+    },
+    {
+      "id": "01-a-024-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 24,
+      "index": 3,
+      "en": "It stopped working after two days.",
+      "zh": "用了两天就坏了。",
+      "scene": "life",
+      "level": 1,
+      "focus": "stopped working = 坏了，描述故障",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪt stɑpt ˈwɜrkɪŋ ˈæftər tu deɪz/",
+        "notes": [
+          "stopped 的 t 轻收",
+          "after 的 r 卷舌"
+        ]
+      },
+      "variants": [
+        "It broke after two days."
+      ],
+      "avoid": "It is bad after two day.",
+      "transfer": "It stopped working after ___.",
+      "context": "退货说明原因"
+    },
+    {
+      "id": "01-a-024-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 24,
+      "index": 4,
+      "en": "Can I exchange it for a different size?",
+      "zh": "能换个尺码吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "exchange A for B = 换货，比 change 准确",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ ɪksˈtʃeɪndʒ ɪt fər ə ˈdɪfrənt saɪz/",
+        "notes": [
+          "exchange 重音在后",
+          "different 两音节"
+        ]
+      },
+      "variants": [
+        "Could I swap it for another size?"
+      ],
+      "avoid": "Can I change a size?",
+      "transfer": "Can I exchange it for ___?",
+      "context": "尺码不合适想换"
+    },
+    {
+      "id": "01-a-024-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 24,
+      "index": 5,
+      "en": "Could I get store credit?",
+      "zh": "能退成店铺余额吗？",
+      "scene": "life",
+      "level": 1,
+      "focus": "store credit = 店内余额，没小票时常给",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kʊd aɪ ɡɛt stɔr ˈkrɛdɪt/",
+        "notes": [
+          "store credit 连读 /stɔrˈkrɛdɪt/"
+        ]
+      },
+      "variants": [
+        "Can I get store credit instead?"
+      ],
+      "avoid": "Can I return to points?",
+      "transfer": "Could I get store ___?",
+      "context": "店员说不能退现金"
+    },
+    {
+      "id": "01-a-025-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 25,
+      "index": 1,
+      "en": "Excuse me, how do I get to the station?",
+      "zh": "请问车站怎么走？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "how do I get to = 怎么去，问路万能",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪkˈskjuz mi haʊ du aɪ ɡɛt tə ðə ˈsteɪʃən/",
+        "notes": [
+          "Excuse me 连读 /ɪkˈskjuzmi/",
+          "get to 连读 /ɡɛtə/"
+        ]
+      },
+      "variants": [
+        "Which way is the station?"
+      ],
+      "avoid": "Station how to go?",
+      "transfer": "How do I get to ___?",
+      "context": "街上拦一个路人"
+    },
+    {
+      "id": "01-a-025-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 25,
+      "index": 2,
+      "en": "Is it within walking distance?",
+      "zh": "走路能到吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "within walking distance = 步行可达",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ɪt wɪˈðɪn ˈwɔkɪŋ ˈdɪstəns/",
+        "notes": [
+          "within 咬舌",
+          "walking distance 连读"
+        ]
+      },
+      "variants": [
+        "Can I walk there?"
+      ],
+      "avoid": "Is it near by foot?",
+      "transfer": "Is it within ___ distance?",
+      "context": "不想打车想走过去"
+    },
+    {
+      "id": "01-a-025-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 25,
+      "index": 3,
+      "en": "Which way is downtown?",
+      "zh": "市中心往哪边走？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "which way is = 往哪边，方向问句",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɪtʃ weɪ ɪz ˈdaʊntaʊn/",
+        "notes": [
+          "which way 连读 /wɪtʃweɪ/",
+          "downtown 重音在前"
+        ]
+      },
+      "variants": [
+        "How do I get downtown?"
+      ],
+      "avoid": "Downtown is which side?",
+      "transfer": "Which way is ___?",
+      "context": "出地铁站分不清方向"
+    },
+    {
+      "id": "01-a-025-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 25,
+      "index": 4,
+      "en": "Am I going the right way?",
+      "zh": "我走对了吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "半路确认方向，避免越走越远",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/æm aɪ ˈɡoʊɪŋ ðə raɪt weɪ/",
+        "notes": [
+          "going the 连读 /ˈɡoʊɪŋðə/",
+          "right 的 t 轻收"
+        ]
+      },
+      "variants": [
+        "Is this the right way?"
+      ],
+      "avoid": "I walk correct?",
+      "transfer": "Am I going the ___ way?",
+      "context": "走了十分钟不确定"
+    },
+    {
+      "id": "01-a-025-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 25,
+      "index": 5,
+      "en": "Could you show me on the map?",
+      "zh": "能在地图上指给我看吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "show me on the map，比描述更可靠",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kʊd ju ʃoʊ mi ɑn ðə mæp/",
+        "notes": [
+          "show me 连读 /ʃoʊmi/",
+          "on the 连读 /ɑnðə/"
+        ]
+      },
+      "variants": [
+        "Can you point it out on the map?"
+      ],
+      "avoid": "You draw on map?",
+      "transfer": "Could you show me on ___?",
+      "context": "对方说得太快没听懂"
+    },
+    {
+      "id": "01-a-026-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 26,
+      "index": 1,
+      "en": "Are you free?",
+      "zh": "你空车吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "打车先问空不空，纽约常用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ər ju fri/",
+        "notes": [
+          "Are you 连读 /ərju/",
+          "free 长音"
+        ]
+      },
+      "variants": [
+        "Are you available?"
+      ],
+      "avoid": "You have time?",
+      "transfer": "Are you ___?",
+      "context": "路边拦出租车"
+    },
+    {
+      "id": "01-a-026-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 26,
+      "index": 2,
+      "en": "How long is the ride?",
+      "zh": "要坐多久？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "the ride = 这趟车程，问时间",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/haʊ lɔŋ ɪz ðə raɪd/",
+        "notes": [
+          "How long 连读 /haʊlɔŋ/",
+          "ride 的 d 轻收"
+        ]
+      },
+      "variants": [
+        "How long does it take?"
+      ],
+      "avoid": "Need how much time?",
+      "transfer": "How long is the ___?",
+      "context": "上车前确认时长"
+    },
+    {
+      "id": "01-a-026-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 26,
+      "index": 3,
+      "en": "Can you drop me off here?",
+      "zh": "能在这儿停吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "drop off = 让人下车，打车必会",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən ju drɑp mi ɔf hɪr/",
+        "notes": [
+          "drop me off 连读 /drɑpmiɔf/"
+        ]
+      },
+      "variants": [
+        "Could you let me out here?"
+      ],
+      "avoid": "Stop here let me down.",
+      "transfer": "Can you drop me off ___?",
+      "context": "快到目的地"
+    },
+    {
+      "id": "01-a-026-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 26,
+      "index": 4,
+      "en": "Could you wait a minute?",
+      "zh": "能等一分钟吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "wait a minute = 稍等，司机常听",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kʊd ju weɪt ə ˈmɪnɪt/",
+        "notes": [
+          "wait a 连读 /weɪtə/",
+          "minute 的 t 闪音"
+        ]
+      },
+      "variants": [
+        "Can you hang on a second?"
+      ],
+      "avoid": "You wait one minute?",
+      "transfer": "Could you wait ___?",
+      "context": "下车取东西"
+    },
+    {
+      "id": "01-a-026-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 26,
+      "index": 5,
+      "en": "How much is it to the airport?",
+      "zh": "到机场多少钱？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "to + 地点 = 到某地，问价",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/haʊ mʌtʃ ɪz ɪt tə ði ˈɛrpɔrt/",
+        "notes": [
+          "is it to 连读 /ɪzɪtə/",
+          "airport 重音在前"
+        ]
+      },
+      "variants": [
+        "What's the fare to the airport?"
+      ],
+      "avoid": "Airport how much money?",
+      "transfer": "How much is it to ___?",
+      "context": "上车前先谈好价"
+    },
+    {
+      "id": "01-a-027-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 27,
+      "index": 1,
+      "en": "Does this bus go downtown?",
+      "zh": "这趟车到市中心吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "Does this bus go + 地点，公交必问",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/dʌz ðɪs bʌs ɡoʊ ˈdaʊntaʊn/",
+        "notes": [
+          "Does this 连读 /dʌzðɪs/",
+          "bus go 连读 /bʌsɡoʊ/"
+        ]
+      },
+      "variants": [
+        "Is this bus going downtown?"
+      ],
+      "avoid": "This bus to city center?",
+      "transfer": "Does this bus go ___?",
+      "context": "公交站看路线牌"
+    },
+    {
+      "id": "01-a-027-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 27,
+      "index": 2,
+      "en": "Which line goes to Brooklyn?",
+      "zh": "哪条线到布鲁克林？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "line = 地铁线，问线路",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɪtʃ laɪn ɡoʊz tə ˈbrʊklɪn/",
+        "notes": [
+          "line goes 连读 /laɪnɡoʊz/",
+          "Brooklyn 的 oo 短音"
+        ]
+      },
+      "variants": [
+        "What line do I take for Brooklyn?"
+      ],
+      "avoid": "Which地铁 to Brooklyn?",
+      "transfer": "Which line goes to ___?",
+      "context": "地铁图看不懂"
+    },
+    {
+      "id": "01-a-027-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 27,
+      "index": 3,
+      "en": "Do I need to transfer?",
+      "zh": "我需要换乘吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "transfer = 换乘，地铁高频",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du aɪ nid tə ˈtrænsfər/",
+        "notes": [
+          "need to 连读 /nidtə/",
+          "transfer 重音在前"
+        ]
+      },
+      "variants": [
+        "Do I have to transfer?"
+      ],
+      "avoid": "Need change train?",
+      "transfer": "Do I need to ___?",
+      "context": "路线不确定要不要换线"
+    },
+    {
+      "id": "01-a-027-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 27,
+      "index": 4,
+      "en": "How many stops is it?",
+      "zh": "要坐几站？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "how many stops，问站数",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/haʊ ˈmɛni stɑps ɪz ɪt/",
+        "notes": [
+          "stops is it 连读 /stɑpsɪzɪt/"
+        ]
+      },
+      "variants": [
+        "How many stops from here?"
+      ],
+      "avoid": "How many station?",
+      "transfer": "How many ___ is it?",
+      "context": "上车前算时间"
+    },
+    {
+      "id": "01-a-027-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 27,
+      "index": 5,
+      "en": "Where do I swipe my card?",
+      "zh": "在哪刷卡？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "swipe = 刷卡，闸机口常用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɛr du aɪ swaɪp maɪ kɑrd/",
+        "notes": [
+          "do I 连读 /duaɪ/",
+          "swipe 的 p 轻收"
+        ]
+      },
+      "variants": [
+        "Where do I tap my card?"
+      ],
+      "avoid": "Where put card?",
+      "transfer": "Where do I swipe ___?",
+      "context": "第一次坐这里的公交"
+    },
+    {
+      "id": "01-a-028-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 28,
+      "index": 1,
+      "en": "What time does the next train leave?",
+      "zh": "下一班车几点走？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "next train leave，问班次",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌt taɪm dʌz ðə nɛkst treɪn liv/",
+        "notes": [
+          "What time 连读 /wʌttaɪm/",
+          "next train 连读 /nɛksttreɪn/"
+        ]
+      },
+      "variants": [
+        "When's the next train?"
+      ],
+      "avoid": "Next train what time go?",
+      "transfer": "What time does the next ___ leave?",
+      "context": "站台看时刻表"
+    },
+    {
+      "id": "01-a-028-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 28,
+      "index": 2,
+      "en": "Is this seat taken?",
+      "zh": "这个位子有人吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "taken = 被占了，公共场合礼貌问",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ðɪs sit ˈteɪkən/",
+        "notes": [
+          "seat taken 连读 /sittˈteɪkən/"
+        ]
+      },
+      "variants": [
+        "Anyone sitting here?"
+      ],
+      "avoid": "This seat have people?",
+      "transfer": "Is this seat ___?",
+      "context": "车上想坐下"
+    },
+    {
+      "id": "01-a-028-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 28,
+      "index": 3,
+      "en": "Could you let me know when we get there?",
+      "zh": "到了能叫我一声吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "let me know = 告诉我，请人提醒",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kʊd ju lɛt mi noʊ wɛn wi ɡɛt ðɛr/",
+        "notes": [
+          "let me know 连读 /lɛtminoʊ/",
+          "get there 连读 /ɡɛtðɛr/"
+        ]
+      },
+      "variants": [
+        "Can you tell me when to get off?"
+      ],
+      "avoid": "Please call me arrive.",
+      "transfer": "Could you let me know when ___?",
+      "context": "怕坐过站"
+    },
+    {
+      "id": "01-a-028-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 28,
+      "index": 4,
+      "en": "I missed my stop.",
+      "zh": "我坐过站了。",
+      "scene": "transit",
+      "level": 1,
+      "focus": "missed my stop，坐过站第一句",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ mɪst maɪ stɑp/",
+        "notes": [
+          "missed my 连读 /mɪstmaɪ/",
+          "stop 短音"
+        ]
+      },
+      "variants": [
+        "I went past my stop."
+      ],
+      "avoid": "I sit over station.",
+      "transfer": "I missed my ___.",
+      "context": "反应过来已经过站"
+    },
+    {
+      "id": "01-a-028-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 28,
+      "index": 5,
+      "en": "How do I get back to the hotel?",
+      "zh": "怎么回酒店？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "get back to = 回到，问返程",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/haʊ du aɪ ɡɛt bæk tə ðə hoʊˈtɛl/",
+        "notes": [
+          "get back 连读 /ɡɛtbæk/",
+          "hotel 重音在后"
+        ]
+      },
+      "variants": [
+        "What's the way back to the hotel?"
+      ],
+      "avoid": "Hotel how go back?",
+      "transfer": "How do I get back to ___?",
+      "context": "迷路后问路人"
+    },
+    {
+      "id": "01-a-029-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 29,
+      "index": 1,
+      "en": "I have a reservation under Li.",
+      "zh": "我订了房，姓李。",
+      "scene": "transit",
+      "level": 1,
+      "focus": "under + 姓 = 以某名字预订，酒店必说",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ hæv ə ˌrɛzərˈveɪʃən ˈʌndər li/",
+        "notes": [
+          "reservation 重音在后",
+          "under 的 r 卷舌"
+        ]
+      },
+      "variants": [
+        "Reservation for Li."
+      ],
+      "avoid": "I booked a room name Li.",
+      "transfer": "I have a reservation under ___.",
+      "context": "到前台办入住"
+    },
+    {
+      "id": "01-a-029-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 29,
+      "index": 2,
+      "en": "Is breakfast included?",
+      "zh": "含早餐吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "included = 含在内，订房常问",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ˈbrɛkfəst ɪnˈkludɪd/",
+        "notes": [
+          "breakfast 两音节",
+          "included 重音在后"
+        ]
+      },
+      "variants": [
+        "Does the rate include breakfast?"
+      ],
+      "avoid": "Breakfast is free?",
+      "transfer": "Is ___ included?",
+      "context": "办入住时问"
+    },
+    {
+      "id": "01-a-029-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 29,
+      "index": 3,
+      "en": "Could I get a late checkout?",
+      "zh": "能晚点退房吗？",
+      "scene": "transit",
+      "level": 1,
+      "focus": "late checkout = 延迟退房",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kʊd aɪ ɡɛt ə leɪt ˈtʃɛkaʊt/",
+        "notes": [
+          "late checkout 连读 /leɪtˈtʃɛkaʊt/"
+        ]
+      },
+      "variants": [
+        "Can I check out later?"
+      ],
+      "avoid": "Can I leave room late?",
+      "transfer": "Could I get a late ___?",
+      "context": "航班在下午"
+    },
+    {
+      "id": "01-a-029-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 29,
+      "index": 4,
+      "en": "The AC isn't working.",
+      "zh": "空调坏了。",
+      "scene": "transit",
+      "level": 1,
+      "focus": "AC = 空调，报修最简句",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ði ˌeɪ ˈsi ˈɪzənt ˈwɜrkɪŋ/",
+        "notes": [
+          "AC 逐字母读",
+          "isn't working 连读"
+        ]
+      },
+      "variants": [
+        "The air conditioning is broken."
+      ],
+      "avoid": "Air conditioner no work.",
+      "transfer": "The ___ isn't working.",
+      "context": "房间太热"
+    },
+    {
+      "id": "01-a-029-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 29,
+      "index": 5,
+      "en": "I'd like to check out.",
+      "zh": "我要退房。",
+      "scene": "transit",
+      "level": 1,
+      "focus": "check out，退房标准说法",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪd laɪk tə tʃɛk aʊt/",
+        "notes": [
+          "I'd like to 连读 /aɪdlaɪktə/",
+          "check out 连读"
+        ]
+      },
+      "variants": [
+        "Checking out, please."
+      ],
+      "avoid": "I want leave hotel.",
+      "transfer": "I'd like to check ___.",
+      "context": "拿着行李到前台"
+    },
+    {
+      "id": "01-a-030-1",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 30,
+      "index": 1,
+      "en": "Could you say that again?",
+      "zh": "能再说一遍吗？",
+      "scene": "social",
+      "level": 1,
+      "focus": "听不懂时最体面的请求",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kʊd ju seɪ ðæt əˈɡɛn/",
+        "notes": [
+          "say that 连读 /seɪðæt/",
+          "again 重音在后"
+        ]
+      },
+      "variants": [
+        "Sorry, could you repeat that?"
+      ],
+      "avoid": "You say again?",
+      "transfer": "Could you say that ___?",
+      "context": "对方说太快"
+    },
+    {
+      "id": "01-a-030-2",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 30,
+      "index": 2,
+      "en": "Sorry, I didn't catch that.",
+      "zh": "抱歉，我没听清。",
+      "scene": "social",
+      "level": 1,
+      "focus": "didn't catch = 没听清，比 I don't understand 自然",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈsɑri aɪ ˈdɪdənt kætʃ ðæt/",
+        "notes": [
+          "didn't catch 连读 /ˈdɪdəntkætʃ/"
+        ]
+      },
+      "variants": [
+        "I didn't quite catch that."
+      ],
+      "avoid": "I didn't hear clear.",
+      "transfer": "Sorry, I didn't catch ___.",
+      "context": "嘈杂环境没听清"
+    },
+    {
+      "id": "01-a-030-3",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 30,
+      "index": 3,
+      "en": "What does that mean?",
+      "zh": "那是什么意思？",
+      "scene": "social",
+      "level": 1,
+      "focus": "问意思，直接但礼貌",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌt dʌz ðæt min/",
+        "notes": [
+          "does that 连读 /dʌzðæt/",
+          "mean 长音"
+        ]
+      },
+      "variants": [
+        "What do you mean by that?"
+      ],
+      "avoid": "That is what meaning?",
+      "transfer": "What does ___ mean?",
+      "context": "遇到不认识的词"
+    },
+    {
+      "id": "01-a-030-4",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 30,
+      "index": 4,
+      "en": "How do you say this in English?",
+      "zh": "这个用英语怎么说？",
+      "scene": "social",
+      "level": 1,
+      "focus": "卡词时的救命句",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/haʊ du ju seɪ ðɪs ɪn ˈɪŋɡlɪʃ/",
+        "notes": [
+          "do you 连读 /dju/",
+          "in English 连读"
+        ]
+      },
+      "variants": [
+        "What's the English word for this?"
+      ],
+      "avoid": "This English how say?",
+      "transfer": "How do you say ___ in English?",
+      "context": "想不起某个词"
+    },
+    {
+      "id": "01-a-030-5",
+      "plan": "01",
+      "stage": "a",
+      "unit": 1,
+      "day": 30,
+      "index": 5,
+      "en": "Let me try that again.",
+      "zh": "我再试一次。",
+      "scene": "social",
+      "level": 1,
+      "focus": "try again 的自然口语版",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛt mi traɪ ðæt əˈɡɛn/",
+        "notes": [
+          "let me 连读 /lɛtmi/",
+          "that again 连读 /ðætəˈɡɛn/"
+        ]
+      },
+      "variants": [
+        "Let me give it another shot."
+      ],
+      "avoid": "I try once more.",
+      "transfer": "Let me try that ___.",
+      "context": "说错了想重来"
     }
   ]
 }
