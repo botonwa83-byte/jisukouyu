@@ -68,6 +68,19 @@ enum TalkScene: String, CaseIterable, Identifiable {
     }
 }
 
+extension TalkScene {
+    var opener: String {
+        switch self {
+        case .coffee: return "Hi! What can I get for you?"
+        case .interview: return "Tell me about yourself."
+        case .directions: return "Need help finding something?"
+        case .smallTalk: return "Morning! How's your week going?"
+        case .complaint: return "Hi, how is everything tasting?"
+        case .clinic: return "Hi, what brings you in today?"
+        }
+    }
+}
+
 struct AIConfig {
     var baseURL: String
     var model: String

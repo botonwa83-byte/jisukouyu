@@ -8,6 +8,11 @@ final class ChatViewModel {
     private(set) var sending = false
     private(set) var errorMessage: String?
 
+    func seed(_ text: String) {
+        guard messages.isEmpty else { return }
+        messages.append(ChatMessage(role: .assistant, text: text))
+    }
+
     func appendUser(_ text: String) {
         messages.append(ChatMessage(role: .user, text: text))
     }
@@ -95,7 +100,10 @@ struct ChatView: View {
         .background(Theme.paper.ignoresSafeArea())
         .navigationTitle(scene.title)
         .navigationBarTitleDisplayMode(.inline)
-        .task { await recognizer.requestAuthorization() }
+        .task {
+            vm.seed(scene.opener)
+            await recognizer.requestAuthorization()
+        }
     }
 
     private func bubble(_ message: ChatMessage) -> some View {
