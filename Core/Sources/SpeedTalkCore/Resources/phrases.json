@@ -33604,6 +33604,4205 @@
       "avoid": "Go next part.",
       "transfer": "On to the next ___.",
       "context": "收尾"
+    },
+    {
+      "id": "02-b-001-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 1,
+      "index": 1,
+      "en": "Yesterday I worked on the login flow.",
+      "zh": "昨天我在做登录流程。",
+      "scene": "work",
+      "level": 1,
+      "focus": "worked on，做了某事",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈjɛstərdeɪ aɪ wɜrkt ɑn ðə lɔɡ ɪn floʊ/",
+        "notes": [
+          "worked on 连读",
+          "login 两音节"
+        ]
+      },
+      "variants": [
+        "I spent yesterday on the login flow."
+      ],
+      "avoid": "Yesterday I do login.",
+      "transfer": "Yesterday I worked on ___.",
+      "context": "站会"
+    },
+    {
+      "id": "02-b-001-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 1,
+      "index": 2,
+      "en": "Today I'm finishing the mockups.",
+      "zh": "今天我把稿子收尾。",
+      "scene": "work",
+      "level": 1,
+      "focus": "finish，完成",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/təˈdeɪ aɪm ˈfɪnɪʃɪŋ ðə ˈmɑkʌps/",
+        "notes": [
+          "finishing 三音节",
+          "mockups 两音节"
+        ]
+      },
+      "variants": [
+        "I'll wrap up the mockups today."
+      ],
+      "avoid": "Today I finish design picture.",
+      "transfer": "Today I'm finishing the ___.",
+      "context": "站会"
+    },
+    {
+      "id": "02-b-001-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 1,
+      "index": 3,
+      "en": "No blockers on my side.",
+      "zh": "我这边没阻塞。",
+      "scene": "work",
+      "level": 1,
+      "focus": "blocker，阻塞",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/noʊ ˈblɑkərz ɑn maɪ saɪd/",
+        "notes": [
+          "blockers 两音节",
+          "on my 连读"
+        ]
+      },
+      "variants": [
+        "Nothing's blocking me."
+      ],
+      "avoid": "My side no problem.",
+      "transfer": "No blockers on my ___.",
+      "context": "站会"
+    },
+    {
+      "id": "02-b-001-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 1,
+      "index": 4,
+      "en": "I could use a quick review later.",
+      "zh": "待会儿想找人快速看下。",
+      "scene": "work",
+      "level": 1,
+      "focus": "could use，需要",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ kʊd juz ə kwɪk rɪˈvju ˈleɪtər/",
+        "notes": [
+          "could use 连读",
+          "review 重音在后"
+        ]
+      },
+      "variants": [
+        "I'd love a quick review later."
+      ],
+      "avoid": "Later I need someone see.",
+      "transfer": "I could use a quick ___ later.",
+      "context": "站会"
+    },
+    {
+      "id": "02-b-001-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 1,
+      "index": 5,
+      "en": "That's it from me.",
+      "zh": "我说完了。",
+      "scene": "work",
+      "level": 1,
+      "focus": "发言收尾",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæts ɪt frəm mi/",
+        "notes": [
+          "it from 连读",
+          "me 弱读"
+        ]
+      },
+      "variants": [
+        "That's all from my side."
+      ],
+      "avoid": "I say done.",
+      "transfer": "That's it from ___.",
+      "context": "站会"
+    },
+    {
+      "id": "02-b-002-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 2,
+      "index": 1,
+      "en": "I can take that one.",
+      "zh": "这个我来。",
+      "scene": "work",
+      "level": 1,
+      "focus": "take that one，接下这个任务",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ kən teɪk ðæt wʌn/",
+        "notes": [
+          "take that 连读",
+          "one 短音"
+        ]
+      },
+      "variants": [
+        "I'll pick that up."
+      ],
+      "avoid": "This I do.",
+      "transfer": "I can take that ___.",
+      "context": "分任务"
+    },
+    {
+      "id": "02-b-002-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 2,
+      "index": 2,
+      "en": "What's the deadline for this?",
+      "zh": "这个什么时候要？",
+      "scene": "work",
+      "level": 1,
+      "focus": "deadline for，截止时间",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌts ðə ˈdɛdlaɪn fər ðɪs/",
+        "notes": [
+          "deadline 重音在前",
+          "for this 连读"
+        ]
+      },
+      "variants": [
+        "When do you need it?"
+      ],
+      "avoid": "This when finish?",
+      "transfer": "What's the deadline for ___?",
+      "context": "接任务"
+    },
+    {
+      "id": "02-b-002-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 2,
+      "index": 3,
+      "en": "Do we have a spec I can read?",
+      "zh": "有需求文档我能看吗？",
+      "scene": "work",
+      "level": 1,
+      "focus": "spec，需求文档",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/du wi hæv ə spɛk aɪ kən rid/",
+        "notes": [
+          "have a 连读",
+          "spec 短音"
+        ]
+      },
+      "variants": [
+        "Is there a spec for this?"
+      ],
+      "avoid": "Have paper I can read?",
+      "transfer": "Do we have a ___ I can read?",
+      "context": "了解背景"
+    },
+    {
+      "id": "02-b-002-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 2,
+      "index": 4,
+      "en": "Who's the decision maker here?",
+      "zh": "谁拍板？",
+      "scene": "work",
+      "level": 1,
+      "focus": "decision maker，决策人",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/huz ðə dɪˈsɪʒən ˈmeɪkər hɪr/",
+        "notes": [
+          "Who's 读 /huz/",
+          "maker 两音节"
+        ]
+      },
+      "variants": [
+        "Who has the final say?"
+      ],
+      "avoid": "Who decide this?",
+      "transfer": "Who's the ___ maker here?",
+      "context": "明确权责"
+    },
+    {
+      "id": "02-b-002-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 2,
+      "index": 5,
+      "en": "I'll start with a rough draft.",
+      "zh": "我先出个粗稿。",
+      "scene": "work",
+      "level": 1,
+      "focus": "rough draft，粗稿",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl stɑrt wɪð ə rʌf dræft/",
+        "notes": [
+          "start with 连读",
+          "draft 的 ft"
+        ]
+      },
+      "variants": [
+        "I'll put together a first pass."
+      ],
+      "avoid": "I first do rough version.",
+      "transfer": "I'll start with a rough ___.",
+      "context": "承诺"
+    },
+    {
+      "id": "02-b-003-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 3,
+      "index": 1,
+      "en": "What problem are we solving?",
+      "zh": "我们要解决什么问题？",
+      "scene": "work",
+      "level": 1,
+      "focus": "solve a problem，解决",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌt ˈprɑbləm ɑr wi ˈsɑlvɪŋ/",
+        "notes": [
+          "problem 两音节",
+          "solving 两音节"
+        ]
+      },
+      "variants": [
+        "What's the problem behind this?"
+      ],
+      "avoid": "We solve what problem?",
+      "transfer": "What problem are we ___?",
+      "context": "问需求"
+    },
+    {
+      "id": "02-b-003-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 3,
+      "index": 2,
+      "en": "Who is this for, exactly?",
+      "zh": "这到底给谁用？",
+      "scene": "work",
+      "level": 1,
+      "focus": "exactly，究竟",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hu ɪz ðɪs fɔr ɪɡˈzæktli/",
+        "notes": [
+          "this for 连读",
+          "exactly 重音在第二音节"
+        ]
+      },
+      "variants": [
+        "Who's the actual user?"
+      ],
+      "avoid": "This give who use?",
+      "transfer": "Who is this for, ___?",
+      "context": "问用户"
+    },
+    {
+      "id": "02-b-003-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 3,
+      "index": 3,
+      "en": "What does success look like?",
+      "zh": "怎样算成功？",
+      "scene": "work",
+      "level": 1,
+      "focus": "success，成功标准",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌt dʌz səkˈsɛs lʊk laɪk/",
+        "notes": [
+          "success 重音在第二音节",
+          "look like 连读"
+        ]
+      },
+      "variants": [
+        "How will we measure success?"
+      ],
+      "avoid": "How know we good?",
+      "transfer": "What does success look ___?",
+      "context": "定标准"
+    },
+    {
+      "id": "02-b-003-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 3,
+      "index": 4,
+      "en": "Is this a new feature or a fix?",
+      "zh": "这是新功能还是修问题？",
+      "scene": "work",
+      "level": 1,
+      "focus": "feature or fix，二选一",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ðɪs ə nu ˈfitʃər ɔr ə fɪks/",
+        "notes": [
+          "feature 两音节",
+          "fix 短音"
+        ]
+      },
+      "variants": [
+        "Are we adding or fixing?"
+      ],
+      "avoid": "This new thing or repair?",
+      "transfer": "Is this a new ___ or a ___?",
+      "context": "定性质"
+    },
+    {
+      "id": "02-b-003-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 3,
+      "index": 5,
+      "en": "What's out of scope?",
+      "zh": "什么不在范围内？",
+      "scene": "work",
+      "level": 1,
+      "focus": "out of scope，范围外",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌts aʊt əv skoʊp/",
+        "notes": [
+          "out of 连读",
+          "scope 的 s"
+        ]
+      },
+      "variants": [
+        "What are we not doing?"
+      ],
+      "avoid": "What not include?",
+      "transfer": "What's out of ___?",
+      "context": "划边界"
+    },
+    {
+      "id": "02-b-004-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 4,
+      "index": 1,
+      "en": "This will take about three days.",
+      "zh": "这个大概三天。",
+      "scene": "work",
+      "level": 1,
+      "focus": "take + 时间，需要多久",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðɪs wɪl teɪk əˈbaʊt θri deɪz/",
+        "notes": [
+          "take about 连读",
+          "days 的 z"
+        ]
+      },
+      "variants": [
+        "I'd say three days on this."
+      ],
+      "avoid": "This need three day.",
+      "transfer": "This will take about ___.",
+      "context": "估时"
+    },
+    {
+      "id": "02-b-004-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 4,
+      "index": 2,
+      "en": "I need to check with engineering.",
+      "zh": "我得跟工程确认。",
+      "scene": "work",
+      "level": 1,
+      "focus": "check with，与…确认",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ nid tə tʃɛk wɪð ˌɛndʒɪˈnɪrɪŋ/",
+        "notes": [
+          "check with 连读",
+          "engineering 四音节"
+        ]
+      },
+      "variants": [
+        "Let me confirm with engineering."
+      ],
+      "avoid": "I must ask engineer.",
+      "transfer": "I need to check with ___.",
+      "context": "估时"
+    },
+    {
+      "id": "02-b-004-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 4,
+      "index": 3,
+      "en": "I can have a draft by Wednesday.",
+      "zh": "周三前能出稿。",
+      "scene": "work",
+      "level": 1,
+      "focus": "have by，截止前给",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ kən hæv ə dræft baɪ ˈwɛnzdeɪ/",
+        "notes": [
+          "draft by 连读",
+          "Wednesday 两音节"
+        ]
+      },
+      "variants": [
+        "Wednesday works for a draft."
+      ],
+      "avoid": "Wednesday before I give draft.",
+      "transfer": "I can have a draft by ___.",
+      "context": "承诺"
+    },
+    {
+      "id": "02-b-004-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 4,
+      "index": 4,
+      "en": "Let me pad the estimate a little.",
+      "zh": "我把估时放宽点。",
+      "scene": "work",
+      "level": 1,
+      "focus": "pad the estimate，留余量",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛt mi pæd ði ˈɛstəmət ə ˈlɪtəl/",
+        "notes": [
+          "pad the 连读",
+          "estimate 重音在前"
+        ]
+      },
+      "variants": [
+        "I'd add a buffer to that estimate."
+      ],
+      "avoid": "I make time longer a bit.",
+      "transfer": "Let me pad the ___ a little.",
+      "context": "稳妥"
+    },
+    {
+      "id": "02-b-004-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 4,
+      "index": 5,
+      "en": "I'll confirm the timeline tomorrow.",
+      "zh": "明天确认排期。",
+      "scene": "work",
+      "level": 1,
+      "focus": "confirm the timeline，确认时间表",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl kənˈfɜrm ðə ˈtaɪmlaɪn təˈmɑroʊ/",
+        "notes": [
+          "confirm 重音在后",
+          "timeline 两音节"
+        ]
+      },
+      "variants": [
+        "I'll lock the timeline tomorrow."
+      ],
+      "avoid": "Tomorrow I sure time.",
+      "transfer": "I'll confirm the ___ tomorrow.",
+      "context": "收尾"
+    },
+    {
+      "id": "02-b-005-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 5,
+      "index": 1,
+      "en": "That timeline isn't realistic.",
+      "zh": "这个排期不现实。",
+      "scene": "work",
+      "level": 1,
+      "focus": "realistic，现实可行",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæt ˈtaɪmlaɪn ˈɪzənt ˌriəˈlɪstɪk/",
+        "notes": [
+          "isn't 读 /ˈɪzənt/",
+          "realistic 四音节"
+        ]
+      },
+      "variants": [
+        "That schedule won't hold."
+      ],
+      "avoid": "This time not possible.",
+      "transfer": "That timeline isn't ___.",
+      "context": "拒绝排期"
+    },
+    {
+      "id": "02-b-005-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 5,
+      "index": 2,
+      "en": "We can do it fast or do it right.",
+      "zh": "快和好只能选一个。",
+      "scene": "work",
+      "level": 1,
+      "focus": "fast or right，二选一",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wi kən du ɪt fæst ɔr du ɪt raɪt/",
+        "notes": [
+          "do it 连读",
+          "right 的 t 轻收"
+        ]
+      },
+      "variants": [
+        "Fast or right — pick one."
+      ],
+      "avoid": "Quick or good pick one.",
+      "transfer": "We can do it ___ or do it ___.",
+      "context": "说取舍"
+    },
+    {
+      "id": "02-b-005-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 5,
+      "index": 3,
+      "en": "Something has to give.",
+      "zh": "总得让步一样。",
+      "scene": "work",
+      "level": 1,
+      "focus": "something has to give，总得有牺牲",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈsʌmθɪŋ hæz tə ɡɪv/",
+        "notes": [
+          "has to 连读 /hæstə/",
+          "give 短音"
+        ]
+      },
+      "variants": [
+        "We can't have all three."
+      ],
+      "avoid": "Must drop one thing.",
+      "transfer": "Something has to ___.",
+      "context": "谈判"
+    },
+    {
+      "id": "02-b-005-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 5,
+      "index": 4,
+      "en": "Can we cut scope instead?",
+      "zh": "能砍范围吗？",
+      "scene": "work",
+      "level": 1,
+      "focus": "cut scope，砍范围",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən wi kʌt skoʊp ɪnˈstɛd/",
+        "notes": [
+          "cut scope 连读",
+          "instead 重音在后"
+        ]
+      },
+      "variants": [
+        "Could we trim the scope?"
+      ],
+      "avoid": "Can less do some?",
+      "transfer": "Can we cut ___ instead?",
+      "context": "提方案"
+    },
+    {
+      "id": "02-b-005-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 5,
+      "index": 5,
+      "en": "I'd rather flag it now than miss it.",
+      "zh": "我宁愿现在说，也不想拖。",
+      "scene": "work",
+      "level": 1,
+      "focus": "flag it，提前说",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪd ˈræðər flæɡ ɪt naʊ ðæn mɪs ɪt/",
+        "notes": [
+          "rather 的 th",
+          "miss it 连读"
+        ]
+      },
+      "variants": [
+        "Better to raise it now than slip."
+      ],
+      "avoid": "Now say better than late.",
+      "transfer": "I'd rather flag it now than ___.",
+      "context": "表态"
+    },
+    {
+      "id": "02-b-006-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 6,
+      "index": 1,
+      "en": "I'll loop in the design team.",
+      "zh": "我把设计团队拉进来。",
+      "scene": "work",
+      "level": 1,
+      "focus": "loop in，拉进沟通",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl lup ɪn ðə dɪˈzaɪn tim/",
+        "notes": [
+          "loop in 连读",
+          "design 重音在后"
+        ]
+      },
+      "variants": [
+        "Let me add design to the thread."
+      ],
+      "avoid": "I let design team join.",
+      "transfer": "I'll loop in the ___ team.",
+      "context": "跨部门"
+    },
+    {
+      "id": "02-b-006-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 6,
+      "index": 2,
+      "en": "Who's my contact on your side?",
+      "zh": "你们那边谁对接？",
+      "scene": "work",
+      "level": 1,
+      "focus": "contact on your side，对接人",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/huz maɪ ˈkɑntækt ɑn jʊr saɪd/",
+        "notes": [
+          "contact 重音在前",
+          "on your 连读"
+        ]
+      },
+      "variants": [
+        "Who should I work with there?"
+      ],
+      "avoid": "Your side who connect me?",
+      "transfer": "Who's my contact on ___ side?",
+      "context": "对接"
+    },
+    {
+      "id": "02-b-006-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 6,
+      "index": 3,
+      "en": "Let's set up a shared channel.",
+      "zh": "建个共享频道吧。",
+      "scene": "work",
+      "level": 1,
+      "focus": "shared channel，共享群",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛts sɛt ʌp ə ʃɛrd ˈtʃænəl/",
+        "notes": [
+          "set up 连读",
+          "channel 两音节"
+        ]
+      },
+      "variants": [
+        "Let's make a channel for this."
+      ],
+      "avoid": "We make one group.",
+      "transfer": "Let's set up a shared ___.",
+      "context": "沟通机制"
+    },
+    {
+      "id": "02-b-006-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 6,
+      "index": 4,
+      "en": "I'll send an intro email.",
+      "zh": "我发封介绍邮件。",
+      "scene": "work",
+      "level": 1,
+      "focus": "intro email，介绍邮件",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl sɛnd ən ˈɪntroʊ ˈimeɪl/",
+        "notes": [
+          "send an 连读",
+          "intro 两音节"
+        ]
+      },
+      "variants": [
+        "I'll email everyone an intro."
+      ],
+      "avoid": "I send hello email.",
+      "transfer": "I'll send an ___ email.",
+      "context": "建立联系"
+    },
+    {
+      "id": "02-b-006-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 6,
+      "index": 5,
+      "en": "Let's sync again next week.",
+      "zh": "下周再同步。",
+      "scene": "work",
+      "level": 1,
+      "focus": "sync，同步",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛts sɪŋk əˈɡɛn nɛkst wik/",
+        "notes": [
+          "again next 连读",
+          "week 长音"
+        ]
+      },
+      "variants": [
+        "Let's touch base next week."
+      ],
+      "avoid": "Next week same again.",
+      "transfer": "Let's sync again ___.",
+      "context": "收尾"
+    },
+    {
+      "id": "02-b-007-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 7,
+      "index": 1,
+      "en": "Quick question about the launch.",
+      "zh": "关于上线有个小问题。",
+      "scene": "work",
+      "level": 1,
+      "focus": "quick question about，关于…小问",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kwɪk ˈkwɛstʃən əˈbaʊt ðə lɔntʃ/",
+        "notes": [
+          "question about 连读",
+          "launch 的 au"
+        ]
+      },
+      "variants": [
+        "One quick thing about the launch."
+      ],
+      "avoid": "Launch have small question.",
+      "transfer": "Quick question about ___.",
+      "context": "邮件开头"
+    },
+    {
+      "id": "02-b-007-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 7,
+      "index": 2,
+      "en": "Following up on our call.",
+      "zh": "接着我们电话里说的。",
+      "scene": "work",
+      "level": 1,
+      "focus": "follow up on，就某事跟进",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈfɑloʊɪŋ ʌp ɑn aʊər kɔl/",
+        "notes": [
+          "following up 连读",
+          "our 卷舌"
+        ]
+      },
+      "variants": [
+        "As a follow-up to our call."
+      ],
+      "avoid": "After phone talk I say.",
+      "transfer": "Following up on our ___.",
+      "context": "邮件"
+    },
+    {
+      "id": "02-b-007-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 7,
+      "index": 3,
+      "en": "Wanted to share a quick update.",
+      "zh": "想同步个简短进展。",
+      "scene": "work",
+      "level": 1,
+      "focus": "share an update，同步进展",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈwɑntɪd tə ʃɛr ə kwɪk ˈʌpdeɪt/",
+        "notes": [
+          "wanted to 连读",
+          "update 重音在前"
+        ]
+      },
+      "variants": [
+        "Here's a short update."
+      ],
+      "avoid": "I want tell you new progress.",
+      "transfer": "Wanted to share a quick ___.",
+      "context": "邮件"
+    },
+    {
+      "id": "02-b-007-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 7,
+      "index": 4,
+      "en": "Circling back on this.",
+      "zh": "这件事再回来说。",
+      "scene": "work",
+      "level": 1,
+      "focus": "circle back，回头再谈",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈsɜrkəlɪŋ bæk ɑn ðɪs/",
+        "notes": [
+          "circling 三音节",
+          "back on 连读"
+        ]
+      },
+      "variants": [
+        "Coming back to this."
+      ],
+      "avoid": "Again talk this thing.",
+      "transfer": "Circling back on ___.",
+      "context": "跟进"
+    },
+    {
+      "id": "02-b-007-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 7,
+      "index": 5,
+      "en": "No action needed — just keeping you posted.",
+      "zh": "不用做什么，只是告知。",
+      "scene": "work",
+      "level": 1,
+      "focus": "keep posted，随时告知",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/noʊ ˈækʃən ˈnidɪd dʒʌst ˈkipɪŋ ju ˈpoʊstɪd/",
+        "notes": [
+          "action 两音节",
+          "posted 两音节"
+        ]
+      },
+      "variants": [
+        "FYI only, nothing needed."
+      ],
+      "avoid": "You no need do just know.",
+      "transfer": "No action needed — just keeping you ___.",
+      "context": "邮件"
+    },
+    {
+      "id": "02-b-008-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 8,
+      "index": 1,
+      "en": "Just checking in on this.",
+      "zh": "就是问一下进展。",
+      "scene": "work",
+      "level": 1,
+      "focus": "check in on，询问进展",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/dʒʌst ˈtʃɛkɪŋ ɪn ɑn ðɪs/",
+        "notes": [
+          "checking in 连读",
+          "on this 连读"
+        ]
+      },
+      "variants": [
+        "Any movement on this?"
+      ],
+      "avoid": "This how now?",
+      "transfer": "Just checking in on ___.",
+      "context": "跟进"
+    },
+    {
+      "id": "02-b-008-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 8,
+      "index": 2,
+      "en": "Any thoughts on the draft?",
+      "zh": "稿子有什么想法？",
+      "scene": "work",
+      "level": 1,
+      "focus": "thoughts on，对…看法",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈɛni θɔts ɑn ðə dræft/",
+        "notes": [
+          "thoughts on 连读",
+          "draft 的 ft"
+        ]
+      },
+      "variants": [
+        "What do you think of the draft?"
+      ],
+      "avoid": "Draft you think how?",
+      "transfer": "Any thoughts on the ___?",
+      "context": "求反馈"
+    },
+    {
+      "id": "02-b-008-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 8,
+      "index": 3,
+      "en": "I've attached the latest version.",
+      "zh": "最新版本在附件。",
+      "scene": "work",
+      "level": 1,
+      "focus": "attached，附上",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪv əˈtætʃt ðə ˈleɪtɪst ˈvɜrʒən/",
+        "notes": [
+          "attached 重音在第二音节",
+          "latest 两音节"
+        ]
+      },
+      "variants": [
+        "Latest version is attached."
+      ],
+      "avoid": "New version in the file.",
+      "transfer": "I've attached the ___ version.",
+      "context": "邮件"
+    },
+    {
+      "id": "02-b-008-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 8,
+      "index": 4,
+      "en": "Let me know if you need anything from me.",
+      "zh": "需要我提供什么就说。",
+      "scene": "work",
+      "level": 1,
+      "focus": "anything from me，我这边的东西",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛt mi noʊ ɪf ju nid ˈɛniθɪŋ frəm mi/",
+        "notes": [
+          "let me know 连读",
+          "from me 弱读"
+        ]
+      },
+      "variants": [
+        "Tell me what you need from my side."
+      ],
+      "avoid": "Need me give what tell me.",
+      "transfer": "Let me know if you need anything from ___.",
+      "context": "邮件收尾"
+    },
+    {
+      "id": "02-b-008-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 8,
+      "index": 5,
+      "en": "Happy to jump on a quick call.",
+      "zh": "可以快速电话聊。",
+      "scene": "work",
+      "level": 1,
+      "focus": "jump on a call，通话",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈhæpi tə dʒʌmp ɑn ə kwɪk kɔl/",
+        "notes": [
+          "jump on 连读",
+          "call 长音"
+        ]
+      },
+      "variants": [
+        "Let's hop on a call if easier."
+      ],
+      "avoid": "Can phone talk quick.",
+      "transfer": "Happy to jump on a quick ___.",
+      "context": "提供选项"
+    },
+    {
+      "id": "02-b-009-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 9,
+      "index": 1,
+      "en": "Gentle nudge on this one.",
+      "zh": "轻轻催一下这件事。",
+      "scene": "work",
+      "level": 1,
+      "focus": "nudge，提醒",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈdʒɛntəl nʌdʒ ɑn ðɪs wʌn/",
+        "notes": [
+          "gentle 两音节",
+          "nudge 的 dʒ"
+        ]
+      },
+      "variants": [
+        "Just a gentle reminder."
+      ],
+      "avoid": "I soft remind you.",
+      "transfer": "Gentle nudge on ___.",
+      "context": "催回复"
+    },
+    {
+      "id": "02-b-009-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 9,
+      "index": 2,
+      "en": "I need your input by Friday.",
+      "zh": "周五前需要你的意见。",
+      "scene": "work",
+      "level": 1,
+      "focus": "input，意见",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ nid jʊr ˈɪnpʊt baɪ ˈfraɪdeɪ/",
+        "notes": [
+          "input 重音在前",
+          "by Friday 连读"
+        ]
+      },
+      "variants": [
+        "I need your take by Friday."
+      ],
+      "avoid": "Friday before need your idea.",
+      "transfer": "I need your input by ___.",
+      "context": "设期限"
+    },
+    {
+      "id": "02-b-009-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 9,
+      "index": 3,
+      "en": "Let me know if this slipped through.",
+      "zh": "如果漏看了告诉我。",
+      "scene": "work",
+      "level": 1,
+      "focus": "slip through，漏掉",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛt mi noʊ ɪf ðɪs slɪpt θru/",
+        "notes": [
+          "slipped 的 pt",
+          "through 的 th"
+        ]
+      },
+      "variants": [
+        "In case it got buried."
+      ],
+      "avoid": "If you not see tell me.",
+      "transfer": "Let me know if this ___ through.",
+      "context": "给对方台阶"
+    },
+    {
+      "id": "02-b-009-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 9,
+      "index": 4,
+      "en": "Should I move forward without it?",
+      "zh": "要不要我先往下推？",
+      "scene": "work",
+      "level": 1,
+      "focus": "move forward，推进",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ʃʊd aɪ muv ˈfɔrwərd wɪˈðaʊt ɪt/",
+        "notes": [
+          "move forward 连读",
+          "without 咬舌"
+        ]
+      },
+      "variants": [
+        "Can I proceed without your input?"
+      ],
+      "avoid": "I first do without you?",
+      "transfer": "Should I move forward without ___?",
+      "context": "施压但不硬"
+    },
+    {
+      "id": "02-b-009-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 9,
+      "index": 5,
+      "en": "Thanks for the quick turnaround.",
+      "zh": "谢谢你这么快。",
+      "scene": "work",
+      "level": 1,
+      "focus": "turnaround，周转时间",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/θæŋks fər ðə kwɪk ˈtɜrnəraʊnd/",
+        "notes": [
+          "turnaround 三音节",
+          "quick 的 kw"
+        ]
+      },
+      "variants": [
+        "Appreciate how fast you turned it around."
+      ],
+      "avoid": "Thank you so quick.",
+      "transfer": "Thanks for the quick ___.",
+      "context": "收尾"
+    },
+    {
+      "id": "02-b-010-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 10,
+      "index": 1,
+      "en": "Apologies for the confusion.",
+      "zh": "抱歉造成困惑。",
+      "scene": "work",
+      "level": 1,
+      "focus": "confusion，混乱",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/əˈpɑlədʒiz fər ðə kənˈfjuʒən/",
+        "notes": [
+          "apologies 四音节",
+          "confusion 三音节"
+        ]
+      },
+      "variants": [
+        "Sorry for the mix-up."
+      ],
+      "avoid": "Sorry let you confuse.",
+      "transfer": "Apologies for the ___.",
+      "context": "更正"
+    },
+    {
+      "id": "02-b-010-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 10,
+      "index": 2,
+      "en": "I sent the wrong file earlier.",
+      "zh": "刚才发错文件了。",
+      "scene": "work",
+      "level": 1,
+      "focus": "wrong file，错文件",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ sɛnt ðə rɔŋ faɪl ˈɜrliər/",
+        "notes": [
+          "wrong 的 r",
+          "earlier 三音节"
+        ]
+      },
+      "variants": [
+        "I attached the wrong file."
+      ],
+      "avoid": "I send wrong paper.",
+      "transfer": "I sent the wrong ___ earlier.",
+      "context": "更正"
+    },
+    {
+      "id": "02-b-010-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 10,
+      "index": 3,
+      "en": "Please use this version instead.",
+      "zh": "请用这一版。",
+      "scene": "work",
+      "level": 1,
+      "focus": "instead，代替",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/pliz juz ðɪs ˈvɜrʒən ɪnˈstɛd/",
+        "notes": [
+          "use this 连读",
+          "instead 重音在后"
+        ]
+      },
+      "variants": [
+        "This is the correct version."
+      ],
+      "avoid": "Please use this one.",
+      "transfer": "Please use this ___ instead.",
+      "context": "更正"
+    },
+    {
+      "id": "02-b-010-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 10,
+      "index": 4,
+      "en": "That was my mistake.",
+      "zh": "是我的错。",
+      "scene": "work",
+      "level": 1,
+      "focus": "认错",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæt wʌz maɪ mɪˈsteɪk/",
+        "notes": [
+          "was my 连读",
+          "mistake 重音在后"
+        ]
+      },
+      "variants": [
+        "My mistake on that."
+      ],
+      "avoid": "That I wrong.",
+      "transfer": "That was my ___.",
+      "context": "认责"
+    },
+    {
+      "id": "02-b-010-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 10,
+      "index": 5,
+      "en": "Thanks for catching it.",
+      "zh": "谢谢你发现。",
+      "scene": "work",
+      "level": 1,
+      "focus": "catch，发现",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/θæŋks fər ˈkætʃɪŋ ɪt/",
+        "notes": [
+          "catching 两音节",
+          "it 连读"
+        ]
+      },
+      "variants": [
+        "Good catch — thanks."
+      ],
+      "avoid": "Thank you find it.",
+      "transfer": "Thanks for ___ it.",
+      "context": "收尾"
+    },
+    {
+      "id": "02-b-011-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 11,
+      "index": 1,
+      "en": "Let's get started.",
+      "zh": "我们开始吧。",
+      "scene": "work",
+      "level": 1,
+      "focus": "会议开场",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛts ɡɛt ˈstɑrtɪd/",
+        "notes": [
+          "get started 连读",
+          "started 两音节"
+        ]
+      },
+      "variants": [
+        "Let's kick things off."
+      ],
+      "avoid": "We begin now.",
+      "transfer": "Let's get ___.",
+      "context": "会议"
+    },
+    {
+      "id": "02-b-011-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 11,
+      "index": 2,
+      "en": "Thanks everyone for joining.",
+      "zh": "谢谢大家参加。",
+      "scene": "work",
+      "level": 1,
+      "focus": "join，参加",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/θæŋks ˈɛvriwʌn fər ˈdʒɔɪnɪŋ/",
+        "notes": [
+          "everyone 三音节",
+          "joining 两音节"
+        ]
+      },
+      "variants": [
+        "Appreciate you all being here."
+      ],
+      "avoid": "Thank you all come.",
+      "transfer": "Thanks everyone for ___.",
+      "context": "会议"
+    },
+    {
+      "id": "02-b-011-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 11,
+      "index": 3,
+      "en": "We have thirty minutes.",
+      "zh": "我们有三十分钟。",
+      "scene": "work",
+      "level": 1,
+      "focus": "时间边界",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wi hæv ˈθɜrdi ˈmɪnɪts/",
+        "notes": [
+          "thirty 两音节",
+          "minutes 闪音"
+        ]
+      },
+      "variants": [
+        "Thirty minutes on the clock."
+      ],
+      "avoid": "We only have thirty minute.",
+      "transfer": "We have ___ minutes.",
+      "context": "会议"
+    },
+    {
+      "id": "02-b-011-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 11,
+      "index": 4,
+      "en": "I'll keep us on track.",
+      "zh": "我来控节奏。",
+      "scene": "work",
+      "level": 1,
+      "focus": "keep on track，保持进度",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl kip ʌs ɑn træk/",
+        "notes": [
+          "keep us 连读",
+          "track 的 tr"
+        ]
+      },
+      "variants": [
+        "I'll watch the time."
+      ],
+      "avoid": "I control time.",
+      "transfer": "I'll keep us on ___.",
+      "context": "会议"
+    },
+    {
+      "id": "02-b-011-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 11,
+      "index": 5,
+      "en": "Can everyone hear me?",
+      "zh": "大家能听到吗？",
+      "scene": "work",
+      "level": 1,
+      "focus": "远程开场确认",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən ˈɛvriwʌn hɪr mi/",
+        "notes": [
+          "everyone 三音节",
+          "hear me 连读"
+        ]
+      },
+      "variants": [
+        "Am I coming through?"
+      ],
+      "avoid": "You all can hear?",
+      "transfer": "Can everyone ___ me?",
+      "context": "线上会议"
+    },
+    {
+      "id": "02-b-012-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 12,
+      "index": 1,
+      "en": "Sorry to jump in.",
+      "zh": "抱歉插一句。",
+      "scene": "work",
+      "level": 1,
+      "focus": "jump in，插话",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈsɑri tə dʒʌmp ɪn/",
+        "notes": [
+          "jump in 连读",
+          "sorry 两音节"
+        ]
+      },
+      "variants": [
+        "Sorry to cut in."
+      ],
+      "avoid": "Sorry I insert.",
+      "transfer": "Sorry to jump ___.",
+      "context": "插话"
+    },
+    {
+      "id": "02-b-012-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 12,
+      "index": 2,
+      "en": "Can I add something here?",
+      "zh": "我能补一句吗？",
+      "scene": "work",
+      "level": 1,
+      "focus": "add something，补充",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ æd ˈsʌmθɪŋ hɪr/",
+        "notes": [
+          "add something 连读",
+          "here 卷舌"
+        ]
+      },
+      "variants": [
+        "Mind if I add one thing?"
+      ],
+      "avoid": "I can say one more?",
+      "transfer": "Can I add something ___?",
+      "context": "插话"
+    },
+    {
+      "id": "02-b-012-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 12,
+      "index": 3,
+      "en": "Quick point on that.",
+      "zh": "这点我快速说一句。",
+      "scene": "work",
+      "level": 1,
+      "focus": "quick point，快速观点",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kwɪk pɔɪnt ɑn ðæt/",
+        "notes": [
+          "point on 连读",
+          "that 咬舌"
+        ]
+      },
+      "variants": [
+        "One quick point there."
+      ],
+      "avoid": "This I say one sentence.",
+      "transfer": "Quick point on ___.",
+      "context": "插话"
+    },
+    {
+      "id": "02-b-012-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 12,
+      "index": 4,
+      "en": "One thing before we move on.",
+      "zh": "往下之前说一点。",
+      "scene": "work",
+      "level": 1,
+      "focus": "before we move on，在继续前",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌn θɪŋ bɪˈfɔr wi muv ɑn/",
+        "notes": [
+          "before we 连读",
+          "move on 连读"
+        ]
+      },
+      "variants": [
+        "Before we move on — one thing."
+      ],
+      "avoid": "Before next I say one.",
+      "transfer": "One thing before we ___.",
+      "context": "会议"
+    },
+    {
+      "id": "02-b-012-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 12,
+      "index": 5,
+      "en": "Can I come back to that?",
+      "zh": "能待会再说回这个吗？",
+      "scene": "work",
+      "level": 1,
+      "focus": "come back to，回到",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ kʌm bæk tə ðæt/",
+        "notes": [
+          "come back 连读",
+          "to that 连读"
+        ]
+      },
+      "variants": [
+        "Let's circle back to that."
+      ],
+      "avoid": "Later say this again?",
+      "transfer": "Can I come back to ___?",
+      "context": "暂存话题"
+    },
+    {
+      "id": "02-b-013-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 13,
+      "index": 1,
+      "en": "I have a concern about that.",
+      "zh": "我对此有顾虑。",
+      "scene": "work",
+      "level": 1,
+      "focus": "concern，顾虑",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ hæv ə kənˈsɜrn əˈbaʊt ðæt/",
+        "notes": [
+          "concern 重音在后",
+          "about that 连读"
+        ]
+      },
+      "variants": [
+        "One concern on my end."
+      ],
+      "avoid": "I worry this.",
+      "transfer": "I have a concern about ___.",
+      "context": "反对"
+    },
+    {
+      "id": "02-b-013-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 13,
+      "index": 2,
+      "en": "I'm not sure that will work.",
+      "zh": "我不确定那样行不行。",
+      "scene": "work",
+      "level": 1,
+      "focus": "work，行得通",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm nɑt ʃʊr ðæt wɪl wɜrk/",
+        "notes": [
+          "not sure 连读",
+          "will work 连读"
+        ]
+      },
+      "variants": [
+        "I doubt that'll work."
+      ],
+      "avoid": "I think that not ok.",
+      "transfer": "I'm not sure that will ___.",
+      "context": "反对"
+    },
+    {
+      "id": "02-b-013-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 13,
+      "index": 3,
+      "en": "Can I offer a different angle?",
+      "zh": "我换个角度说说？",
+      "scene": "work",
+      "level": 1,
+      "focus": "angle，角度",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ ˈɔfər ə ˈdɪfrənt ˈæŋɡəl/",
+        "notes": [
+          "offer a 连读",
+          "angle 两音节"
+        ]
+      },
+      "variants": [
+        "Here's another angle."
+      ],
+      "avoid": "I say from other side.",
+      "transfer": "Can I offer a different ___?",
+      "context": "建设性"
+    },
+    {
+      "id": "02-b-013-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 13,
+      "index": 4,
+      "en": "What's the trade-off there?",
+      "zh": "那里的取舍是什么？",
+      "scene": "work",
+      "level": 1,
+      "focus": "trade-off，取舍",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌts ðə ˈtreɪdɔf ðɛr/",
+        "notes": [
+          "trade-off 连读",
+          "there 卷舌"
+        ]
+      },
+      "variants": [
+        "What are we giving up?"
+      ],
+      "avoid": "Give up what there?",
+      "transfer": "What's the ___ there?",
+      "context": "追问"
+    },
+    {
+      "id": "02-b-013-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 13,
+      "index": 5,
+      "en": "I'd push back on the timeline.",
+      "zh": "排期上我要提异议。",
+      "scene": "work",
+      "level": 1,
+      "focus": "push back，反对",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪd pʊʃ bæk ɑn ðə ˈtaɪmlaɪn/",
+        "notes": [
+          "push back 连读",
+          "timeline 两音节"
+        ]
+      },
+      "variants": [
+        "I'd challenge that timeline."
+      ],
+      "avoid": "Time plan I not agree.",
+      "transfer": "I'd push back on ___.",
+      "context": "反对"
+    },
+    {
+      "id": "02-b-014-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 14,
+      "index": 1,
+      "en": "Let's recap the action items.",
+      "zh": "过一下行动项。",
+      "scene": "work",
+      "level": 1,
+      "focus": "recap，回顾",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛts ˈrikæp ði ˈækʃən ˈaɪtəmz/",
+        "notes": [
+          "recap 重音在前",
+          "action 两音节"
+        ]
+      },
+      "variants": [
+        "Let's go over the action items."
+      ],
+      "avoid": "Again say who do what.",
+      "transfer": "Let's recap the ___ items.",
+      "context": "会议收尾"
+    },
+    {
+      "id": "02-b-014-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 14,
+      "index": 2,
+      "en": "Who's taking that one?",
+      "zh": "那个谁负责？",
+      "scene": "work",
+      "level": 1,
+      "focus": "take，负责",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/huz ˈteɪkɪŋ ðæt wʌn/",
+        "notes": [
+          "Who's 读 /huz/",
+          "that one 连读"
+        ]
+      },
+      "variants": [
+        "Who owns that?"
+      ],
+      "avoid": "That who do?",
+      "transfer": "Who's taking that ___?",
+      "context": "分派"
+    },
+    {
+      "id": "02-b-014-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 14,
+      "index": 3,
+      "en": "I'll send notes after this.",
+      "zh": "会后我发纪要。",
+      "scene": "work",
+      "level": 1,
+      "focus": "notes，纪要",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl sɛnd noʊts ˈæftər ðɪs/",
+        "notes": [
+          "send notes 连读",
+          "after this 连读"
+        ]
+      },
+      "variants": [
+        "Notes will go out after the call."
+      ],
+      "avoid": "After I send record.",
+      "transfer": "I'll send notes after ___.",
+      "context": "收尾"
+    },
+    {
+      "id": "02-b-014-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 14,
+      "index": 4,
+      "en": "Let's take the rest offline.",
+      "zh": "剩下的会后聊。",
+      "scene": "work",
+      "level": 1,
+      "focus": "take offline，会后单独谈",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛts teɪk ðə rɛst ˈɔflaɪn/",
+        "notes": [
+          "take the 连读",
+          "offline 重音在后"
+        ]
+      },
+      "variants": [
+        "Let's move the rest offline."
+      ],
+      "avoid": "Rest after meeting talk.",
+      "transfer": "Let's take the rest ___.",
+      "context": "控时"
+    },
+    {
+      "id": "02-b-014-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 14,
+      "index": 5,
+      "en": "Thanks, everyone — good discussion.",
+      "zh": "谢谢大家，讨论得不错。",
+      "scene": "work",
+      "level": 1,
+      "focus": "会议收尾",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/θæŋks ˈɛvriwʌn ɡʊd dɪˈskʌʃən/",
+        "notes": [
+          "everyone 三音节",
+          "discussion 三音节"
+        ]
+      },
+      "variants": [
+        "Great discussion, thanks all."
+      ],
+      "avoid": "Thank all talk good.",
+      "transfer": "Thanks, everyone — good ___.",
+      "context": "收尾"
+    },
+    {
+      "id": "02-b-015-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 15,
+      "index": 1,
+      "en": "How are you feeling about the workload?",
+      "zh": "你觉得工作量怎么样？",
+      "scene": "work",
+      "level": 1,
+      "focus": "workload，工作量",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/haʊ ɑr ju ˈfilɪŋ əˈbaʊt ðə ˈwɜrkloʊd/",
+        "notes": [
+          "feeling about 连读",
+          "workload 两音节"
+        ]
+      },
+      "variants": [
+        "Is the workload manageable?"
+      ],
+      "avoid": "Work many you feel how?",
+      "transfer": "How are you feeling about the ___?",
+      "context": "一对一"
+    },
+    {
+      "id": "02-b-015-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 15,
+      "index": 2,
+      "en": "I want to be honest with you.",
+      "zh": "我想跟你说实话。",
+      "scene": "work",
+      "level": 1,
+      "focus": "honest with，坦诚",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ wɑnt tə bi ˈɑnɪst wɪð ju/",
+        "notes": [
+          "honest 的 h 不发音",
+          "with you 连读"
+        ]
+      },
+      "variants": [
+        "Let me be straight with you."
+      ],
+      "avoid": "I want say true to you.",
+      "transfer": "I want to be honest with ___.",
+      "context": "开场"
+    },
+    {
+      "id": "02-b-015-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 15,
+      "index": 3,
+      "en": "I could use more context on this.",
+      "zh": "我想多了解点背景。",
+      "scene": "work",
+      "level": 1,
+      "focus": "context，背景",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ kʊd juz mɔr ˈkɑntɛkst ɑn ðɪs/",
+        "notes": [
+          "could use 连读",
+          "context 重音在前"
+        ]
+      },
+      "variants": [
+        "Some context would help me."
+      ],
+      "avoid": "I want know more background.",
+      "transfer": "I could use more context on ___.",
+      "context": "诉求"
+    },
+    {
+      "id": "02-b-015-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 15,
+      "index": 4,
+      "en": "Is there anything I should know?",
+      "zh": "有什么我该知道的吗？",
+      "scene": "work",
+      "level": 1,
+      "focus": "should know，该知道",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ðɛr ˈɛniθɪŋ aɪ ʃʊd noʊ/",
+        "notes": [
+          "anything I 连读",
+          "should know 连读"
+        ]
+      },
+      "variants": [
+        "Anything I'm missing?"
+      ],
+      "avoid": "Have what I must know?",
+      "transfer": "Is there anything I should ___?",
+      "context": "探信息"
+    },
+    {
+      "id": "02-b-015-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 15,
+      "index": 5,
+      "en": "Thanks for making time.",
+      "zh": "谢谢腾时间。",
+      "scene": "work",
+      "level": 1,
+      "focus": "make time，抽时间",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/θæŋks fər ˈmeɪkɪŋ taɪm/",
+        "notes": [
+          "making time 连读",
+          "time 长音"
+        ]
+      },
+      "variants": [
+        "I appreciate you making time."
+      ],
+      "avoid": "Thank you give me time.",
+      "transfer": "Thanks for making ___.",
+      "context": "收尾"
+    },
+    {
+      "id": "02-b-016-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 16,
+      "index": 1,
+      "en": "Can I give you a quick piece of feedback?",
+      "zh": "能给你个小反馈吗？",
+      "scene": "work",
+      "level": 1,
+      "focus": "piece of feedback，一条反馈",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ ɡɪv ju ə kwɪk pis əv ˈfidbæk/",
+        "notes": [
+          "piece of 连读",
+          "feedback 重音在前"
+        ]
+      },
+      "variants": [
+        "Mind if I share one piece of feedback?"
+      ],
+      "avoid": "I can say one small thing?",
+      "transfer": "Can I give you a quick piece of ___?",
+      "context": "给反馈"
+    },
+    {
+      "id": "02-b-016-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 16,
+      "index": 2,
+      "en": "The last review felt rushed.",
+      "zh": "上次评审感觉有点赶。",
+      "scene": "work",
+      "level": 1,
+      "focus": "rushed，仓促",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðə læst rɪˈvju fɛlt rʌʃt/",
+        "notes": [
+          "review 重音在后",
+          "rushed 的 sh"
+        ]
+      },
+      "variants": [
+        "The review came across as rushed."
+      ],
+      "avoid": "Last check feel too quick.",
+      "transfer": "The last ___ felt rushed.",
+      "context": "具体"
+    },
+    {
+      "id": "02-b-016-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 16,
+      "index": 3,
+      "en": "I think you could lead with the conclusion.",
+      "zh": "我觉得你可以先说结论。",
+      "scene": "work",
+      "level": 1,
+      "focus": "lead with，以…开头",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ θɪŋk ju kʊd lid wɪð ðə kənˈkluʒən/",
+        "notes": [
+          "lead with 连读",
+          "conclusion 三音节"
+        ]
+      },
+      "variants": [
+        "Try starting with the conclusion."
+      ],
+      "avoid": "First say result better.",
+      "transfer": "I think you could lead with ___.",
+      "context": "建议"
+    },
+    {
+      "id": "02-b-016-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 16,
+      "index": 4,
+      "en": "It's a small thing, but it matters.",
+      "zh": "是小事，但重要。",
+      "scene": "work",
+      "level": 1,
+      "focus": "it matters，重要",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts ə smɔl θɪŋ bʌt ɪt ˈmætərz/",
+        "notes": [
+          "but it 连读",
+          "matters 两音节"
+        ]
+      },
+      "variants": [
+        "Small point, big impact."
+      ],
+      "avoid": "Small thing but important.",
+      "transfer": "It's a small thing, but it ___.",
+      "context": "缓和"
+    },
+    {
+      "id": "02-b-016-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 16,
+      "index": 5,
+      "en": "You're doing the hard parts well.",
+      "zh": "难的部分你做得好。",
+      "scene": "work",
+      "level": 1,
+      "focus": "先肯定",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/jʊr ˈduɪŋ ðə hɑrd pɑrts wɛl/",
+        "notes": [
+          "doing the 连读",
+          "parts 的 ts"
+        ]
+      },
+      "variants": [
+        "The hard parts are landing well."
+      ],
+      "avoid": "Hard part you do good.",
+      "transfer": "You're doing the ___ parts well.",
+      "context": "反馈"
+    },
+    {
+      "id": "02-b-017-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 17,
+      "index": 1,
+      "en": "That's fair.",
+      "zh": "有道理。",
+      "scene": "work",
+      "level": 1,
+      "focus": "接受批评",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæts fɛr/",
+        "notes": [
+          "fair 卷舌"
+        ]
+      },
+      "variants": [
+        "Fair enough."
+      ],
+      "avoid": "You say right.",
+      "transfer": "That's ___.",
+      "context": "接受"
+    },
+    {
+      "id": "02-b-017-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 17,
+      "index": 2,
+      "en": "I hear you.",
+      "zh": "我明白你的意思。",
+      "scene": "work",
+      "level": 1,
+      "focus": "hear you，理解",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ hɪr ju/",
+        "notes": [
+          "hear you 连读",
+          "here 卷舌"
+        ]
+      },
+      "variants": [
+        "I get what you're saying."
+      ],
+      "avoid": "I understand you.",
+      "transfer": "I ___ you.",
+      "context": "接受"
+    },
+    {
+      "id": "02-b-017-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 17,
+      "index": 3,
+      "en": "I can see how that came across.",
+      "zh": "我能理解那给人什么感觉。",
+      "scene": "work",
+      "level": 1,
+      "focus": "come across，给人的印象",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ kən si haʊ ðæt keɪm əˈkrɔs/",
+        "notes": [
+          "came across 连读",
+          "across 两音节"
+        ]
+      },
+      "variants": [
+        "I see how it landed."
+      ],
+      "avoid": "I know that feel to others.",
+      "transfer": "I can see how that came ___.",
+      "context": "共情"
+    },
+    {
+      "id": "02-b-017-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 17,
+      "index": 4,
+      "en": "I'll fix it this week.",
+      "zh": "这周我改。",
+      "scene": "work",
+      "level": 1,
+      "focus": "fix，修正",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl fɪks ɪt ðɪs wik/",
+        "notes": [
+          "fix it 连读",
+          "week 长音"
+        ]
+      },
+      "variants": [
+        "I'll correct it by Friday."
+      ],
+      "avoid": "This week I change.",
+      "transfer": "I'll fix it ___.",
+      "context": "承诺"
+    },
+    {
+      "id": "02-b-017-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 17,
+      "index": 5,
+      "en": "Thanks for telling me directly.",
+      "zh": "谢谢你直接说。",
+      "scene": "work",
+      "level": 1,
+      "focus": "directly，直接",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/θæŋks fər ˈtɛlɪŋ mi dəˈrɛktli/",
+        "notes": [
+          "telling me 连读",
+          "directly 三音节"
+        ]
+      },
+      "variants": [
+        "I appreciate the direct feedback."
+      ],
+      "avoid": "Thank you say straight.",
+      "transfer": "Thanks for telling me ___.",
+      "context": "收尾"
+    },
+    {
+      "id": "02-b-018-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 18,
+      "index": 1,
+      "en": "I need one more designer on this.",
+      "zh": "这个需要再加一个设计师。",
+      "scene": "work",
+      "level": 1,
+      "focus": "one more，再加一个",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ nid wʌn mɔr dɪˈzaɪnər ɑn ðɪs/",
+        "notes": [
+          "more designer 连读",
+          "on this 连读"
+        ]
+      },
+      "variants": [
+        "This needs another designer."
+      ],
+      "avoid": "This need one more design person.",
+      "transfer": "I need one more ___ on this.",
+      "context": "要资源"
+    },
+    {
+      "id": "02-b-018-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 18,
+      "index": 2,
+      "en": "Can we get budget for a contractor?",
+      "zh": "能批外包预算吗？",
+      "scene": "work",
+      "level": 1,
+      "focus": "contractor，外包",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən wi ɡɛt ˈbʌdʒɪt fər ə kənˈtræktər/",
+        "notes": [
+          "budget 两音节",
+          "contractor 三音节"
+        ]
+      },
+      "variants": [
+        "Is there budget for outside help?"
+      ],
+      "avoid": "Can pay outside person?",
+      "transfer": "Can we get budget for a ___?",
+      "context": "要资源"
+    },
+    {
+      "id": "02-b-018-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 18,
+      "index": 3,
+      "en": "I'm stretched too thin.",
+      "zh": "我摊得太薄了。",
+      "scene": "work",
+      "level": 1,
+      "focus": "stretched thin，人手不够",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm strɛtʃt tu θɪn/",
+        "notes": [
+          "stretched 的 tʃt",
+          "thin 咬舌"
+        ]
+      },
+      "variants": [
+        "I'm spread too thin."
+      ],
+      "avoid": "I do too many things.",
+      "transfer": "I'm stretched too ___.",
+      "context": "说明状态"
+    },
+    {
+      "id": "02-b-018-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 18,
+      "index": 4,
+      "en": "What would it take to get help?",
+      "zh": "要什么条件才能加人？",
+      "scene": "work",
+      "level": 1,
+      "focus": "what would it take，需要什么",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌt wʊd ɪt teɪk tə ɡɛt hɛlp/",
+        "notes": [
+          "would it 连读",
+          "get help 连读"
+        ]
+      },
+      "variants": [
+        "What's needed to bring in help?"
+      ],
+      "avoid": "Need what can add people?",
+      "transfer": "What would it take to get ___?",
+      "context": "谈判"
+    },
+    {
+      "id": "02-b-018-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 18,
+      "index": 5,
+      "en": "I'd rather ask early than fail late.",
+      "zh": "我宁愿早提也不晚崩。",
+      "scene": "work",
+      "level": 1,
+      "focus": "fail late，晚失败",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪd ˈræðər æsk ˈɜrli ðæn feɪl leɪt/",
+        "notes": [
+          "rather 的 th",
+          "early 两音节"
+        ]
+      },
+      "variants": [
+        "Better to ask now than miss later."
+      ],
+      "avoid": "Early ask better than late fail.",
+      "transfer": "I'd rather ask early than ___.",
+      "context": "态度"
+    },
+    {
+      "id": "02-b-019-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 19,
+      "index": 1,
+      "en": "Here's where we stand.",
+      "zh": "目前情况是这样。",
+      "scene": "work",
+      "level": 1,
+      "focus": "where we stand，现状",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hɪrz wɛr wi stænd/",
+        "notes": [
+          "where we 连读",
+          "stand 的 æ"
+        ]
+      },
+      "variants": [
+        "Here's the current state."
+      ],
+      "avoid": "Now we at this point.",
+      "transfer": "Here's where we ___.",
+      "context": "汇报"
+    },
+    {
+      "id": "02-b-019-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 19,
+      "index": 2,
+      "en": "We're on track for Friday.",
+      "zh": "周五能按时完成。",
+      "scene": "work",
+      "level": 1,
+      "focus": "on track，按计划",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɪr ɑn træk fər ˈfraɪdeɪ/",
+        "notes": [
+          "on track 连读",
+          "Friday 两音节"
+        ]
+      },
+      "variants": [
+        "Friday still looks good."
+      ],
+      "avoid": "Friday we can finish.",
+      "transfer": "We're on track for ___.",
+      "context": "汇报"
+    },
+    {
+      "id": "02-b-019-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 19,
+      "index": 3,
+      "en": "Two of three pieces are done.",
+      "zh": "三件里两件完成。",
+      "scene": "work",
+      "level": 1,
+      "focus": "pieces，部分",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/tu əv θri ˈpisɪz ɑr dʌn/",
+        "notes": [
+          "two of 连读",
+          "pieces 两音节"
+        ]
+      },
+      "variants": [
+        "Two out of three are finished."
+      ],
+      "avoid": "Three part two done.",
+      "transfer": "___ of three pieces are done.",
+      "context": "汇报"
+    },
+    {
+      "id": "02-b-019-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 19,
+      "index": 4,
+      "en": "The last piece needs a decision.",
+      "zh": "最后一块需要拍板。",
+      "scene": "work",
+      "level": 1,
+      "focus": "need a decision，需要决定",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðə læst pis nidz ə dɪˈsɪʒən/",
+        "notes": [
+          "last piece 连读",
+          "decision 三音节"
+        ]
+      },
+      "variants": [
+        "One decision is blocking the last piece."
+      ],
+      "avoid": "Last part need you decide.",
+      "transfer": "The last piece needs a ___.",
+      "context": "汇报"
+    },
+    {
+      "id": "02-b-019-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 19,
+      "index": 5,
+      "en": "Overall, we're in good shape.",
+      "zh": "总体状况良好。",
+      "scene": "work",
+      "level": 1,
+      "focus": "in good shape，状态好",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˌoʊvərˈɔl wɪr ɪn ɡʊd ʃeɪp/",
+        "notes": [
+          "overall 三音节",
+          "good shape 连读"
+        ]
+      },
+      "variants": [
+        "All in all, we're fine."
+      ],
+      "avoid": "All thing mostly good.",
+      "transfer": "Overall, we're in good ___.",
+      "context": "收尾"
+    },
+    {
+      "id": "02-b-020-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 20,
+      "index": 1,
+      "en": "I want to flag a risk.",
+      "zh": "我想提一个风险。",
+      "scene": "work",
+      "level": 1,
+      "focus": "flag a risk，提示风险",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ wɑnt tə flæɡ ə rɪsk/",
+        "notes": [
+          "flag a 连读",
+          "risk 短音"
+        ]
+      },
+      "variants": [
+        "One risk to flag."
+      ],
+      "avoid": "I say one danger.",
+      "transfer": "I want to flag a ___.",
+      "context": "汇报风险"
+    },
+    {
+      "id": "02-b-020-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 20,
+      "index": 2,
+      "en": "This could push us a week.",
+      "zh": "这可能让我们延一周。",
+      "scene": "work",
+      "level": 1,
+      "focus": "push，推迟",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðɪs kʊd pʊʃ ʌs ə wik/",
+        "notes": [
+          "push us 连读",
+          "week 长音"
+        ]
+      },
+      "variants": [
+        "We could slip a week."
+      ],
+      "avoid": "This maybe delay one week.",
+      "transfer": "This could push us a ___.",
+      "context": "说明影响"
+    },
+    {
+      "id": "02-b-020-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 20,
+      "index": 3,
+      "en": "It's not a blocker yet.",
+      "zh": "还不是阻塞项。",
+      "scene": "work",
+      "level": 1,
+      "focus": "blocker，阻塞",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts nɑt ə ˈblɑkər jɛt/",
+        "notes": [
+          "not a 连读",
+          "yet 短音"
+        ]
+      },
+      "variants": [
+        "Not blocking us today."
+      ],
+      "avoid": "Now still not stop.",
+      "transfer": "It's not a ___ yet.",
+      "context": "分级"
+    },
+    {
+      "id": "02-b-020-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 20,
+      "index": 4,
+      "en": "I have a plan to reduce it.",
+      "zh": "我有降低风险的办法。",
+      "scene": "work",
+      "level": 1,
+      "focus": "reduce，降低",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ hæv ə plæn tə rɪˈdus ɪt/",
+        "notes": [
+          "plan to 连读",
+          "reduce 重音在后"
+        ]
+      },
+      "variants": [
+        "Here's how I'd mitigate it."
+      ],
+      "avoid": "I have way make smaller.",
+      "transfer": "I have a plan to ___ it.",
+      "context": "给方案"
+    },
+    {
+      "id": "02-b-020-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 20,
+      "index": 5,
+      "en": "I'll keep you updated as it changes.",
+      "zh": "有变化我随时同步。",
+      "scene": "work",
+      "level": 1,
+      "focus": "keep updated，保持更新",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl kip ju ʌpˈdeɪtɪd æz ɪt ˈtʃeɪndʒɪz/",
+        "notes": [
+          "keep you 连读",
+          "updated 三音节"
+        ]
+      },
+      "variants": [
+        "You'll hear from me if it moves."
+      ],
+      "avoid": "Change I tell you.",
+      "transfer": "I'll keep you updated as it ___.",
+      "context": "收尾"
+    },
+    {
+      "id": "02-b-021-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 21,
+      "index": 1,
+      "en": "We need a call on this.",
+      "zh": "这个需要拍板。",
+      "scene": "work",
+      "level": 1,
+      "focus": "a call，决定",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wi nid ə kɔl ɑn ðɪs/",
+        "notes": [
+          "call on 连读",
+          "this 咬舌"
+        ]
+      },
+      "variants": [
+        "We need a decision here."
+      ],
+      "avoid": "This need you decide.",
+      "transfer": "We need a ___ on this.",
+      "context": "请求决策"
+    },
+    {
+      "id": "02-b-021-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 21,
+      "index": 2,
+      "en": "Which option do you prefer?",
+      "zh": "你更喜欢哪个方案？",
+      "scene": "work",
+      "level": 1,
+      "focus": "option，方案",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɪtʃ ˈɑpʃən du ju prɪˈfɜr/",
+        "notes": [
+          "option 两音节",
+          "prefer 重音在后"
+        ]
+      },
+      "variants": [
+        "What's your preference?"
+      ],
+      "avoid": "You like which one?",
+      "transfer": "Which option do you ___?",
+      "context": "请求决策"
+    },
+    {
+      "id": "02-b-021-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 21,
+      "index": 3,
+      "en": "I can decide, but I wanted your input.",
+      "zh": "我能定，但想听你的。",
+      "scene": "work",
+      "level": 1,
+      "focus": "input，意见",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ kən dɪˈsaɪd bʌt aɪ ˈwɑntɪd jʊr ˈɪnpʊt/",
+        "notes": [
+          "decide 重音在后",
+          "wanted 两音节"
+        ]
+      },
+      "variants": [
+        "I'll decide, but your view matters."
+      ],
+      "avoid": "I can choose but want your idea.",
+      "transfer": "I can decide, but I wanted your ___.",
+      "context": "尊重"
+    },
+    {
+      "id": "02-b-021-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 21,
+      "index": 4,
+      "en": "What's your call?",
+      "zh": "你怎么定？",
+      "scene": "work",
+      "level": 1,
+      "focus": "your call，你决定",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌts jʊr kɔl/",
+        "notes": [
+          "your 卷舌",
+          "call 长音"
+        ]
+      },
+      "variants": [
+        "What do you want to do?"
+      ],
+      "avoid": "You decide how?",
+      "transfer": "What's your ___?",
+      "context": "请示"
+    },
+    {
+      "id": "02-b-021-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 21,
+      "index": 5,
+      "en": "I'll go with your decision.",
+      "zh": "我按你定的来。",
+      "scene": "work",
+      "level": 1,
+      "focus": "go with，采用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl ɡoʊ wɪð jʊr dɪˈsɪʒən/",
+        "notes": [
+          "go with 连读",
+          "decision 三音节"
+        ]
+      },
+      "variants": [
+        "Your call — I'll follow."
+      ],
+      "avoid": "I do as you decide.",
+      "transfer": "I'll go with your ___.",
+      "context": "服从"
+    },
+    {
+      "id": "02-b-022-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 22,
+      "index": 1,
+      "en": "Here's my update for the week.",
+      "zh": "这是我本周汇报。",
+      "scene": "work",
+      "level": 1,
+      "focus": "update for the week，周报",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hɪrz maɪ ˈʌpdeɪt fər ðə wik/",
+        "notes": [
+          "update 重音在前",
+          "for the 连读"
+        ]
+      },
+      "variants": [
+        "My weekly update is below."
+      ],
+      "avoid": "This week I report.",
+      "transfer": "Here's my update for ___.",
+      "context": "周报"
+    },
+    {
+      "id": "02-b-022-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 22,
+      "index": 2,
+      "en": "Shipped: the new onboarding flow.",
+      "zh": "已上线：新上手流程。",
+      "scene": "work",
+      "level": 1,
+      "focus": "shipped，已交付",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ʃɪpt ðə nu ˈɑnbɔrdɪŋ floʊ/",
+        "notes": [
+          "shipped 的 pt",
+          "onboarding 三音节"
+        ]
+      },
+      "variants": [
+        "The onboarding flow went live."
+      ],
+      "avoid": "New start flow online.",
+      "transfer": "Shipped: the new ___ flow.",
+      "context": "周报"
+    },
+    {
+      "id": "02-b-022-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 22,
+      "index": 3,
+      "en": "In progress: the settings redesign.",
+      "zh": "进行中：设置改版。",
+      "scene": "work",
+      "level": 1,
+      "focus": "in progress，进行中",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪn ˈprɑɡrɛs ðə ˈsɛtɪŋz ˌridɪˈzaɪn/",
+        "notes": [
+          "progress 重音在前",
+          "redesign 重音在后"
+        ]
+      },
+      "variants": [
+        "The settings redesign is underway."
+      ],
+      "avoid": "Doing now setting new design.",
+      "transfer": "In progress: the ___ redesign.",
+      "context": "周报"
+    },
+    {
+      "id": "02-b-022-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 22,
+      "index": 4,
+      "en": "Blocked: waiting on legal.",
+      "zh": "受阻：等法务。",
+      "scene": "work",
+      "level": 1,
+      "focus": "waiting on，等待",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/blɑkt ˈweɪtɪŋ ɑn ˈliɡəl/",
+        "notes": [
+          "blocked 的 kt",
+          "waiting on 连读"
+        ]
+      },
+      "variants": [
+        "Legal review is holding us up."
+      ],
+      "avoid": "Stop because wait law team.",
+      "transfer": "Blocked: waiting on ___.",
+      "context": "周报"
+    },
+    {
+      "id": "02-b-022-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 22,
+      "index": 5,
+      "en": "Next week: testing and handoff.",
+      "zh": "下周：测试与交接。",
+      "scene": "work",
+      "level": 1,
+      "focus": "handoff，交接",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/nɛkst wik ˈtɛstɪŋ æn ˈhændɔf/",
+        "notes": [
+          "testing 两音节",
+          "handoff 两音节"
+        ]
+      },
+      "variants": [
+        "Next up is testing and handoff."
+      ],
+      "avoid": "Next week test and give over.",
+      "transfer": "Next week: testing and ___.",
+      "context": "周报"
+    },
+    {
+      "id": "02-b-023-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 23,
+      "index": 1,
+      "en": "Thanks for making time today.",
+      "zh": "谢谢今天抽时间。",
+      "scene": "work",
+      "level": 1,
+      "focus": "演示开场",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/θæŋks fər ˈmeɪkɪŋ taɪm təˈdeɪ/",
+        "notes": [
+          "making time 连读",
+          "today 重音在后"
+        ]
+      },
+      "variants": [
+        "I appreciate you all joining."
+      ],
+      "avoid": "Thank you today give time.",
+      "transfer": "Thanks for making time ___.",
+      "context": "演示"
+    },
+    {
+      "id": "02-b-023-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 23,
+      "index": 2,
+      "en": "I'll take about fifteen minutes.",
+      "zh": "我大概讲十五分钟。",
+      "scene": "work",
+      "level": 1,
+      "focus": "take + 时间",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl teɪk əˈbaʊt ˈfɪftin ˈmɪnɪts/",
+        "notes": [
+          "about 两音节",
+          "minutes 闪音"
+        ]
+      },
+      "variants": [
+        "Fifteen minutes, give or take."
+      ],
+      "avoid": "I talk fifteen minute.",
+      "transfer": "I'll take about ___ minutes.",
+      "context": "演示"
+    },
+    {
+      "id": "02-b-023-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 23,
+      "index": 3,
+      "en": "I'll leave time for questions.",
+      "zh": "我会留提问时间。",
+      "scene": "work",
+      "level": 1,
+      "focus": "leave time for，留时间",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl liv taɪm fər ˈkwɛstʃənz/",
+        "notes": [
+          "leave time 连读",
+          "questions 的 tʃ"
+        ]
+      },
+      "variants": [
+        "There's time for Q&A at the end."
+      ],
+      "avoid": "After I keep time ask.",
+      "transfer": "I'll leave time for ___.",
+      "context": "演示"
+    },
+    {
+      "id": "02-b-023-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 23,
+      "index": 4,
+      "en": "Here's what we'll cover.",
+      "zh": "今天讲这些。",
+      "scene": "work",
+      "level": 1,
+      "focus": "cover，涵盖",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hɪrz wʌt wil ˈkʌvər/",
+        "notes": [
+          "what we'll 连读",
+          "cover 两音节"
+        ]
+      },
+      "variants": [
+        "Here's the agenda."
+      ],
+      "avoid": "Today say these things.",
+      "transfer": "Here's what we'll ___.",
+      "context": "演示"
+    },
+    {
+      "id": "02-b-023-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 23,
+      "index": 5,
+      "en": "Let's dive in.",
+      "zh": "我们开始吧。",
+      "scene": "work",
+      "level": 1,
+      "focus": "dive in，开始深入",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛts daɪv ɪn/",
+        "notes": [
+          "dive in 连读",
+          "dive 长音"
+        ]
+      },
+      "variants": [
+        "Let's jump in."
+      ],
+      "avoid": "We start now.",
+      "transfer": "Let's dive ___.",
+      "context": "演示"
+    },
+    {
+      "id": "02-b-024-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 24,
+      "index": 1,
+      "en": "This chart shows the drop-off.",
+      "zh": "这张图显示流失点。",
+      "scene": "work",
+      "level": 1,
+      "focus": "chart，图表",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðɪs tʃɑrt ʃoʊz ðə ˈdrɑpɔf/",
+        "notes": [
+          "chart 的 ch",
+          "drop-off 连读"
+        ]
+      },
+      "variants": [
+        "The drop-off is right here."
+      ],
+      "avoid": "This picture show leave point.",
+      "transfer": "This chart shows the ___.",
+      "context": "演示"
+    },
+    {
+      "id": "02-b-024-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 24,
+      "index": 2,
+      "en": "We're up twelve percent.",
+      "zh": "我们涨了 12%。",
+      "scene": "work",
+      "level": 1,
+      "focus": "up + 百分比，增长",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɪr ʌp twɛlv pərˈsɛnt/",
+        "notes": [
+          "up twelve 连读",
+          "percent 重音在后"
+        ]
+      },
+      "variants": [
+        "Twelve percent higher than last quarter."
+      ],
+      "avoid": "We add twelve percent.",
+      "transfer": "We're up ___ percent.",
+      "context": "演示"
+    },
+    {
+      "id": "02-b-024-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 24,
+      "index": 3,
+      "en": "The number is small but consistent.",
+      "zh": "数字不大但稳定。",
+      "scene": "work",
+      "level": 1,
+      "focus": "consistent，稳定一致",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðə ˈnʌmbər ɪz smɔl bʌt kənˈsɪstənt/",
+        "notes": [
+          "number 的 b 轻",
+          "consistent 三音节"
+        ]
+      },
+      "variants": [
+        "Small but steady."
+      ],
+      "avoid": "Number small but always same.",
+      "transfer": "The number is small but ___.",
+      "context": "演示"
+    },
+    {
+      "id": "02-b-024-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 24,
+      "index": 4,
+      "en": "The sample size is limited.",
+      "zh": "样本量有限。",
+      "scene": "work",
+      "level": 1,
+      "focus": "sample size，样本量",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðə ˈsæmpəl saɪz ɪz ˈlɪmɪtɪd/",
+        "notes": [
+          "sample 两音节",
+          "limited 三音节"
+        ]
+      },
+      "variants": [
+        "We only have a small sample."
+      ],
+      "avoid": "Data amount not many.",
+      "transfer": "The sample ___ is limited.",
+      "context": "严谨"
+    },
+    {
+      "id": "02-b-024-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 24,
+      "index": 5,
+      "en": "That's within the margin of error.",
+      "zh": "在误差范围内。",
+      "scene": "work",
+      "level": 1,
+      "focus": "margin of error，误差范围",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæts wɪˈðɪn ðə ˈmɑrdʒɪn əv ˈɛrər/",
+        "notes": [
+          "within 咬舌",
+          "margin 两音节"
+        ]
+      },
+      "variants": [
+        "Well inside the error margin."
+      ],
+      "avoid": "Inside wrong range.",
+      "transfer": "That's within the margin of ___.",
+      "context": "严谨"
+    },
+    {
+      "id": "02-b-025-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 25,
+      "index": 1,
+      "en": "That's a good question.",
+      "zh": "好问题。",
+      "scene": "work",
+      "level": 1,
+      "focus": "答问开场",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæts ə ɡʊd ˈkwɛstʃən/",
+        "notes": [
+          "good question 连读",
+          "question 两音节"
+        ]
+      },
+      "variants": [
+        "Fair question."
+      ],
+      "avoid": "You ask good.",
+      "transfer": "That's a good ___.",
+      "context": "答问"
+    },
+    {
+      "id": "02-b-025-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 25,
+      "index": 2,
+      "en": "I don't have that number here.",
+      "zh": "这个数字我手上没有。",
+      "scene": "work",
+      "level": 1,
+      "focus": "坦诚边界",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ doʊnt hæv ðæt ˈnʌmbər hɪr/",
+        "notes": [
+          "don't have 连读",
+          "number 的 b 轻"
+        ]
+      },
+      "variants": [
+        "I'll need to look that up."
+      ],
+      "avoid": "That number I not have now.",
+      "transfer": "I don't have that ___ here.",
+      "context": "答问"
+    },
+    {
+      "id": "02-b-025-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 25,
+      "index": 3,
+      "en": "Let me follow up after this.",
+      "zh": "会后我补给你。",
+      "scene": "work",
+      "level": 1,
+      "focus": "follow up after，会后跟进",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛt mi ˈfɑloʊ ʌp ˈæftər ðɪs/",
+        "notes": [
+          "follow up 连读",
+          "after this 连读"
+        ]
+      },
+      "variants": [
+        "I'll get you that after the call."
+      ],
+      "avoid": "After meeting I give you.",
+      "transfer": "Let me follow up ___ this.",
+      "context": "答问"
+    },
+    {
+      "id": "02-b-025-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 25,
+      "index": 4,
+      "en": "Can you say more about your concern?",
+      "zh": "能多说说你的顾虑吗？",
+      "scene": "work",
+      "level": 1,
+      "focus": "concern，顾虑",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən ju seɪ mɔr əˈbaʊt jʊr kənˈsɜrn/",
+        "notes": [
+          "say more 连读",
+          "concern 重音在后"
+        ]
+      },
+      "variants": [
+        "Tell me more about that concern."
+      ],
+      "avoid": "Your worry say more.",
+      "transfer": "Can you say more about your ___?",
+      "context": "对话"
+    },
+    {
+      "id": "02-b-025-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 25,
+      "index": 5,
+      "en": "Does that answer your question?",
+      "zh": "这样回答到你问题了吗？",
+      "scene": "work",
+      "level": 1,
+      "focus": "answer your question，答到问题",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/dʌz ðæt ˈænsər jʊr ˈkwɛstʃən/",
+        "notes": [
+          "answer your 连读",
+          "question 两音节"
+        ]
+      },
+      "variants": [
+        "Did that cover your question?"
+      ],
+      "avoid": "This answer your ask?",
+      "transfer": "Does that answer your ___?",
+      "context": "确认"
+    },
+    {
+      "id": "02-b-026-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 26,
+      "index": 1,
+      "en": "Who just joined?",
+      "zh": "刚才是谁进来了？",
+      "scene": "work",
+      "level": 1,
+      "focus": "电话会议",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hu dʒʌst dʒɔɪnd/",
+        "notes": [
+          "just joined 连读",
+          "joined 的 oɪ"
+        ]
+      },
+      "variants": [
+        "Who's new on the line?"
+      ],
+      "avoid": "Who just come in?",
+      "transfer": "Who just ___?",
+      "context": "电话会"
+    },
+    {
+      "id": "02-b-026-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 26,
+      "index": 2,
+      "en": "You're on mute.",
+      "zh": "你静音了。",
+      "scene": "work",
+      "level": 1,
+      "focus": "on mute，静音",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/jʊr ɑn mjut/",
+        "notes": [
+          "on mute 连读",
+          "mute 长音"
+        ]
+      },
+      "variants": [
+        "We can't hear you — you're muted."
+      ],
+      "avoid": "Your sound off.",
+      "transfer": "You're on ___.",
+      "context": "线上会议"
+    },
+    {
+      "id": "02-b-026-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 26,
+      "index": 3,
+      "en": "Sorry, I was talking on mute.",
+      "zh": "抱歉，我刚才静音说话。",
+      "scene": "work",
+      "level": 1,
+      "focus": "自己静音的自嘲",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈsɑri aɪ wʌz ˈtɔkɪŋ ɑn mjut/",
+        "notes": [
+          "talking on 连读",
+          "mute 长音"
+        ]
+      },
+      "variants": [
+        "I forgot I was muted."
+      ],
+      "avoid": "Sorry I speak but silent.",
+      "transfer": "Sorry, I was talking on ___.",
+      "context": "线上会议"
+    },
+    {
+      "id": "02-b-026-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 26,
+      "index": 4,
+      "en": "Can you share your screen?",
+      "zh": "能共享屏幕吗？",
+      "scene": "work",
+      "level": 1,
+      "focus": "share screen，共享",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən ju ʃɛr jʊr skrin/",
+        "notes": [
+          "share your 连读",
+          "screen 的 scr"
+        ]
+      },
+      "variants": [
+        "Mind sharing your screen?"
+      ],
+      "avoid": "You let us see screen?",
+      "transfer": "Can you share your ___?",
+      "context": "线上会议"
+    },
+    {
+      "id": "02-b-026-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 26,
+      "index": 5,
+      "en": "Let's take that offline.",
+      "zh": "这个会后说。",
+      "scene": "work",
+      "level": 1,
+      "focus": "take offline，会后单独谈",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛts teɪk ðæt ˈɔflaɪn/",
+        "notes": [
+          "take that 连读",
+          "offline 重音在后"
+        ]
+      },
+      "variants": [
+        "Let's discuss that separately."
+      ],
+      "avoid": "This after talk.",
+      "transfer": "Let's take that ___.",
+      "context": "控场"
+    },
+    {
+      "id": "02-b-027-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 27,
+      "index": 1,
+      "en": "I'll post the update in the channel.",
+      "zh": "我把更新发群里。",
+      "scene": "work",
+      "level": 1,
+      "focus": "post in channel，发到群",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl poʊst ði ˈʌpdeɪt ɪn ðə ˈtʃænəl/",
+        "notes": [
+          "post the 连读",
+          "channel 两音节"
+        ]
+      },
+      "variants": [
+        "The update will go in the channel."
+      ],
+      "avoid": "I send new info to group.",
+      "transfer": "I'll post the update in the ___.",
+      "context": "远程"
+    },
+    {
+      "id": "02-b-027-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 27,
+      "index": 2,
+      "en": "Let's keep this async.",
+      "zh": "我们异步沟通吧。",
+      "scene": "work",
+      "level": 1,
+      "focus": "async，异步",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛts kip ðɪs ˈeɪsɪŋk/",
+        "notes": [
+          "keep this 连读",
+          "async 两音节"
+        ]
+      },
+      "variants": [
+        "No need for a meeting."
+      ],
+      "avoid": "We not need meet.",
+      "transfer": "Let's keep this ___.",
+      "context": "远程"
+    },
+    {
+      "id": "02-b-027-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 27,
+      "index": 3,
+      "en": "I'm two hours behind you.",
+      "zh": "我比你晚两小时。",
+      "scene": "work",
+      "level": 1,
+      "focus": "behind，时区落后",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm tu aʊərz bɪˈhaɪnd ju/",
+        "notes": [
+          "hours behind 连读",
+          "behind 重音在后"
+        ]
+      },
+      "variants": [
+        "I'm a couple hours behind."
+      ],
+      "avoid": "My time two hour later.",
+      "transfer": "I'm ___ hours behind you.",
+      "context": "跨时区"
+    },
+    {
+      "id": "02-b-027-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 27,
+      "index": 4,
+      "en": "I left comments in the doc.",
+      "zh": "我在文档里留了评论。",
+      "scene": "work",
+      "level": 1,
+      "focus": "leave comments，留评论",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ lɛft ˈkɑmɛnts ɪn ðə dɑk/",
+        "notes": [
+          "left comments 连读",
+          "doc 短音"
+        ]
+      },
+      "variants": [
+        "Comments are in the doc."
+      ],
+      "avoid": "I write notes in file.",
+      "transfer": "I left comments in the ___.",
+      "context": "远程协作"
+    },
+    {
+      "id": "02-b-027-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 27,
+      "index": 5,
+      "en": "React with an emoji if that works.",
+      "zh": "可以的话回个表情。",
+      "scene": "work",
+      "level": 1,
+      "focus": "emoji，表情",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/riˈækt wɪð ən ɪˈmoʊdʒi ɪf ðæt wɜrks/",
+        "notes": [
+          "react with 连读",
+          "emoji 三音节"
+        ]
+      },
+      "variants": [
+        "A thumbs-up is enough."
+      ],
+      "avoid": "If ok send a face.",
+      "transfer": "React with an ___ if that works.",
+      "context": "远程"
+    },
+    {
+      "id": "02-b-028-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 28,
+      "index": 1,
+      "en": "Let me walk you through what I own.",
+      "zh": "我带你过一遍我负责的。",
+      "scene": "work",
+      "level": 1,
+      "focus": "what I own，我负责的",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛt mi wɔk ju θru wʌt aɪ oʊn/",
+        "notes": [
+          "walk you 连读",
+          "what I 连读"
+        ]
+      },
+      "variants": [
+        "Here's everything on my plate."
+      ],
+      "avoid": "I show you my work.",
+      "transfer": "Let me walk you through what I ___.",
+      "context": "交接"
+    },
+    {
+      "id": "02-b-028-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 28,
+      "index": 2,
+      "en": "Everything is in the shared drive.",
+      "zh": "都在共享盘里。",
+      "scene": "work",
+      "level": 1,
+      "focus": "shared drive，共享盘",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈɛvriθɪŋ ɪz ɪn ðə ʃɛrd draɪv/",
+        "notes": [
+          "everything 三音节",
+          "shared drive 连读"
+        ]
+      },
+      "variants": [
+        "It's all in the shared folder."
+      ],
+      "avoid": "All in same computer place.",
+      "transfer": "Everything is in the ___ drive.",
+      "context": "交接"
+    },
+    {
+      "id": "02-b-028-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 28,
+      "index": 3,
+      "en": "I've written a handoff doc.",
+      "zh": "我写了交接文档。",
+      "scene": "work",
+      "level": 1,
+      "focus": "handoff doc，交接文档",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪv ˈrɪtən ə ˈhændɔf dɑk/",
+        "notes": [
+          "written 的 t 闪音",
+          "handoff 两音节"
+        ]
+      },
+      "variants": [
+        "There's a handoff doc."
+      ],
+      "avoid": "I write change job paper.",
+      "transfer": "I've written a ___ doc.",
+      "context": "交接"
+    },
+    {
+      "id": "02-b-028-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 28,
+      "index": 4,
+      "en": "Ask me anything before Friday.",
+      "zh": "周五前有问题问我。",
+      "scene": "work",
+      "level": 1,
+      "focus": "交接窗口",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/æsk mi ˈɛniθɪŋ bɪˈfɔr ˈfraɪdeɪ/",
+        "notes": [
+          "anything 三音节",
+          "before 两音节"
+        ]
+      },
+      "variants": [
+        "My last day is Friday — ask away."
+      ],
+      "avoid": "Friday before ask me all.",
+      "transfer": "Ask me anything before ___.",
+      "context": "交接"
+    },
+    {
+      "id": "02-b-028-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 28,
+      "index": 5,
+      "en": "You have my number if something breaks.",
+      "zh": "出问题打我电话。",
+      "scene": "work",
+      "level": 1,
+      "focus": "something breaks，出故障",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ju hæv maɪ ˈnʌmbər ɪf ˈsʌmθɪŋ breɪks/",
+        "notes": [
+          "number 的 b 轻",
+          "breaks 的 ks"
+        ]
+      },
+      "variants": [
+        "Call me if it breaks."
+      ],
+      "avoid": "If bad thing call me.",
+      "transfer": "You have my number if something ___.",
+      "context": "交接"
+    },
+    {
+      "id": "02-b-029-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 29,
+      "index": 1,
+      "en": "Today's my last day.",
+      "zh": "今天是我最后一天。",
+      "scene": "work",
+      "level": 1,
+      "focus": "last day，最后一天",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/təˈdeɪz maɪ læst deɪ/",
+        "notes": [
+          "Today's 读 /təˈdeɪz/",
+          "last day 连读"
+        ]
+      },
+      "variants": [
+        "It's my final day today."
+      ],
+      "avoid": "Today I last day.",
+      "transfer": "Today's my ___ day.",
+      "context": "告别"
+    },
+    {
+      "id": "02-b-029-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 29,
+      "index": 2,
+      "en": "Thanks for everything.",
+      "zh": "谢谢一切。",
+      "scene": "work",
+      "level": 1,
+      "focus": "告别",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/θæŋks fər ˈɛvriθɪŋ/",
+        "notes": [
+          "for everything 连读",
+          "everything 三音节"
+        ]
+      },
+      "variants": [
+        "I appreciate all of it."
+      ],
+      "avoid": "Thank you all things.",
+      "transfer": "Thanks for ___.",
+      "context": "告别"
+    },
+    {
+      "id": "02-b-029-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 29,
+      "index": 3,
+      "en": "Let's stay in touch.",
+      "zh": "保持联系。",
+      "scene": "work",
+      "level": 1,
+      "focus": "stay in touch，联系",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛts steɪ ɪn tʌtʃ/",
+        "notes": [
+          "stay in 连读",
+          "touch 的 ch"
+        ]
+      },
+      "variants": [
+        "Keep in touch, okay?"
+      ],
+      "avoid": "We always contact.",
+      "transfer": "Let's stay in ___.",
+      "context": "告别"
+    },
+    {
+      "id": "02-b-029-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 29,
+      "index": 4,
+      "en": "I'll send you my personal email.",
+      "zh": "我把私人邮箱发你。",
+      "scene": "work",
+      "level": 1,
+      "focus": "personal email，私人邮箱",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl sɛnd ju maɪ ˈpɜrsənəl ˈimeɪl/",
+        "notes": [
+          "send you 连读",
+          "personal 三音节"
+        ]
+      },
+      "variants": [
+        "Here's my personal email."
+      ],
+      "avoid": "I give you my own email.",
+      "transfer": "I'll send you my ___ email.",
+      "context": "告别"
+    },
+    {
+      "id": "02-b-029-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 29,
+      "index": 5,
+      "en": "Good luck with the launch.",
+      "zh": "祝上线顺利。",
+      "scene": "work",
+      "level": 1,
+      "focus": "祝福",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɡʊd lʌk wɪð ðə lɔntʃ/",
+        "notes": [
+          "luck with 连读",
+          "launch 的 au"
+        ]
+      },
+      "variants": [
+        "Hope the launch goes well."
+      ],
+      "avoid": "Hope online good.",
+      "transfer": "Good luck with ___.",
+      "context": "告别"
+    },
+    {
+      "id": "02-b-030-1",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 30,
+      "index": 1,
+      "en": "I'm speaking up more in meetings.",
+      "zh": "我在会上更敢说了。",
+      "scene": "work",
+      "level": 1,
+      "focus": "speak up，开口",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ˈspikɪŋ ʌp mɔr ɪn ˈmitɪŋz/",
+        "notes": [
+          "speaking up 连读",
+          "meetings 两音节"
+        ]
+      },
+      "variants": [
+        "I talk more in meetings now."
+      ],
+      "avoid": "I in meeting say more.",
+      "transfer": "I'm speaking up more in ___.",
+      "context": "小结"
+    },
+    {
+      "id": "02-b-030-2",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 30,
+      "index": 2,
+      "en": "Emails feel easier now.",
+      "zh": "邮件现在轻松多了。",
+      "scene": "work",
+      "level": 1,
+      "focus": "feel easier，感觉轻松",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈimeɪlz fil ˈiziər naʊ/",
+        "notes": [
+          "emails 两音节",
+          "easier 三音节"
+        ]
+      },
+      "variants": [
+        "Writing emails is easier now."
+      ],
+      "avoid": "Email now more easy.",
+      "transfer": "___ feel easier now.",
+      "context": "小结"
+    },
+    {
+      "id": "02-b-030-3",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 30,
+      "index": 3,
+      "en": "I still hesitate on the phone.",
+      "zh": "打电话我还会犹豫。",
+      "scene": "work",
+      "level": 1,
+      "focus": "hesitate，犹豫",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ stɪl ˈhɛzəteɪt ɑn ðə foʊn/",
+        "notes": [
+          "hesitate 三音节",
+          "phone 长音"
+        ]
+      },
+      "variants": [
+        "Calls still make me pause."
+      ],
+      "avoid": "Phone I still stop.",
+      "transfer": "I still hesitate on the ___.",
+      "context": "短板"
+    },
+    {
+      "id": "02-b-030-4",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 30,
+      "index": 4,
+      "en": "I'll practice calls next.",
+      "zh": "接下来我练电话。",
+      "scene": "work",
+      "level": 1,
+      "focus": "practice，练习",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl ˈpræktɪs kɔlz nɛkst/",
+        "notes": [
+          "practice 两音节",
+          "calls 的 lz"
+        ]
+      },
+      "variants": [
+        "Phone calls are my next focus."
+      ],
+      "avoid": "Next I practice phone.",
+      "transfer": "I'll practice ___ next.",
+      "context": "计划"
+    },
+    {
+      "id": "02-b-030-5",
+      "plan": "02",
+      "stage": "b",
+      "unit": 1,
+      "day": 30,
+      "index": 5,
+      "en": "This stage taught me a lot.",
+      "zh": "这个阶段学到很多。",
+      "scene": "work",
+      "level": 1,
+      "focus": "teach me a lot，收获多",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðɪs steɪdʒ tɔt mi ə lɑt/",
+        "notes": [
+          "stage 的 dʒ",
+          "taught 的 t"
+        ]
+      },
+      "variants": [
+        "I learned a ton this stage."
+      ],
+      "avoid": "This part I learn many.",
+      "transfer": "This stage taught me a ___.",
+      "context": "收尾"
     }
   ]
 }
