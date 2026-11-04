@@ -15,7 +15,7 @@ settings:
   base:
     SWIFT_VERSION: "5.0"
     MARKETING_VERSION: "1.8"
-    CURRENT_PROJECT_VERSION: "9"
+    CURRENT_PROJECT_VERSION: "10"
     CODE_SIGN_STYLE: Automatic
     DEVELOPMENT_TEAM: ""
 
@@ -37,6 +37,8 @@ targets:
         TARGETED_DEVICE_FAMILY: "1,2"
         GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_CFBundleDisplayName: 极速口语
+        # 只走系统 HTTPS，不含自研加密，声明后免去每次上传的合规问答。
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_NSMicrophoneUsageDescription: 用于跟读录音与发音评分。录音只保存在本机，评分后立即删除，不会上传。
         INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: 用于把你的跟读转成文字，从而计算发音得分。

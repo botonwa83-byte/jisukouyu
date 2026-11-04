@@ -24,7 +24,8 @@ guard let ctx = CGContext(
     bitsPerComponent: 8,
     bytesPerRow: 0,
     space: space,
-    bitmapInfo: CGImageAlphaInfo.premultipliedLast.rawValue
+    // App Store rejects icons that carry an alpha channel, so paint into an opaque context.
+    bitmapInfo: CGImageAlphaInfo.noneSkipLast.rawValue
 ) else { fatalError("cannot create context") }
 
 // Work in top-left origin coordinates.
