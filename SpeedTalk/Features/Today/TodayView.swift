@@ -25,7 +25,9 @@ struct TodayView: View {
                         PhraseAudioBar(phrase: phrase)
                         actions(vm)
                     }
-                    .padding(20)
+                    .padding(24)
+                    .frame(maxWidth: 760)
+                    .frame(maxWidth: .infinity)
                 } else if let vm = viewModel, vm.isFinished {
                     finishedState(vm)
                 } else {

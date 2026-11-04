@@ -53,3 +53,45 @@ import Foundation
     let issues = CurriculumService(curriculum: curriculum, library: library).validate()
     #expect(issues.contains { $0.contains("01-a-001-9") })
 }
+
+@Test func plan01StageAHasExactly600Phrases() throws {
+    let bundle = try ContentLoader.loadBundled()
+    let count = bundle.library.phrases(plan: "01", stage: "a").count
+    #expect(count == 600)
+}
+
+@Test func plan01StageAHas120DaysOfFive() throws {
+    let bundle = try ContentLoader.loadBundled()
+    let service = CurriculumService(curriculum: bundle.curriculum, library: bundle.library)
+    #expect(service.dayCount(plan: "01", stage: "a") == 120)
+    for day in 1...120 {
+        #expect(service.day(plan: "01", stage: "a", day: day).count == 5)
+    }
+}
+
+@Test func allPhrasesFollowCopyRules() throws {
+    let bundle = try ContentLoader.loadBundled()
+    for phrase in bundle.library.all {
+        #expect(phrase.pronunciation.notes.isEmpty == false, "\(phrase.id) 缺发音提示")
+        #expect(phrase.variants.isEmpty == false, "\(phrase.id) 缺变体")
+        #expect(phrase.avoid?.isEmpty == false, "\(phrase.id) 缺 avoid 反例")
+        #expect(phrase.focus.isEmpty == false, "\(phrase.id) 缺 focus")
+        let limit = phrase.stage == "a" ? 10 : (phrase.stage == "b" ? 14 : 18)
+        #expect(phrase.en.split(separator: " ").count <= limit, "\(phrase.id) 超长")
+    }
+}
+
+@Test func phraseIDsAreUniqueAndWellFormed() throws {
+    let bundle = try ContentLoader.loadBundled()
+    let ids = bundle.library.all.map(\.id)
+    #expect(Set(ids).count == ids.count)
+    for phrase in bundle.library.all {
+        #expect(phrase.id == String(format: "%@-%@-%03d-%d", phrase.plan, phrase.stage, phrase.day, phrase.index))
+    }
+}
+
+@Test func bundledCurriculumIsFullyValid() throws {
+    let bundle = try ContentLoader.loadBundled()
+    let issues = CurriculumService(curriculum: bundle.curriculum, library: bundle.library).validate()
+    #expect(issues.isEmpty, "课纲校验问题：\(issues.joined(separator: "; "))")
+}

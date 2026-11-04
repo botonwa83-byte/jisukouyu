@@ -48,8 +48,7 @@ def main():
     phrases = {p["id"]: p for p in phrase_file["phrases"]}
     titles = {}
 
-    title_path = CONTENT / "day_titles.tsv"
-    if title_path.exists():
+    for title_path in sorted(CONTENT.glob("day_titles*.tsv")):
         for line in title_path.read_text(encoding="utf-8").splitlines():
             if not line.strip() or line.startswith("#"):
                 continue

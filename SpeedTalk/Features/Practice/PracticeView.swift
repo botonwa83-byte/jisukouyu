@@ -67,6 +67,8 @@ struct PracticeView: View {
             }
         }
         .padding(20)
+        .frame(maxWidth: 760)
+        .frame(maxWidth: .infinity)
         .background(Theme.paper.ignoresSafeArea())
         .navigationTitle("跟读")
         .navigationBarTitleDisplayMode(.inline)
