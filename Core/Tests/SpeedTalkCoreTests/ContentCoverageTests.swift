@@ -17,7 +17,7 @@ private func stageRefs(_ bundle: ContentBundle) -> [StageRef] {
 @Test func bundledContentCoversEveryDefinedStage() throws {
     let bundle = try ContentLoader.loadBundled()
     let refs = stageRefs(bundle)
-    #expect(refs.count == 4, "已定义阶段数应为 4，实际 \(refs.count)")
+    #expect(refs.count == 5, "已定义阶段数应为 5，实际 \(refs.count)")
 
     let service = CurriculumService(curriculum: bundle.curriculum, library: bundle.library)
     for ref in refs {
@@ -28,8 +28,8 @@ private func stageRefs(_ bundle: ContentBundle) -> [StageRef] {
         }
     }
 
-    #expect(bundle.library.all.count == 2400)
-    #expect(bundle.curriculum.plans.flatMap(\.stages).flatMap(\.days).count == 480)
+    #expect(bundle.library.all.count == refs.count * 600)
+    #expect(bundle.curriculum.plans.flatMap(\.stages).flatMap(\.days).count == refs.count * 120)
 }
 
 @Test func everyDayTitleIsRealAndUniqueWithinStage() throws {
