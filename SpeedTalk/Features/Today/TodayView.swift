@@ -116,7 +116,7 @@ struct TodayView: View {
                 .foregroundStyle(tint)
         }
         .buttonStyle(.plain)
-        .accessibilityLabel(browseMode ? "当前速览模式，点击切换到跟读" : "当前跟读模式，点击切换到速览")
+        .accessibilityIdentifier("modeToggle")
     }
 
     /// 速览模式下左右滑卡片等于翻页，和「下一句」按钮等价。
@@ -162,7 +162,7 @@ struct TodayView: View {
                         .foregroundStyle(.white)
                 }
                 .buttonStyle(.plain)
-                .accessibilityHint("翻到这一组的下一句，不用跟读")
+                .accessibilityIdentifier("browseNext")
 
                 practiceEntry(vm, compact: true)
                 detailEntry(vm, compact: true)

@@ -43,10 +43,26 @@ targets:
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
 
+  SpeedTalkUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: SpeedTalkUITests
+    dependencies:
+      - target: SpeedTalk
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.speedtalk.app.uitests
+        TEST_TARGET_NAME: SpeedTalk
+        GENERATE_INFOPLIST_FILE: YES
+
 schemes:
   SpeedTalk:
     build:
       targets:
         SpeedTalk: all
+    test:
+      targets:
+        - SpeedTalkUITests
     run:
       config: Debug
