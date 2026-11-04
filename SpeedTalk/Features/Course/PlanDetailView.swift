@@ -27,7 +27,7 @@ struct PlanDetailView: View {
                         } label: {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text("\(stage.id.uppercased()) · \(stage.title)").font(.headline)
-                                Text("\(stage.days.count) 天 · \(stage.days.count * 5) 句")
+                                Text("\(stage.days.count) 天 · \(stage.phraseCount) 句")
                                     .font(.captionLabel)
                                     .foregroundStyle(.secondary)
                             }

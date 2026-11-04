@@ -69,6 +69,7 @@ struct TodayView: View {
                 onContinue: { continueAfterStage(item) }
             )
         }
+        .onChange(of: activePlan) { reloadForPlan() }
     }
 
     private var certificateView: some View {
@@ -285,6 +286,13 @@ struct TodayView: View {
         guard UserDefaults.standard.bool(forKey: key) == false else { return }
         UserDefaults.standard.set(true, forKey: key)
         showCertificate = true
+    }
+
+    private func reloadForPlan() {
+        completedScores = []
+        didCheckIn = false
+        celebration = nil
+        viewModel?.load(snapshot: progress?.snapshot ?? .initial(planID: activePlan))
     }
 
     private func load() {
