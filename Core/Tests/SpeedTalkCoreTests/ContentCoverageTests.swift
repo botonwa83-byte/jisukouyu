@@ -17,7 +17,7 @@ private func stageRefs(_ bundle: ContentBundle) -> [StageRef] {
 @Test func bundledContentCoversEveryDefinedStage() throws {
     let bundle = try ContentLoader.loadBundled()
     let refs = stageRefs(bundle)
-    #expect(refs.count == 5, "已定义阶段数应为 5，实际 \(refs.count)")
+    #expect(refs.count == 6, "已定义阶段数应为 6，实际 \(refs.count)")
 
     let service = CurriculumService(curriculum: bundle.curriculum, library: bundle.library)
     for ref in refs {
