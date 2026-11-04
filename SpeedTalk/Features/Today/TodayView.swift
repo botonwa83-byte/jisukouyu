@@ -20,6 +20,7 @@ struct TodayView: View {
                         PhraseCardView(phrase: phrase, position: vm.index + 1, total: vm.total)
                             .id(phrase.id)
                             .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
+                        PhraseAudioBar(phrase: phrase)
                         actions(vm)
                     }
                     .padding(20)
