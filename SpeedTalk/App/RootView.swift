@@ -24,7 +24,7 @@ struct ContentView: View {
                 .tabItem { Label("场景", systemImage: "square.grid.2x2") }
             Text("对练")
                 .tabItem { Label("对练", systemImage: "bubble.left.and.bubble.right") }
-            Text("我的")
+            MeView()
                 .tabItem { Label("我的", systemImage: "person.crop.circle") }
         }
         .tint(Theme.accent)
