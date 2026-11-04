@@ -18,9 +18,9 @@ struct ContentView: View {
         TabView {
             TodayView()
                 .tabItem { Label("今日", systemImage: "sun.max") }
-            Text("课表")
+            CourseView()
                 .tabItem { Label("课表", systemImage: "list.bullet.rectangle") }
-            Text("场景")
+            SceneGridView()
                 .tabItem { Label("场景", systemImage: "square.grid.2x2") }
             Text("对练")
                 .tabItem { Label("对练", systemImage: "bubble.left.and.bubble.right") }
