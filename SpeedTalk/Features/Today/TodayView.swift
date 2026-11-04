@@ -117,6 +117,7 @@ struct TodayView: View {
         }
         .buttonStyle(.plain)
         .accessibilityIdentifier("modeToggle")
+        .accessibilityLabel(browseMode ? "速览模式已开启" : "跟读模式已开启")
     }
 
     /// 速览模式下左右滑卡片等于翻页，和「下一句」按钮等价。
