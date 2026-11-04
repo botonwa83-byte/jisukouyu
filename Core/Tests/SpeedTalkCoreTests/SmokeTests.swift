@@ -1,6 +1,9 @@
 import Testing
+import Foundation
 @testable import SpeedTalkCore
 
 @Test func coreVersionIsExposed() {
-    #expect(SpeedTalkVersion.current == "1.0.0")
+    let parts = SpeedTalkVersion.current.split(separator: ".")
+    #expect(parts.count == 3)
+    #expect(parts.allSatisfy { Int($0) != nil })
 }

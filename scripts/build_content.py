@@ -43,18 +43,22 @@ STAGE_TITLES = {
 }
 
 UNIT_TITLES = {
-    ("01", 1): "第一单元：开口与点单",
-    ("01", 2): "第二单元：住所与出行",
-    ("01", 3): "第三单元：办事与医疗",
-    ("01", 4): "第四单元：邻里与消费",
-    ("02", 1): "第一单元：求职与面试",
-    ("02", 2): "第二单元：职场协作",
-    ("02", 3): "第三单元：校园学术",
-    ("02", 4): "第四单元：综合演练",
-    ("03", 1): "第一单元：高频俚语",
-    ("03", 2): "第二单元：社交场合",
-    ("03", 3): "第三单元：文化与幽默",
-    ("03", 4): "第四单元：综合演练",
+    ("01", "a", 1): "第一单元：开口与点单",
+    ("01", "a", 2): "第二单元：住所与出行",
+    ("01", "a", 3): "第三单元：办事与医疗",
+    ("01", "a", 4): "第四单元：邻里与消费",
+    ("02", "a", 1): "第一单元：面试与自我介绍",
+    ("02", "a", 2): "第二单元：行为面试与故事",
+    ("02", "a", 3): "第三单元：晋升薪酬与内部沟通",
+    ("02", "a", 4): "第四单元：远程出差与合规",
+    ("02", "b", 1): "第一单元：日常协作与排期",
+    ("02", "b", 2): "第二单元：复盘与冲突管理",
+    ("02", "b", 3): "第三单元：招聘入职与跨文化",
+    ("02", "b", 4): "第四单元：预算汇报与向上管理",
+    ("03", "a", 1): "第一单元：日常俚语与情绪",
+    ("03", "a", 2): "第二单元：比喻夸张与反讽吐槽",
+    ("03", "a", 3): "第三单元：影视梗、职场黑话与典故",
+    ("03", "a", 4): "第四单元：发音语调与听说训练",
 }
 
 FILE_PATTERN = re.compile(r"^(phrases|day_titles)_(\d\d)([abc])_")
@@ -97,6 +101,10 @@ def main():
             day, title = line.split(" | ")
             titles[(plan, stage, int(day))] = title.strip()
 
+    for p in phrases.values():
+        if not p.get("tags") and p.get("context"):
+            p["tags"] = [p["context"]]
+
     per_day = {}
     for p in phrases.values():
         per_day.setdefault((p["plan"], p["stage"], p["day"]), []).append(p)
@@ -123,7 +131,7 @@ def main():
                 "level": 1 if day <= 30 else (2 if day <= 90 else 3),
                 "focus": focus,
                 "register": "casual",
-                "tags": [],
+                "tags": [context] if context else [],
                 "pronunciation": {
                     "ipa": ipa,
                     "notes": [n.strip() for n in notes.split(";") if n.strip()],
@@ -174,7 +182,7 @@ def main():
                 if unit_days:
                     units.append({
                         "index": unit_index,
-                        "title": UNIT_TITLES.get((plan_id, unit_index), f"第 {unit_index} 单元"),
+                        "title": UNIT_TITLES.get((plan_id, stage_id, unit_index), f"第 {unit_index} 单元"),
                         "days": unit_days,
                     })
             total_days += len(days)
