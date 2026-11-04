@@ -27,9 +27,11 @@ struct SettingsView: View {
             }
 
             Section("AI") {
-                Text("AI 纠音与对练在下一步接入，填好 Key 即可用。")
-                    .font(.footnote)
-                    .foregroundStyle(.secondary)
+                NavigationLink {
+                    AIConfigView()
+                } label: {
+                    Label("AI 设置", systemImage: "sparkles")
+                }
             }
 
             Section("数据") {

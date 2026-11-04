@@ -22,7 +22,7 @@ struct ContentView: View {
                 .tabItem { Label("课表", systemImage: "list.bullet.rectangle") }
             SceneGridView()
                 .tabItem { Label("场景", systemImage: "square.grid.2x2") }
-            Text("对练")
+            TalkView()
                 .tabItem { Label("对练", systemImage: "bubble.left.and.bubble.right") }
             MeView()
                 .tabItem { Label("我的", systemImage: "person.crop.circle") }

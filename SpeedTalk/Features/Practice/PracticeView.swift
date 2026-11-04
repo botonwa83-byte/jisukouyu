@@ -13,6 +13,7 @@ struct PracticeView: View {
     @State private var vm: PracticeViewModel?
     @State private var manualText = ""
     @State private var showManual = false
+    @State private var showAIReview = false
 
     var body: some View {
         VStack(spacing: 18) {
@@ -29,15 +30,29 @@ struct PracticeView: View {
 
             if let report = vm?.report {
                 ScrollView {
-                    ScoreResultView(
-                        report: report,
-                        onRetry: { vm?.reset() },
-                        onNext: {
-                            save(score: report.score)
-                            onFinished(report.score)
-                            dismiss()
+                    VStack(spacing: 12) {
+                        ScoreResultView(
+                            report: report,
+                            onRetry: { vm?.reset() },
+                            onNext: {
+                                save(score: report.score)
+                                onFinished(report.score)
+                                dismiss()
+                            }
+                        )
+                        Button {
+                            showAIReview = true
+                        } label: {
+                            Label("AI 精细点评", systemImage: "sparkles")
+                                .font(.subheadline.weight(.medium))
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 12)
+                                .background(Theme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                                .foregroundStyle(Theme.accent)
                         }
-                    )
+                        .buttonStyle(.plain)
+                        .padding(.horizontal, 20)
+                    }
                 }
             } else {
                 Spacer()
@@ -55,6 +70,9 @@ struct PracticeView: View {
         .background(Theme.paper.ignoresSafeArea())
         .navigationTitle("跟读")
         .navigationBarTitleDisplayMode(.inline)
+        .sheet(isPresented: $showAIReview) {
+            AIReviewSheet(phrase: phrase, transcript: vm?.transcript ?? "")
+        }
         .sheet(isPresented: $showManual) {
             NavigationStack {
                 Form {
