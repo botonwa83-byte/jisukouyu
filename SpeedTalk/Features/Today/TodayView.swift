@@ -33,13 +33,14 @@ struct TodayView: View {
                             browseHint
                         }
                         PhraseCardView(phrase: phrase, position: vm.index + 1, total: vm.total)
+                            .frame(maxHeight: 480)
                             .id(phrase.id)
                             .gesture(browseSwipe(vm))
                         PhraseAudioBar(phrase: phrase)
                         actions(vm)
                     }
                     .padding(24)
-                    .frame(maxWidth: 760)
+                    .frame(maxWidth: 760, maxHeight: .infinity, alignment: .top)
                     .frame(maxWidth: .infinity)
                 } else if let vm = viewModel, vm.isFinished {
                     finishedState(vm)

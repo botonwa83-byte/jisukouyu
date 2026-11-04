@@ -2,14 +2,41 @@ import SwiftUI
 import SwiftData
 
 struct RootView: View {
+    @Environment(\.modelContext) private var modelContext
     @Query private var profiles: [UserProfile]
 
     var body: some View {
-        if let profile = profiles.first, profile.hasOnboarded {
-            ContentView()
-        } else {
-            OnboardingView()
+        Group {
+            if let profile = profiles.first, profile.hasOnboarded {
+                ContentView()
+            } else if skipOnboardingForSmokeTest {
+                ContentView()
+            } else {
+                OnboardingView()
+            }
         }
+        .task { seedForSmokeTestIfNeeded() }
+    }
+
+    /// 仅 Debug 构建支持 `-skipOnboarding`，用于模拟器冒烟与截图验收。
+    private var skipOnboardingForSmokeTest: Bool {
+        #if DEBUG
+        ProcessInfo.processInfo.arguments.contains("-skipOnboarding")
+        #else
+        false
+        #endif
+    }
+
+    private func seedForSmokeTestIfNeeded() {
+        #if DEBUG
+        guard skipOnboardingForSmokeTest, profiles.isEmpty else { return }
+        let profile = UserProfile()
+        profile.hasOnboarded = true
+        profile.activePlan = "01"
+        modelContext.insert(profile)
+        modelContext.insert(PlanProgress(planID: "01"))
+        try? modelContext.save()
+        #endif
     }
 }
 
@@ -70,7 +97,20 @@ struct TabRootView: View {
 }
 
 struct SplitRootView: View {
-    @State private var selection: AppSection? = .today
+    @State private var selection: AppSection? = SplitRootView.initialSection
+
+    /// Debug 构建可用 `-section=course` 指定首屏，便于 iPad 分栏截图验收。
+    private static var initialSection: AppSection {
+        #if DEBUG
+        if let raw = ProcessInfo.processInfo.arguments
+            .first(where: { $0.hasPrefix("-section=") })?
+            .split(separator: "=").last,
+           let section = AppSection(rawValue: String(raw)) {
+            return section
+        }
+        #endif
+        return .today
+    }
 
     var body: some View {
         NavigationSplitView {
