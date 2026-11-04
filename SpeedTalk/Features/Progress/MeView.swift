@@ -18,7 +18,7 @@ struct MeView: View {
             List {
                 Section {
                     HStack(spacing: 18) {
-                        stat("\(profiles.first?.streak ?? 0)", "连续打卡")
+                        stat("\(displayedStreak)", "连续打卡")
                         stat("\(mastered)", "已掌握")
                         stat("\(planProgress.reduce(0) { $0 + $1.completedDays })", "学习天")
                     }
@@ -66,6 +66,15 @@ struct MeView: View {
             .navigationTitle("我的")
             .task { refreshAchievements() }
         }
+    }
+
+    private var displayedStreak: Int {
+        StreakCalculator.currentStreak(
+            current: profiles.first?.streak ?? 0,
+            last: profiles.first?.lastStudyDate,
+            now: .now,
+            calendar: .current
+        )
     }
 
     private var dueCount: Int {

@@ -18,4 +18,12 @@ public enum StreakCalculator {
         ).day ?? 0
         return days == 1 ? max(current, 1) + 1 : 1
     }
+
+    public static func currentStreak(current: Int, last: Date?, now: Date, calendar: Calendar) -> Int {
+        guard let last else { return 0 }
+        let start = calendar.startOfDay(for: last)
+        let today = calendar.startOfDay(for: now)
+        let days = calendar.dateComponents([.day], from: start, to: today).day ?? 0
+        return days <= 1 ? current : 0
+    }
 }

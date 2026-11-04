@@ -23,3 +23,17 @@ import Foundation
     let threeDaysAgo = Calendar.current.date(byAdding: .day, value: -3, to: now)!
     #expect(StreakCalculator.nextStreak(current: 9, lastStudyDate: threeDaysAgo, now: now, calendar: .current) == 1)
 }
+
+@Test func displayStreakKeepsSameDayAndYesterday() {
+    let now = Date()
+    #expect(StreakCalculator.currentStreak(current: 4, last: now, now: now, calendar: .current) == 4)
+    let yesterday = Calendar.current.date(byAdding: .day, value: -1, to: now)!
+    #expect(StreakCalculator.currentStreak(current: 4, last: yesterday, now: now, calendar: .current) == 4)
+}
+
+@Test func displayStreakResetsWhenLapsed() {
+    let now = Date()
+    let threeDaysAgo = Calendar.current.date(byAdding: .day, value: -3, to: now)!
+    #expect(StreakCalculator.currentStreak(current: 9, last: threeDaysAgo, now: now, calendar: .current) == 0)
+    #expect(StreakCalculator.currentStreak(current: 9, last: nil, now: now, calendar: .current) == 0)
+}
