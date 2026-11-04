@@ -56,6 +56,19 @@ private func makeFixtureService() -> CurriculumService {
     #expect(result.snapshot.stage == "b")
     #expect(result.snapshot.day == 1)
     #expect(result.snapshot.completedDays == 0)
+    #expect(result.completedStage == "a")
+}
+
+@Test func advanceWithinStageReportsNoCompletedStage() {
+    let engine = ProgressEngine(service: makeFixtureService())
+    let result = engine.advance(PlanProgressSnapshot(planID: "01", stage: "a", day: 1, completedDays: 0))
+    #expect(result.completedStage == nil)
+}
+
+@Test func stageTotalsMatchCurriculum() {
+    let stage = makeFixtureService().curriculum.plan(id: "01")?.stages.first
+    #expect(stage?.dayCount == 2)
+    #expect(stage?.phraseCount == 10)
 }
 
 @Test func advanceAtLastStageFinishesPlan() {
