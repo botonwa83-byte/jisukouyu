@@ -58,6 +58,7 @@ final class ProgressStore {
         day: Int,
         completedCount: Int,
         totalScore: Int,
+        profile: UserProfile,
         now: Date = Date.now
     ) {
         let key = Self.dateKey(now)
@@ -72,6 +73,17 @@ final class ProgressStore {
         log.completedCount = completedCount
         log.totalScore = totalScore
         log.isCheckedIn = completedCount >= 5
+
+        // 速览打卡没有跟读记录，这里统一补一次 streak，重复调用是幂等的。
+        let newStreak = StreakCalculator.nextStreak(
+            current: profile.streak,
+            lastStudyDate: profile.lastStudyDate,
+            now: now,
+            calendar: .current
+        )
+        profile.streak = newStreak
+        profile.longestStreak = max(profile.longestStreak, newStreak)
+        profile.lastStudyDate = now
         try? context.save()
     }
 

@@ -5,12 +5,13 @@ import SpeedTalkCore
 struct SettingsView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var profiles: [UserProfile]
+    @AppStorage("browseModeEnabled") private var browseMode = false
 
     private var profile: UserProfile? { profiles.first }
 
     var body: some View {
         Form {
-            Section("学习") {
+            Section {
                 Picker("每天", selection: goalBinding) {
                     Text("5 句 · 3 分钟").tag(5)
                     Text("10 句 · 加速档").tag(10)
@@ -20,6 +21,11 @@ struct SettingsView: View {
                         .font(.subheadline)
                     Slider(value: speechRateBinding, in: 0.38...0.55, step: 0.01)
                 }
+                Toggle("速览模式", isOn: $browseMode)
+            } header: {
+                Text("学习")
+            } footer: {
+                Text("速览模式下点「下一句」就能一直往前，不必跟读；跟读分数和掌握度只在你开口时记录。")
             }
 
             Section("提醒") {

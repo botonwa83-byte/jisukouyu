@@ -13,6 +13,8 @@ struct TodayView: View {
     @State private var showCertificate = false
     @State private var celebration: StageCelebration?
     @State private var didCheckIn = false
+    /// 速览模式：翻页即推进，不强制跟读；偏好持久化，方便有基础或赶时间的用户。
+    @AppStorage("browseModeEnabled") private var browseMode = false
 
     private var activePlan: String { profiles.first?.activePlan ?? "01" }
     private var progress: PlanProgress? { progressList.first { $0.planID == activePlan } }
@@ -27,8 +29,12 @@ struct TodayView: View {
                 if let vm = viewModel, let phrase = vm.current {
                     VStack(spacing: 16) {
                         header(vm)
+                        if browseMode {
+                            browseHint
+                        }
                         PhraseCardView(phrase: phrase, position: vm.index + 1, total: vm.total)
                             .id(phrase.id)
+                            .gesture(browseSwipe(vm))
                         PhraseAudioBar(phrase: phrase)
                         actions(vm)
                     }
@@ -87,41 +93,154 @@ struct TodayView: View {
                 Text(vm.dayTitle).font(.headline)
             }
             Spacer()
-            Text("Day \(progress?.currentDay ?? 1)")
-                .font(.captionLabel)
-                .foregroundStyle(.secondary)
+            VStack(alignment: .trailing, spacing: 6) {
+                Text("Day \(progress?.currentDay ?? 1)")
+                    .font(.captionLabel)
+                    .foregroundStyle(.secondary)
+                modeToggle
+            }
         }
+    }
+
+    private var modeToggle: some View {
+        let tint = browseMode ? Theme.warning : Theme.accent
+        return Button {
+            withAnimation(.snappy) { browseMode.toggle() }
+        } label: {
+            Label(browseMode ? "速览" : "跟读", systemImage: browseMode ? "book.pages" : "mic")
+                .font(.captionLabel)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 5)
+                .background(tint.opacity(0.12), in: Capsule())
+                .foregroundStyle(tint)
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(browseMode ? "当前速览模式，点击切换到跟读" : "当前跟读模式，点击切换到速览")
+    }
+
+    /// 速览模式下左右滑卡片等于翻页，和「下一句」按钮等价。
+    private func browseSwipe(_ vm: TodayViewModel) -> some Gesture {
+        DragGesture(minimumDistance: 40)
+            .onEnded { value in
+                guard browseMode,
+                      abs(value.translation.width) > 60,
+                      abs(value.translation.width) > abs(value.translation.height)
+                else { return }
+                if value.translation.width < 0 {
+                    advanceBrowsing(vm)
+                } else {
+                    vm.back()
+                }
+            }
+    }
+
+    private var browseHint: some View {
+        HStack(spacing: 6) {
+            Image(systemName: "book.pages")
+            Text("速览中：点「下一句」一直往前，想练哪句再点麦克风")
+                .fixedSize(horizontal: false, vertical: true)
+            Spacer(minLength: 0)
+        }
+        .font(.system(size: 12, weight: .medium, design: .rounded))
+        .foregroundStyle(Theme.warning)
+        .padding(.horizontal, 12)
+        .padding(.vertical, 8)
+        .background(Theme.warning.opacity(0.10), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
 
     private func actions(_ vm: TodayViewModel) -> some View {
         HStack(spacing: 12) {
-            NavigationLink {
-                if let phrase = vm.current {
-                    PracticeView(phrase: phrase) { score in
-                        completedScores.append(score)
-                        if completedScores.count >= goal { checkIn() }
-                        vm.advance()
-                    }
+            if browseMode {
+                Button {
+                    advanceBrowsing(vm)
+                } label: {
+                    Label("下一句", systemImage: "chevron.right.circle.fill")
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 14)
+                        .background(Theme.accent, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                        .foregroundStyle(.white)
                 }
-            } label: {
+                .buttonStyle(.plain)
+                .accessibilityHint("翻到这一组的下一句，不用跟读")
+
+                practiceEntry(vm, compact: true)
+                detailEntry(vm, compact: true)
+            } else {
+                practiceEntry(vm, compact: false)
+                detailEntry(vm, compact: false)
+            }
+        }
+    }
+
+    private func practiceEntry(_ vm: TodayViewModel, compact: Bool) -> some View {
+        NavigationLink {
+            if let phrase = vm.current {
+                PracticeView(phrase: phrase) { score in
+                    handlePracticeScore(score, vm: vm)
+                }
+            }
+        } label: {
+            if compact {
+                iconLabel("练这句", systemImage: "mic.fill", tint: Theme.accent)
+            } else {
                 Label("按住说", systemImage: "mic.fill")
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 14)
                     .background(Theme.accent, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                     .foregroundStyle(.white)
             }
-            .buttonStyle(.plain)
+        }
+        .buttonStyle(.plain)
+    }
 
-            NavigationLink {
-                if let phrase = vm.current { PhraseDetailView(phrase: phrase) }
-            } label: {
+    private func detailEntry(_ vm: TodayViewModel, compact: Bool) -> some View {
+        NavigationLink {
+            if let phrase = vm.current { PhraseDetailView(phrase: phrase) }
+        } label: {
+            if compact {
+                iconLabel("详解", systemImage: "text.book.closed", tint: Theme.ink)
+            } else {
                 Label("详解", systemImage: "text.book.closed")
                     .padding(.vertical, 14)
                     .padding(.horizontal, 16)
                     .background(Theme.ink.opacity(0.06), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                     .foregroundStyle(Theme.ink)
             }
-            .buttonStyle(.plain)
+        }
+        .buttonStyle(.plain)
+    }
+
+    private func iconLabel(_ title: String, systemImage: String, tint: Color) -> some View {
+        VStack(spacing: 3) {
+            Image(systemName: systemImage)
+                .font(.system(size: 16, weight: .semibold))
+            Text(title)
+                .font(.system(size: 11, weight: .medium, design: .rounded))
+        }
+        .frame(minWidth: 56)
+        .padding(.vertical, 11)
+        .padding(.horizontal, 10)
+        .background(tint.opacity(0.08), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .foregroundStyle(tint)
+    }
+
+    private func handlePracticeScore(_ score: Int, vm: TodayViewModel) {
+        completedScores.append(score)
+        if completedScores.count >= goal, didCheckIn == false {
+            _ = checkIn(completedCount: completedScores.count)
+        }
+        vm.advance()
+    }
+
+    /// 速览模式翻完一组：照常打卡与推进，然后直接载入下一组，保持连续翻页。
+    private func advanceBrowsing(_ vm: TodayViewModel) {
+        vm.advance()
+        guard vm.isFinished else { return }
+        let outcome = didCheckIn ? nil : checkIn(completedCount: vm.total)
+        guard outcome?.finished != true, celebration == nil else { return }
+        didCheckIn = false
+        if let target = outcome?.snapshot ?? progress?.snapshot {
+            vm.load(snapshot: target)
         }
     }
 
@@ -174,8 +293,10 @@ struct TodayView: View {
         viewModel = vm
     }
 
-    private func checkIn() {
-        guard let profile = profiles.first else { return }
+    /// 记录当天打卡并推进进度，返回推进结果；同一组重复调用只生效一次。
+    @discardableResult
+    private func checkIn(completedCount: Int) -> CheckInOutcome? {
+        guard let profile = profiles.first, didCheckIn == false else { return nil }
         let store = ProgressStore(context: modelContext)
         let plan = activePlan
         let stage = progress?.currentStage ?? "a"
@@ -185,8 +306,9 @@ struct TodayView: View {
             plan: plan,
             stage: stage,
             day: day,
-            completedCount: completedScores.count,
-            totalScore: average
+            completedCount: completedCount,
+            totalScore: average,
+            profile: profile
         )
 
         let target = progress ?? {
@@ -220,6 +342,7 @@ struct TodayView: View {
                 averageScore: average
             )
         }
+        return CheckInOutcome(snapshot: snapshot, finished: finished)
     }
 
     /// 阶段收尾时组装庆祝数据；下一阶段快照随庆祝层一起带出，点继续即可切过去。
@@ -245,11 +368,18 @@ struct TodayView: View {
 
     private func continueAfterStage(_ item: StageCelebration) {
         if item.nextStageTitle != nil {
+            didCheckIn = false
             viewModel?.load(snapshot: item.nextSnapshot)
         } else {
             showCertificate = true
         }
     }
+}
+
+/// 打卡结果：推进后的进度快照，以及本次是否刚好走完整个方案。
+private struct CheckInOutcome {
+    let snapshot: PlanProgressSnapshot
+    let finished: Bool
 }
 
 /// 阶段通关庆祝的临时数据，持有下一阶段快照以便一键切换。

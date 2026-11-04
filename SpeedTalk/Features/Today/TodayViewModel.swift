@@ -29,4 +29,9 @@ final class TodayViewModel {
     }
 
     func restart() { index = 0 }
+
+    func back() {
+        guard index > 0 else { return }
+        index -= 1
+    }
 }
