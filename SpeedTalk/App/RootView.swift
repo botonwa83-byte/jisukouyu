@@ -5,6 +5,7 @@ struct RootView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var profiles: [UserProfile]
     @Query private var planProgress: [PlanProgress]
+    @AppStorage(AppAppearance.storageKey) private var appearanceRaw = AppAppearance.system.rawValue
 
     var body: some View {
         Group {
@@ -16,6 +17,7 @@ struct RootView: View {
                 OnboardingView()
             }
         }
+        .preferredColorScheme(AppAppearance(rawValue: appearanceRaw)?.colorScheme)
         .task {
             seedForSmokeTestIfNeeded()
             resetAdvanceBudgetIfNeeded()
@@ -82,6 +84,19 @@ enum AppSection: String, CaseIterable, Identifiable {
         case .me: return "person.crop.circle"
         }
     }
+
+    /// Debug 构建可用 `-section=course` 指定首屏，便于截图与验收。
+    static var debugInitial: AppSection {
+        #if DEBUG
+        if let raw = ProcessInfo.processInfo.arguments
+            .first(where: { $0.hasPrefix("-section=") })?
+            .split(separator: "=").last,
+           let section = AppSection(rawValue: String(raw)) {
+            return section
+        }
+        #endif
+        return .today
+    }
 }
 
 struct ContentView: View {
@@ -97,38 +112,32 @@ struct ContentView: View {
 }
 
 struct TabRootView: View {
+    @State private var selection: AppSection = .debugInitial
+
     var body: some View {
-        TabView {
+        TabView(selection: $selection) {
             TodayView()
                 .tabItem { Label("今日", systemImage: "sun.max") }
+                .tag(AppSection.today)
             CourseView()
                 .tabItem { Label("课表", systemImage: "list.bullet.rectangle") }
+                .tag(AppSection.course)
             SceneGridView()
                 .tabItem { Label("场景", systemImage: "square.grid.2x2") }
+                .tag(AppSection.scenes)
             TalkView()
                 .tabItem { Label("对练", systemImage: "bubble.left.and.bubble.right") }
+                .tag(AppSection.talk)
             MeView()
                 .tabItem { Label("我的", systemImage: "person.crop.circle") }
+                .tag(AppSection.me)
         }
         .tint(Theme.accent)
     }
 }
 
 struct SplitRootView: View {
-    @State private var selection: AppSection? = SplitRootView.initialSection
-
-    /// Debug 构建可用 `-section=course` 指定首屏，便于 iPad 分栏截图验收。
-    private static var initialSection: AppSection {
-        #if DEBUG
-        if let raw = ProcessInfo.processInfo.arguments
-            .first(where: { $0.hasPrefix("-section=") })?
-            .split(separator: "=").last,
-           let section = AppSection(rawValue: String(raw)) {
-            return section
-        }
-        #endif
-        return .today
-    }
+    @State private var selection: AppSection? = .debugInitial
 
     var body: some View {
         NavigationSplitView {

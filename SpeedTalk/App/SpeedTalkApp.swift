@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import UIKit
 
 @main
 struct SpeedTalkApp: App {
@@ -7,6 +8,10 @@ struct SpeedTalkApp: App {
     private let modelContainer: ModelContainer
 
     init() {
+        // 标题换成暖可可色，别让系统纯黑打断糖果暖调。
+        let warmInk = UIColor { $0.userInterfaceStyle == .dark ? .init(red: 0.965, green: 0.929, blue: 0.894, alpha: 1) : .init(red: 0.294, green: 0.227, blue: 0.2, alpha: 1) }
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: warmInk]
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: warmInk]
         do {
             let container = try AppContainer.live()
             self.container = container

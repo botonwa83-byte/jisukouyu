@@ -7,6 +7,8 @@ struct SettingsView: View {
     @Query private var profiles: [UserProfile]
     @AppStorage("browseModeEnabled") private var browseMode = false
 
+    @AppStorage(AppAppearance.storageKey) private var appearanceRaw = AppAppearance.system.rawValue
+
     private var profile: UserProfile? { profiles.first }
 
     var body: some View {
@@ -28,6 +30,19 @@ struct SettingsView: View {
                 Text("速览模式下点「下一句」就能一直往前，不必跟读；跟读分数和掌握度只在你开口时记录。")
             }
 
+            Section {
+                Picker("模式", selection: $appearanceRaw) {
+                    ForEach(AppAppearance.allCases) { mode in
+                        Text(mode.title).tag(mode.rawValue)
+                    }
+                }
+                .pickerStyle(.segmented)
+            } header: {
+                Text("外观")
+            } footer: {
+                Text("夜间模式把纸面换成深可可色，句子依然清楚。")
+            }
+
             Section("提醒") {
                 NavigationLink("每日提醒") { NotificationSettingsView() }
             }
@@ -46,6 +61,7 @@ struct SettingsView: View {
                     .foregroundStyle(.secondary)
             }
         }
+        .warmList()
         .navigationTitle("设置")
     }
 

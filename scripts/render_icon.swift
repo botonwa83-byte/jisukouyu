@@ -13,9 +13,9 @@ func color(_ r: CGFloat, _ g: CGFloat, _ b: CGFloat, _ a: CGFloat = 1) -> CGColo
     CGColor(colorSpace: space, components: [r, g, b, a])!
 }
 
-let inkBlue = color(0.10, 0.45, 0.94)      // #1A73F0
-let deepBlue = color(0.04, 0.22, 0.62)     // #0A389E
-let cream = color(0.980, 0.969, 0.953)     // #FAF7F2
+let candyLight = color(1.0, 0.78, 0.608)      // #FFC79B 蜜桃浅
+let candyDeep = color(1.0, 0.486, 0.451)      // #FF8C80 草莓珊瑚深
+let cream = color(1.0, 0.973, 0.941)       // #FFF8F0 奶油
 
 guard let ctx = CGContext(
     data: nil,
@@ -33,7 +33,7 @@ ctx.translateBy(x: 0, y: CGFloat(side))
 ctx.scaleBy(x: 1, y: -1)
 
 // MARK: Background gradient
-let bg = CGGradient(colorsSpace: space, colors: [inkBlue, deepBlue] as CFArray, locations: [0, 1])!
+let bg = CGGradient(colorsSpace: space, colors: [candyLight, candyDeep] as CFArray, locations: [0, 1])!
 ctx.saveGState()
 ctx.drawLinearGradient(bg, start: CGPoint(x: 0, y: 0), end: CGPoint(x: CGFloat(side), y: CGFloat(side)), options: [])
 ctx.restoreGState()
