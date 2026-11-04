@@ -54550,6 +54550,4173 @@
       "avoid": "You talk like natural man.",
       "transfer": "You sound more ___ already.",
       "context": "总结"
+    },
+    {
+      "id": "03-a-031-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 31,
+      "index": 1,
+      "en": "She's a rock.",
+      "zh": "她是主心骨。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "rock，比喻支柱",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ʃiz ə rɑk/",
+        "notes": [
+          "she's 读 /ʃiz/",
+          "rock 短音"
+        ]
+      },
+      "variants": [
+        "She's my anchor."
+      ],
+      "avoid": "She is stone.",
+      "transfer": "She's a ___.",
+      "context": "比喻"
+    },
+    {
+      "id": "03-a-031-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 31,
+      "index": 2,
+      "en": "He's a natural.",
+      "zh": "他天生就会。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "natural，天生",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hiz ə ˈnætʃərəl/",
+        "notes": [
+          "natural 三音节"
+        ]
+      },
+      "variants": [
+        "He was born for this."
+      ],
+      "avoid": "He is nature person.",
+      "transfer": "He's a ___.",
+      "context": "比喻"
+    },
+    {
+      "id": "03-a-031-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 31,
+      "index": 3,
+      "en": "That kid is sharp.",
+      "zh": "那孩子脑子快。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "sharp，机敏",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæt kɪd ɪz ʃɑrp/",
+        "notes": [
+          "sharp 的 rp 收尾"
+        ]
+      },
+      "variants": [
+        "That kid is quick."
+      ],
+      "avoid": "That kid is knife.",
+      "transfer": "That ___ is sharp.",
+      "context": "比喻"
+    },
+    {
+      "id": "03-a-031-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 31,
+      "index": 4,
+      "en": "She's going places.",
+      "zh": "她前途无量。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "go places，比喻前程",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ʃiz ˈɡoʊɪŋ ˈpleɪsəz/",
+        "notes": [
+          "places 两音节",
+          "she's 连读"
+        ]
+      },
+      "variants": [
+        "She's headed for big things."
+      ],
+      "avoid": "She go to place.",
+      "transfer": "Going ___.",
+      "context": "比喻"
+    },
+    {
+      "id": "03-a-031-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 31,
+      "index": 5,
+      "en": "He's the real deal.",
+      "zh": "他是真材实料。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "the real deal，货真价实",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hiz ðə ril dil/",
+        "notes": [
+          "deal 长音",
+          "the 弱读"
+        ]
+      },
+      "variants": [
+        "He's legit."
+      ],
+      "avoid": "He real thing.",
+      "transfer": "The real ___.",
+      "context": "比喻"
+    },
+    {
+      "id": "03-a-032-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 32,
+      "index": 1,
+      "en": "This room is a pigsty.",
+      "zh": "这屋子跟猪圈似的。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "pigsty，比喻脏乱",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðɪs rum ɪz ə ˈpɪɡstaɪ/",
+        "notes": [
+          "pigsty 两音节",
+          "sty 读 /staɪ/"
+        ]
+      },
+      "variants": [
+        "This room is a dump."
+      ],
+      "avoid": "Room have pig home.",
+      "transfer": "This ___ is a pigsty.",
+      "context": "吐槽"
+    },
+    {
+      "id": "03-a-032-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 32,
+      "index": 2,
+      "en": "He's a couch potato.",
+      "zh": "他是个沙发土豆。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "couch potato，比喻宅",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hiz ə kaʊtʃ pəˈteɪtoʊ/",
+        "notes": [
+          "potato 三音节",
+          "couch 的 tʃ"
+        ]
+      },
+      "variants": [
+        "He never leaves the sofa."
+      ],
+      "avoid": "He is sofa vegetable.",
+      "transfer": "Couch ___.",
+      "context": "吐槽"
+    },
+    {
+      "id": "03-a-032-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 32,
+      "index": 3,
+      "en": "That meeting was a snooze.",
+      "zh": "那会开得像催眠。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "snooze，比喻无聊",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæt ˈmitɪŋ wʌz ə snuz/",
+        "notes": [
+          "snooze 长音",
+          "was 弱读"
+        ]
+      },
+      "variants": [
+        "That meeting put me to sleep."
+      ],
+      "avoid": "Meeting make sleep.",
+      "transfer": "That ___ was a snooze.",
+      "context": "吐槽"
+    },
+    {
+      "id": "03-a-032-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 32,
+      "index": 4,
+      "en": "My schedule is a nightmare.",
+      "zh": "我的日程是噩梦。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "nightmare，比喻糟糕",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/maɪ ˈskɛdʒuəl ɪz ə ˈnaɪtmɛr/",
+        "notes": [
+          "schedule 两音节",
+          "nightmare 两音节"
+        ]
+      },
+      "variants": [
+        "My calendar is brutal."
+      ],
+      "avoid": "My time is bad dream.",
+      "transfer": "My ___ is a nightmare.",
+      "context": "吐槽"
+    },
+    {
+      "id": "03-a-032-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 32,
+      "index": 5,
+      "en": "The instructions are a maze.",
+      "zh": "这说明书像迷宫。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "maze，比喻绕",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ði ɪnˈstrʌkʃənz ɑr ə meɪz/",
+        "notes": [
+          "maze 长音",
+          "instructions 三音节"
+        ]
+      },
+      "variants": [
+        "These steps go nowhere."
+      ],
+      "avoid": "Instruction make house.",
+      "transfer": "The ___ are a maze.",
+      "context": "吐槽"
+    },
+    {
+      "id": "03-a-033-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 33,
+      "index": 1,
+      "en": "It took forever and a day.",
+      "zh": "花了天荒地久。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "forever and a day，夸张",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪt tʊk ˈfɔrɛvər ənd ə deɪ/",
+        "notes": [
+          "and 弱读",
+          "took 短音"
+        ]
+      },
+      "variants": [
+        "It dragged on endlessly."
+      ],
+      "avoid": "It use forever plus day.",
+      "transfer": "Forever and a ___.",
+      "context": "夸张"
+    },
+    {
+      "id": "03-a-033-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 33,
+      "index": 2,
+      "en": "I've told you a million times.",
+      "zh": "我说过一万遍了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "a million times，夸张",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪv toʊld ju ə ˈmɪljən taɪmz/",
+        "notes": [
+          "million 两音节",
+          "times 的 mz"
+        ]
+      },
+      "variants": [
+        "Countless times, I've said it."
+      ],
+      "avoid": "I say you million time.",
+      "transfer": "A ___ times.",
+      "context": "夸张"
+    },
+    {
+      "id": "03-a-033-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 33,
+      "index": 3,
+      "en": "I could sleep for a year.",
+      "zh": "我能睡一整年。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "for a year，夸张",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ kʊd slip fər ə jɪr/",
+        "notes": [
+          "sleep 长音",
+          "year 卷舌"
+        ]
+      },
+      "variants": [
+        "I'm desperate for sleep."
+      ],
+      "avoid": "I sleep one year full.",
+      "transfer": "Sleep for a ___.",
+      "context": "夸张"
+    },
+    {
+      "id": "03-a-033-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 33,
+      "index": 4,
+      "en": "This bag weighs a ton.",
+      "zh": "这包重得像一吨。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "weigh a ton，夸张",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðɪs bæɡ weɪz ə tʌn/",
+        "notes": [
+          "weighs 的 z",
+          "ton 短音"
+        ]
+      },
+      "variants": [
+        "It's insanely heavy."
+      ],
+      "avoid": "Bag have one ton.",
+      "transfer": "Weighs a ___.",
+      "context": "夸张"
+    },
+    {
+      "id": "03-a-033-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 33,
+      "index": 5,
+      "en": "I laughed my head off.",
+      "zh": "我笑掉大牙。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "laugh one's head off，固定夸张",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ læft maɪ hɛd ɔf/",
+        "notes": [
+          "laughed 的 ft",
+          "head off 连读"
+        ]
+      },
+      "variants": [
+        "I cracked up."
+      ],
+      "avoid": "Laugh head go out.",
+      "transfer": "Laughed my ___ off.",
+      "context": "夸张"
+    },
+    {
+      "id": "03-a-034-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 34,
+      "index": 1,
+      "en": "Oh, great.（反讽）",
+      "zh": "哦，太“好”了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "反讽语调",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/oʊ ɡreɪt/",
+        "notes": [
+          "语调下沉表反讽"
+        ]
+      },
+      "variants": [
+        "Just perfect.（反讽）"
+      ],
+      "avoid": "Good thing real.",
+      "transfer": "Oh, ___.（降调）",
+      "context": "反讽"
+    },
+    {
+      "id": "03-a-034-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 34,
+      "index": 2,
+      "en": "Yeah, right.",
+      "zh": "可拉倒吧。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "yeah right，反讽",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/jɛə raɪt/",
+        "notes": [
+          "yeah 拖长",
+          "right 上扬"
+        ]
+      },
+      "variants": [
+        "Sure, whatever."
+      ],
+      "avoid": "Yes right thing.",
+      "transfer": "Yeah, ___.（拖长）",
+      "context": "反讽"
+    },
+    {
+      "id": "03-a-034-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 34,
+      "index": 3,
+      "en": "Big deal.",
+      "zh": "有什么了不起。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "big deal，反讽",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/bɪɡ dil/",
+        "notes": [
+          "deal 长音"
+        ]
+      },
+      "variants": [
+        "Who cares."
+      ],
+      "avoid": "Big trade thing.",
+      "transfer": "Big ___.",
+      "context": "反讽"
+    },
+    {
+      "id": "03-a-034-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 34,
+      "index": 4,
+      "en": "Thanks a lot.（反讽）",
+      "zh": "真是“多谢”了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "thanks a lot，反讽语调",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/θæŋks ə lɑt/",
+        "notes": [
+          "重音在 a lot 表反讽"
+        ]
+      },
+      "variants": [
+        "Gee, thanks."
+      ],
+      "avoid": "Thank you much real.",
+      "transfer": "Thanks a ___.（重音后移）",
+      "context": "反讽"
+    },
+    {
+      "id": "03-a-034-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 34,
+      "index": 5,
+      "en": "Well, that went well.",
+      "zh": "嗯，真“顺利”。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "反讽重复 well",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɛl ðæt wɛnt wɛl/",
+        "notes": [
+          "三个 well，首尾降调"
+        ]
+      },
+      "variants": [
+        "That could've gone better."
+      ],
+      "avoid": "That go good real.",
+      "transfer": "That went ___.（降调）",
+      "context": "反讽"
+    },
+    {
+      "id": "03-a-035-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 35,
+      "index": 1,
+      "en": "Not exactly.",
+      "zh": "不完全是。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "not exactly，委婉否定",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/nɑt ɪɡˈzæktli/",
+        "notes": [
+          "exactly 三音节"
+        ]
+      },
+      "variants": [
+        "Not quite."
+      ],
+      "avoid": "No exact thing.",
+      "transfer": "Not ___.",
+      "context": "否定"
+    },
+    {
+      "id": "03-a-035-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 35,
+      "index": 2,
+      "en": "I'd rather not.",
+      "zh": "我就不了吧。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "would rather not，婉拒",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪd ˈræðər nɑt/",
+        "notes": [
+          "rather 的 ð",
+          "I'd 读 /aɪd/"
+        ]
+      },
+      "variants": [
+        "I'll skip it."
+      ],
+      "avoid": "I no want more.",
+      "transfer": "I'd rather ___.",
+      "context": "否定"
+    },
+    {
+      "id": "03-a-035-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 35,
+      "index": 3,
+      "en": "That's not really my thing.",
+      "zh": "这不太是我的菜。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "not my thing，不对口",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæts nɑt ˈrili maɪ θɪŋ/",
+        "notes": [
+          "thing 咬舌",
+          "really 两音节"
+        ]
+      },
+      "variants": [
+        "I'm not into it."
+      ],
+      "avoid": "That not my taste.",
+      "transfer": "Not my ___.",
+      "context": "否定"
+    },
+    {
+      "id": "03-a-035-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 35,
+      "index": 4,
+      "en": "I'll pass.",
+      "zh": "我就算了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "pass，放弃",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl pæs/",
+        "notes": [
+          "pass 短音",
+          "I'll 连读"
+        ]
+      },
+      "variants": [
+        "Count me out."
+      ],
+      "avoid": "I go pass.",
+      "transfer": "I'll ___.",
+      "context": "否定"
+    },
+    {
+      "id": "03-a-035-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 35,
+      "index": 5,
+      "en": "Maybe some other time.",
+      "zh": "改天吧。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "some other time，推迟",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈmeɪbi sʌm ˈʌðər taɪm/",
+        "notes": [
+          "other 的 ð",
+          "maybe 两音节"
+        ]
+      },
+      "variants": [
+        "Let's do it another day."
+      ],
+      "avoid": "Other day can.",
+      "transfer": "Some other ___.",
+      "context": "否定"
+    },
+    {
+      "id": "03-a-036-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 36,
+      "index": 1,
+      "en": "He's such a cheapskate.",
+      "zh": "他真是铁公鸡。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "cheapskate，小气",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hiz sʌtʃ ə ˈtʃipskeɪt/",
+        "notes": [
+          "cheapskate 两音节",
+          "such 的 tʃ"
+        ]
+      },
+      "variants": [
+        "He pinches pennies."
+      ],
+      "avoid": "He cheap skate shoe.",
+      "transfer": "Such a ___.",
+      "context": "消费"
+    },
+    {
+      "id": "03-a-036-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 36,
+      "index": 2,
+      "en": "That's a rip-off.",
+      "zh": "这纯属宰人。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "rip-off，宰客",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæts ə ˈrɪp ɔf/",
+        "notes": [
+          "rip-off 连读",
+          "that's 的 ts"
+        ]
+      },
+      "variants": [
+        "They're robbing us."
+      ],
+      "avoid": "That rip paper off.",
+      "transfer": "A rip-___.",
+      "context": "消费"
+    },
+    {
+      "id": "03-a-036-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 36,
+      "index": 3,
+      "en": "I'm tightening my belt.",
+      "zh": "我在勒紧裤腰带。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "tighten one's belt，节省",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ˈtaɪtənɪŋ maɪ bɛlt/",
+        "notes": [
+          "tightening 三音节",
+          "belt 的 lt"
+        ]
+      },
+      "variants": [
+        "I'm cutting back."
+      ],
+      "avoid": "Tie my belt tight.",
+      "transfer": "Tightening my ___.",
+      "context": "消费"
+    },
+    {
+      "id": "03-a-036-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 36,
+      "index": 4,
+      "en": "It's worth every penny.",
+      "zh": "一分钱一分货。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "worth every penny，值",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts wɜrθ ˈɛvri ˈpɛni/",
+        "notes": [
+          "worth 的 rθ",
+          "penny 两音节"
+        ]
+      },
+      "variants": [
+        "Money well spent."
+      ],
+      "avoid": "Worth all cent.",
+      "transfer": "Worth every ___.",
+      "context": "消费"
+    },
+    {
+      "id": "03-a-036-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 36,
+      "index": 5,
+      "en": "I'm strapped.",
+      "zh": "我手头紧。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "strapped，缺钱",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm stræpt/",
+        "notes": [
+          "strapped 的 pt 收尾"
+        ]
+      },
+      "variants": [
+        "I'm strapped for cash."
+      ],
+      "avoid": "I tie by belt rope.",
+      "transfer": "I'm ___.",
+      "context": "消费"
+    },
+    {
+      "id": "03-a-037-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 37,
+      "index": 1,
+      "en": "I keep putting it off.",
+      "zh": "我一直在拖。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "put off，拖延",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ kip ˈpʊtɪŋ ɪt ɔf/",
+        "notes": [
+          "putting 闪音",
+          "put it 连读"
+        ]
+      },
+      "variants": [
+        "I keep procrastinating."
+      ],
+      "avoid": "I put it go away.",
+      "transfer": "Putting it ___.",
+      "context": "拖延"
+    },
+    {
+      "id": "03-a-037-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 37,
+      "index": 2,
+      "en": "I'm down to the wire.",
+      "zh": "我卡在截止线上了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "down to the wire，压哨",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm daʊn tə ðə ˈwaɪər/",
+        "notes": [
+          "wire 卷舌",
+          "down to 连读"
+        ]
+      },
+      "variants": [
+        "It's crunch time."
+      ],
+      "avoid": "I down at wire line.",
+      "transfer": "Down to the ___.",
+      "context": "赶工"
+    },
+    {
+      "id": "03-a-037-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 37,
+      "index": 3,
+      "en": "I pulled an all-nighter.",
+      "zh": "我熬了个通宵。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "all-nighter，通宵",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ pʊld ən ɔl ˈnaɪtər/",
+        "notes": [
+          "all-nighter 连读",
+          "pulled 的 d"
+        ]
+      },
+      "variants": [
+        "I stayed up all night."
+      ],
+      "avoid": "I pull night no sleep.",
+      "transfer": "Pull an all-___.",
+      "context": "赶工"
+    },
+    {
+      "id": "03-a-037-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 37,
+      "index": 4,
+      "en": "Better late than never.",
+      "zh": "迟到总比不到好。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "固定谚语",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈbɛtər leɪt ðən ˈnɛvər/",
+        "notes": [
+          "than 弱读",
+          "never 两音节"
+        ]
+      },
+      "variants": [
+        "Right on time would be nicer."
+      ],
+      "avoid": "Late more good than no.",
+      "transfer": "___ late than ___.",
+      "context": "赶工"
+    },
+    {
+      "id": "03-a-037-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 37,
+      "index": 5,
+      "en": "I'm racing the clock.",
+      "zh": "我在跟时间赛跑。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "race the clock，抢时间",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ˈreɪsɪŋ ðə klɑk/",
+        "notes": [
+          "racing 两音节",
+          "clock 短音"
+        ]
+      },
+      "variants": [
+        "The clock is my enemy."
+      ],
+      "avoid": "I run with clock.",
+      "transfer": "Racing the ___.",
+      "context": "赶工"
+    },
+    {
+      "id": "03-a-038-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 38,
+      "index": 1,
+      "en": "I'm a night owl.",
+      "zh": "我是个夜猫子。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "night owl，夜猫子",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ə naɪt aʊl/",
+        "notes": [
+          "owl 读 /aʊl/",
+          "night 长音"
+        ]
+      },
+      "variants": [
+        "I come alive at night."
+      ],
+      "avoid": "I night bird animal.",
+      "transfer": "Night ___.",
+      "context": "作息"
+    },
+    {
+      "id": "03-a-038-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 38,
+      "index": 2,
+      "en": "She's an early bird.",
+      "zh": "她是只早鸟。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "early bird，早起的人",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ʃiz ən ˈɜrli bɜrd/",
+        "notes": [
+          "early 两音节",
+          "an early 连读"
+        ]
+      },
+      "variants": [
+        "She's up with the sun."
+      ],
+      "avoid": "She bird wake early.",
+      "transfer": "Early ___.",
+      "context": "作息"
+    },
+    {
+      "id": "03-a-038-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 38,
+      "index": 3,
+      "en": "I hit the snooze button.",
+      "zh": "我按了贪睡键。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "snooze button，贪睡键",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ hɪt ðə snuz ˈbʌtən/",
+        "notes": [
+          "snooze 长音",
+          "button 闪音"
+        ]
+      },
+      "variants": [
+        "I kept dozing off."
+      ],
+      "avoid": "Hit sleep key again.",
+      "transfer": "Snooze ___.",
+      "context": "作息"
+    },
+    {
+      "id": "03-a-038-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 38,
+      "index": 4,
+      "en": "I need my beauty sleep.",
+      "zh": "我需要美容觉。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "beauty sleep，美容觉",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ nid maɪ ˈbjuti slip/",
+        "notes": [
+          "beauty 两音节",
+          "sleep 长音"
+        ]
+      },
+      "variants": [
+        "Don't skimp on sleep."
+      ],
+      "avoid": "Sleep make face good.",
+      "transfer": "Beauty ___.",
+      "context": "作息"
+    },
+    {
+      "id": "03-a-038-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 38,
+      "index": 5,
+      "en": "I'm up before dawn.",
+      "zh": "我天没亮就起了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "before dawn，拂晓前",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ʌp bɪˈfɔr dɔn/",
+        "notes": [
+          "dawn 短音",
+          "before 弱读"
+        ]
+      },
+      "variants": [
+        "I beat the sunrise."
+      ],
+      "avoid": "I wake no sun time.",
+      "transfer": "Before ___.",
+      "context": "作息"
+    },
+    {
+      "id": "03-a-039-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 39,
+      "index": 1,
+      "en": "I hit the jackpot.",
+      "zh": "我中了头奖。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "hit the jackpot，撞大运",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ hɪt ðə ˈdʒækpɑt/",
+        "notes": [
+          "jackpot 两音节",
+          "hit the 连读"
+        ]
+      },
+      "variants": [
+        "What a windfall."
+      ],
+      "avoid": "I hit money big top.",
+      "transfer": "Hit the ___.",
+      "context": "运气"
+    },
+    {
+      "id": "03-a-039-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 39,
+      "index": 2,
+      "en": "Bad luck strikes again.",
+      "zh": "倒霉又找上门。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "strike again，又来",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/bæd lʌk straɪks əˈɡɛn/",
+        "notes": [
+          "strikes 的 ks",
+          "again 弱读"
+        ]
+      },
+      "variants": [
+        "Here we go again."
+      ],
+      "avoid": "Bad lucky hit me.",
+      "transfer": "Luck ___ again.",
+      "context": "运气"
+    },
+    {
+      "id": "03-a-039-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 39,
+      "index": 3,
+      "en": "Third time's the charm.",
+      "zh": "第三次准成。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "固定谚语",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/θɜrd taɪmz ðə tʃɑrm/",
+        "notes": [
+          "time's 的 z",
+          "charm 的 rm"
+        ]
+      },
+      "variants": [
+        "Try, try again."
+      ],
+      "avoid": "Three time have magic.",
+      "transfer": "Third time's the ___.",
+      "context": "运气"
+    },
+    {
+      "id": "03-a-039-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 39,
+      "index": 4,
+      "en": "Right place, right time.",
+      "zh": "恰逢其时其地。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "固定短语",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/raɪt pleɪs raɪt taɪm/",
+        "notes": [
+          "双 right 对仗"
+        ]
+      },
+      "variants": [
+        "Perfect timing."
+      ],
+      "avoid": "Good place good time.",
+      "transfer": "Right ___, right ___.",
+      "context": "运气"
+    },
+    {
+      "id": "03-a-039-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 39,
+      "index": 5,
+      "en": "My luck ran out.",
+      "zh": "我的好运用完了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "run out，耗尽",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/maɪ lʌk ræn aʊt/",
+        "notes": [
+          "ran out 连读"
+        ]
+      },
+      "variants": [
+        "Fortune left me."
+      ],
+      "avoid": "My lucky finish run.",
+      "transfer": "Luck ___ out.",
+      "context": "运气"
+    },
+    {
+      "id": "03-a-040-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 40,
+      "index": 1,
+      "en": "Go big or go home.",
+      "zh": "要么干大要么回家。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "固定口号",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɡoʊ bɪɡ ɔr ɡoʊ hoʊm/",
+        "notes": [
+          "对仗结构",
+          "or 弱读"
+        ]
+      },
+      "variants": [
+        "All or nothing."
+      ],
+      "avoid": "Big go or house go.",
+      "transfer": "Go ___ or go ___.",
+      "context": "冒险"
+    },
+    {
+      "id": "03-a-040-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 40,
+      "index": 2,
+      "en": "I played it safe.",
+      "zh": "我求稳了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "play it safe，求稳",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ pleɪd ɪt seɪf/",
+        "notes": [
+          "played 的 d",
+          "play it 连读"
+        ]
+      },
+      "variants": [
+        "I took no chances."
+      ],
+      "avoid": "I play with safe.",
+      "transfer": "Played it ___.",
+      "context": "保守"
+    },
+    {
+      "id": "03-a-040-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 40,
+      "index": 3,
+      "en": "No guts, no glory.",
+      "zh": "没胆量就没荣耀。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "固定谚语",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/noʊ ɡʌts noʊ ˈɡlɔri/",
+        "notes": [
+          "guts 的 ts",
+          "glory 两音节"
+        ]
+      },
+      "variants": [
+        "Fortune favors the bold."
+      ],
+      "avoid": "No stomach no win.",
+      "transfer": "No ___, no ___.",
+      "context": "冒险"
+    },
+    {
+      "id": "03-a-040-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 40,
+      "index": 4,
+      "en": "I jumped in with both feet.",
+      "zh": "我全力以赴了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "with both feet，全力投入",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ dʒʌmpt ɪn wɪθ boʊθ fit/",
+        "notes": [
+          "jumped 的 pt",
+          "both feet 连读"
+        ]
+      },
+      "variants": [
+        "I went all in."
+      ],
+      "avoid": "Jump two foot in water.",
+      "transfer": "With both ___.",
+      "context": "冒险"
+    },
+    {
+      "id": "03-a-040-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 40,
+      "index": 5,
+      "en": "Better safe than sorry.",
+      "zh": "稳妥为上。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "固定谚语",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈbɛtər seɪf ðən ˈsɑri/",
+        "notes": [
+          "than 弱读",
+          "sorry 两音节"
+        ]
+      },
+      "variants": [
+        "Caution pays off."
+      ],
+      "avoid": "Safe more good than cry.",
+      "transfer": "___ safe than ___.",
+      "context": "保守"
+    },
+    {
+      "id": "03-a-041-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 41,
+      "index": 1,
+      "en": "He's pulling my leg.",
+      "zh": "他在逗我呢。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "pull one's leg，开玩笑",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hiz ˈpʊlɪŋ maɪ lɛɡ/",
+        "notes": [
+          "pulling 闪音",
+          "leg 短音"
+        ]
+      },
+      "variants": [
+        "He's kidding around."
+      ],
+      "avoid": "He pull my leg down.",
+      "transfer": "Pulling my ___.",
+      "context": "戏弄"
+    },
+    {
+      "id": "03-a-041-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 41,
+      "index": 2,
+      "en": "That sounds fishy.",
+      "zh": "听着可疑。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "fishy，可疑",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæt saʊndz ˈfɪʃi/",
+        "notes": [
+          "fishy 两音节",
+          "sounds 的 ndz"
+        ]
+      },
+      "variants": [
+        "Something smells off."
+      ],
+      "avoid": "Sound like fish sea.",
+      "transfer": "Sounds ___.",
+      "context": "怀疑"
+    },
+    {
+      "id": "03-a-041-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 41,
+      "index": 3,
+      "en": "I smell a rat.",
+      "zh": "我觉得有诈。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "smell a rat，起疑",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ smɛl ə ræt/",
+        "notes": [
+          "smell 短音",
+          "a rat 连读"
+        ]
+      },
+      "variants": [
+        "Something's not right."
+      ],
+      "avoid": "Nose find rat animal.",
+      "transfer": "Smell a ___.",
+      "context": "怀疑"
+    },
+    {
+      "id": "03-a-041-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 41,
+      "index": 4,
+      "en": "Don't fall for it.",
+      "zh": "别上当。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "fall for，上当",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/doʊnt fɔl fər ɪt/",
+        "notes": [
+          "fall for 连读"
+        ]
+      },
+      "variants": [
+        "Don't buy it."
+      ],
+      "avoid": "Fall to it down.",
+      "transfer": "Fall ___ it.",
+      "context": "防骗"
+    },
+    {
+      "id": "03-a-041-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 41,
+      "index": 5,
+      "en": "I got scammed.",
+      "zh": "我被骗了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "scam，诈骗",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ ɡɑt skæmd/",
+        "notes": [
+          "scammed 的 md 连读"
+        ]
+      },
+      "variants": [
+        "They played me."
+      ],
+      "avoid": "I eat scam cake.",
+      "transfer": "I got ___.",
+      "context": "防骗"
+    },
+    {
+      "id": "03-a-042-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 42,
+      "index": 1,
+      "en": "I had second thoughts.",
+      "zh": "我动摇了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "second thoughts，犹豫",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ hæd ˈsɛkənd θɔts/",
+        "notes": [
+          "second 两音节",
+          "thoughts 的 θts"
+        ]
+      },
+      "variants": [
+        "I'm reconsidering."
+      ],
+      "avoid": "I think two time.",
+      "transfer": "Second ___.",
+      "context": "犹豫"
+    },
+    {
+      "id": "03-a-042-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 42,
+      "index": 2,
+      "en": "I'm getting cold feet.",
+      "zh": "我临阵胆怯了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "cold feet，怯场",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ˈɡɛtɪŋ koʊld fit/",
+        "notes": [
+          "cold feet 连读"
+        ]
+      },
+      "variants": [
+        "I'm chickening out."
+      ],
+      "avoid": "Foot cold ice.",
+      "transfer": "Cold ___.",
+      "context": "犹豫"
+    },
+    {
+      "id": "03-a-042-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 42,
+      "index": 3,
+      "en": "Can I back out?",
+      "zh": "我能退出吗？",
+      "scene": "slang",
+      "level": 2,
+      "focus": "back out，退出",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən aɪ bæk aʊt/",
+        "notes": [
+          "back out 连读"
+        ]
+      },
+      "variants": [
+        "Is it too late to withdraw?"
+      ],
+      "avoid": "Go back outside?",
+      "transfer": "___ out?",
+      "context": "反悔"
+    },
+    {
+      "id": "03-a-042-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 42,
+      "index": 4,
+      "en": "I changed my mind.",
+      "zh": "我改主意了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "change one's mind，改意",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ tʃeɪndʒd maɪ maɪnd/",
+        "notes": [
+          "changed 读 /tʃeɪndʒd/",
+          "mind 长音"
+        ]
+      },
+      "variants": [
+        "I had a change of heart."
+      ],
+      "avoid": "Change my brain.",
+      "transfer": "Changed my ___.",
+      "context": "反悔"
+    },
+    {
+      "id": "03-a-042-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 42,
+      "index": 5,
+      "en": "I'm all in.",
+      "zh": "我全押了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "all in，梭哈",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ɔl ɪn/",
+        "notes": [
+          "all in 连读"
+        ]
+      },
+      "variants": [
+        "I'm fully committed."
+      ],
+      "avoid": "All money in table.",
+      "transfer": "All ___.",
+      "context": "决意"
+    },
+    {
+      "id": "03-a-043-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 43,
+      "index": 1,
+      "en": "Hindsight is 20/20.",
+      "zh": "事后诸葛亮。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "hindsight，后见之明",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈhaɪndsaɪt ɪz ˈtwɛnti ˈtwɛnti/",
+        "notes": [
+          "20/20 读 twenty twenty"
+        ]
+      },
+      "variants": [
+        "Everyone's wise after the fact."
+      ],
+      "avoid": "Back eye see clear.",
+      "transfer": "Hindsight is ___.",
+      "context": "反省"
+    },
+    {
+      "id": "03-a-043-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 43,
+      "index": 2,
+      "en": "I should've known.",
+      "zh": "我早该知道。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "should've，缩合",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ʃʊdəv noʊn/",
+        "notes": [
+          "should've 读 /ʃʊdəv/"
+        ]
+      },
+      "variants": [
+        "I saw it coming."
+      ],
+      "avoid": "I should know before.",
+      "transfer": "Should've ___.",
+      "context": "后悔"
+    },
+    {
+      "id": "03-a-043-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 43,
+      "index": 3,
+      "en": "Live and learn.",
+      "zh": "吃一堑长一智。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "固定谚语",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɪv ənd lɜrn/",
+        "notes": [
+          "and 弱读",
+          "learn 咬舌"
+        ]
+      },
+      "variants": [
+        "You win some, you learn some."
+      ],
+      "avoid": "Live then know thing.",
+      "transfer": "Live and ___.",
+      "context": "反省"
+    },
+    {
+      "id": "03-a-043-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 43,
+      "index": 4,
+      "en": "What was I thinking?",
+      "zh": "我当时怎么想的？",
+      "scene": "slang",
+      "level": 2,
+      "focus": "反问自省",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌt wʌz aɪ ˈθɪŋkɪŋ/",
+        "notes": [
+          "thinking 咬舌",
+          "was 弱读"
+        ]
+      },
+      "variants": [
+        "Big mistake on my part."
+      ],
+      "avoid": "I think what that day?",
+      "transfer": "What was I ___?",
+      "context": "后悔"
+    },
+    {
+      "id": "03-a-043-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 43,
+      "index": 5,
+      "en": "No use crying over spilled milk.",
+      "zh": "覆水难收。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "spilled milk，固定比喻",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/noʊ juz ˈkraɪɪŋ ˈoʊvər spɪld mɪlk/",
+        "notes": [
+          "spilled 读 /spɪld/",
+          "milk 短音"
+        ]
+      },
+      "variants": [
+        "What's done is done."
+      ],
+      "avoid": "Cry for milk fall.",
+      "transfer": "Crying over ___ milk.",
+      "context": "后悔"
+    },
+    {
+      "id": "03-a-044-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 44,
+      "index": 1,
+      "en": "I'm getting there.",
+      "zh": "我在进步中。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "get there，渐入佳境",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ˈɡɛtɪŋ ðɛr/",
+        "notes": [
+          "getting 闪音",
+          "there 卷舌"
+        ]
+      },
+      "variants": [
+        "Making progress, slowly."
+      ],
+      "avoid": "I go arrive place.",
+      "transfer": "Getting ___.",
+      "context": "进步"
+    },
+    {
+      "id": "03-a-044-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 44,
+      "index": 2,
+      "en": "I've come a long way.",
+      "zh": "我进步巨大。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "come a long way，长足进步",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪv kʌm ə lɔŋ weɪ/",
+        "notes": [
+          "come a 连读",
+          "long way 连读"
+        ]
+      },
+      "variants": [
+        "I've grown so much."
+      ],
+      "avoid": "I walk far road.",
+      "transfer": "Come a ___ way.",
+      "context": "进步"
+    },
+    {
+      "id": "03-a-044-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 44,
+      "index": 3,
+      "en": "It's back to square one.",
+      "zh": "又回到原点了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "square one，原点",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts bæk tə skwɛr wʌn/",
+        "notes": [
+          "square 的 kw",
+          "back to 连读"
+        ]
+      },
+      "variants": [
+        "We're starting over."
+      ],
+      "avoid": "Return square first.",
+      "transfer": "Back to square ___.",
+      "context": "退步"
+    },
+    {
+      "id": "03-a-044-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 44,
+      "index": 4,
+      "en": "I'm out of practice.",
+      "zh": "我手生了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "out of practice，生疏",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm aʊt əv ˈpræktɪs/",
+        "notes": [
+          "out of 连读",
+          "practice 两音节"
+        ]
+      },
+      "variants": [
+        "I'm rusty."
+      ],
+      "avoid": "My practice go out.",
+      "transfer": "Out of ___.",
+      "context": "退步"
+    },
+    {
+      "id": "03-a-044-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 44,
+      "index": 5,
+      "en": "I'm losing my touch.",
+      "zh": "我的手感没了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "lose one's touch，失灵",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ˈluzɪŋ maɪ tʌtʃ/",
+        "notes": [
+          "touch 的 tʃ",
+          "losing 两音节"
+        ]
+      },
+      "variants": [
+        "I've still got it.（反用）"
+      ],
+      "avoid": "I lose my hand feel.",
+      "transfer": "Losing my ___.",
+      "context": "退步"
+    },
+    {
+      "id": "03-a-045-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 45,
+      "index": 1,
+      "en": "I'm in the zone.",
+      "zh": "我状态来了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "in the zone，心流",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ɪn ðə zoʊn/",
+        "notes": [
+          "zone 长音",
+          "in the 连读"
+        ]
+      },
+      "variants": [
+        "I'm on fire."
+      ],
+      "avoid": "I stand in circle.",
+      "transfer": "In the ___.",
+      "context": "专注"
+    },
+    {
+      "id": "03-a-045-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 45,
+      "index": 2,
+      "en": "I zoned out.",
+      "zh": "我走神了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "zone out，走神",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ zoʊnd aʊt/",
+        "notes": [
+          "zoned 读 /zoʊnd/"
+        ]
+      },
+      "variants": [
+        "I spaced out."
+      ],
+      "avoid": "My zone go out.",
+      "transfer": "Zoned ___.",
+      "context": "分心"
+    },
+    {
+      "id": "03-a-045-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 45,
+      "index": 3,
+      "en": "I lost my train of thought.",
+      "zh": "我忘了说到哪了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "train of thought，思路",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ lɔst maɪ treɪn əv θɔt/",
+        "notes": [
+          "train of 连读",
+          "thought 咬舌"
+        ]
+      },
+      "variants": [
+        "Where was I?"
+      ],
+      "avoid": "My thought train crash.",
+      "transfer": "Train of ___.",
+      "context": "分心"
+    },
+    {
+      "id": "03-a-045-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 45,
+      "index": 4,
+      "en": "Keep your eye on the ball.",
+      "zh": "盯紧目标。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "eye on the ball，专注",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kip jʊr aɪ ɑn ðə bɔl/",
+        "notes": [
+          "eye on 连读",
+          "ball 短音"
+        ]
+      },
+      "variants": [
+        "Stay focused."
+      ],
+      "avoid": "Look ball with eye.",
+      "transfer": "Eye on the ___.",
+      "context": "专注"
+    },
+    {
+      "id": "03-a-045-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 45,
+      "index": 5,
+      "en": "I got sidetracked.",
+      "zh": "我被带偏了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "sidetrack，岔开",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ ɡɑt ˈsaɪdtrækt/",
+        "notes": [
+          "sidetracked 三音节"
+        ]
+      },
+      "variants": [
+        "I got off track."
+      ],
+      "avoid": "Side train take me.",
+      "transfer": "I got ___.",
+      "context": "分心"
+    },
+    {
+      "id": "03-a-046-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 46,
+      "index": 1,
+      "en": "It slipped my mind.",
+      "zh": "我忘脑后了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "slip one's mind，忘掉",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪt slɪpt maɪ maɪnd/",
+        "notes": [
+          "slipped 的 pt",
+          "mind 长音"
+        ]
+      },
+      "variants": [
+        "It escaped me."
+      ],
+      "avoid": "It slide from brain.",
+      "transfer": "Slipped my ___.",
+      "context": "忘性"
+    },
+    {
+      "id": "03-a-046-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 46,
+      "index": 2,
+      "en": "It's on the tip of my tongue.",
+      "zh": "话到嘴边想不起来。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "tip of my tongue，嘴边",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts ɑn ðə tɪp əv maɪ tʌŋ/",
+        "notes": [
+          "tongue 的 ŋ",
+          "tip of 连读"
+        ]
+      },
+      "variants": [
+        "I almost remember it."
+      ],
+      "avoid": "Word at my tongue top.",
+      "transfer": "Tip of my ___.",
+      "context": "记性"
+    },
+    {
+      "id": "03-a-046-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 46,
+      "index": 3,
+      "en": "I have a memory like a sieve.",
+      "zh": "我记性像筛子。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "sieve，比喻健忘",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ hæv ə ˈmɛməri laɪk ə sɪv/",
+        "notes": [
+          "sieve 读 /sɪv/",
+          "memory 三音节"
+        ]
+      },
+      "variants": [
+        "My memory leaks."
+      ],
+      "avoid": "My brain have hole like net.",
+      "transfer": "Memory like a ___.",
+      "context": "忘性"
+    },
+    {
+      "id": "03-a-046-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 46,
+      "index": 4,
+      "en": "I remember it like it was yesterday.",
+      "zh": "我记忆犹新。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "like it was yesterday，比喻",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ rɪˈmɛmbər ɪt laɪk ɪt wʌz ˈjɛstərdeɪ/",
+        "notes": [
+          "remember 三音节",
+          "yesterday 三音节"
+        ]
+      },
+      "variants": [
+        "It's fresh in my mind."
+      ],
+      "avoid": "Yesterday I remember all.",
+      "transfer": "Like it was ___.",
+      "context": "记性"
+    },
+    {
+      "id": "03-a-046-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 46,
+      "index": 5,
+      "en": "It rings a bell.",
+      "zh": "听着耳熟。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "ring a bell，耳熟",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪt rɪŋz ə bɛl/",
+        "notes": [
+          "rings 的 ŋz",
+          "bell 短音"
+        ]
+      },
+      "variants": [
+        "Sounds familiar."
+      ],
+      "avoid": "It knock the bell.",
+      "transfer": "Rings a ___.",
+      "context": "记性"
+    },
+    {
+      "id": "03-a-047-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 47,
+      "index": 1,
+      "en": "I lost my cool.",
+      "zh": "我没忍住火了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "lose one's cool，失态",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ lɔst maɪ kul/",
+        "notes": [
+          "cool 长音",
+          "lost my 连读"
+        ]
+      },
+      "variants": [
+        "I snapped."
+      ],
+      "avoid": "My cold thing go out.",
+      "transfer": "Lost my ___.",
+      "context": "生气"
+    },
+    {
+      "id": "03-a-047-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 47,
+      "index": 2,
+      "en": "He blew up at me.",
+      "zh": "他冲我发飙。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "blow up at，发飙",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hi blu ʌp æt mi/",
+        "notes": [
+          "blew 读 /blu/",
+          "up at 连读"
+        ]
+      },
+      "variants": [
+        "He went off on me."
+      ],
+      "avoid": "He bomb to me.",
+      "transfer": "Blew up at ___.",
+      "context": "生气"
+    },
+    {
+      "id": "03-a-047-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 47,
+      "index": 3,
+      "en": "That's the last straw.",
+      "zh": "忍无可忍。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "the last straw，极限",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæts ðə læst strɔ/",
+        "notes": [
+          "straw 的 str",
+          "that's 连读"
+        ]
+      },
+      "variants": [
+        "I've had it."
+      ],
+      "avoid": "Last grass for camel.",
+      "transfer": "The last ___.",
+      "context": "生气"
+    },
+    {
+      "id": "03-a-047-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 47,
+      "index": 4,
+      "en": "I see red.",
+      "zh": "我火冒三丈。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "see red，暴怒",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ si rɛd/",
+        "notes": [
+          "red 短音",
+          "see 长音"
+        ]
+      },
+      "variants": [
+        "My blood boiled."
+      ],
+      "avoid": "My eye see red color.",
+      "transfer": "See ___.",
+      "context": "生气"
+    },
+    {
+      "id": "03-a-047-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 47,
+      "index": 5,
+      "en": "Don't push my buttons.",
+      "zh": "别惹我。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "push one's buttons，按开关",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/doʊnt pʊʃ maɪ ˈbʌtənz/",
+        "notes": [
+          "buttons 两音节",
+          "push 咬唇"
+        ]
+      },
+      "variants": [
+        "Don't test me."
+      ],
+      "avoid": "Press my button machine.",
+      "transfer": "Push my ___.",
+      "context": "生气"
+    },
+    {
+      "id": "03-a-048-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 48,
+      "index": 1,
+      "en": "Take a chill pill.",
+      "zh": "消消气。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "chill pill，冷静药丸",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/teɪk ə tʃɪl pɪl/",
+        "notes": [
+          "chill 的 tʃ",
+          "pill 短音"
+        ]
+      },
+      "variants": [
+        "Relax, please."
+      ],
+      "avoid": "Eat cold medicine.",
+      "transfer": "Chill ___.",
+      "context": "灭火"
+    },
+    {
+      "id": "03-a-048-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 48,
+      "index": 2,
+      "en": "Let it go.",
+      "zh": "算了吧。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "let it go，放下",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛt ɪt ɡoʊ/",
+        "notes": [
+          "let it 连读"
+        ]
+      },
+      "variants": [
+        "Don't dwell on it."
+      ],
+      "avoid": "Hold it and go? No.",
+      "transfer": "Let it ___.",
+      "context": "灭火"
+    },
+    {
+      "id": "03-a-048-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 48,
+      "index": 3,
+      "en": "Don't make a mountain out of a molehill.",
+      "zh": "别小题大做。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "molehill，固定比喻",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/doʊnt meɪk ə ˈmaʊntən aʊt əv ə ˈmoʊlhɪl/",
+        "notes": [
+          "molehill 两音节",
+          "mountain 两音节"
+        ]
+      },
+      "variants": [
+        "It's not that deep."
+      ],
+      "avoid": "Small hill make big mountain.",
+      "transfer": "Mountain out of a ___.",
+      "context": "灭火"
+    },
+    {
+      "id": "03-a-048-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 48,
+      "index": 4,
+      "en": "Cool your jets.",
+      "zh": "冷静点。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "cool your jets，降温",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kul jʊr dʒɛts/",
+        "notes": [
+          "jets 的 ts",
+          "cool 长音"
+        ]
+      },
+      "variants": [
+        "Easy there."
+      ],
+      "avoid": "Make your plane cold.",
+      "transfer": "Cool your ___.",
+      "context": "灭火"
+    },
+    {
+      "id": "03-a-048-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 48,
+      "index": 5,
+      "en": "It's water under the bridge.",
+      "zh": "过去的事了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "water under the bridge，固定比喻",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts ˈwɔtər ˈʌndər ðə brɪdʒ/",
+        "notes": [
+          "bridge 的 dʒ",
+          "under 咬舌"
+        ]
+      },
+      "variants": [
+        "Ancient history."
+      ],
+      "avoid": "Water run under bridge go.",
+      "transfer": "Water under the ___.",
+      "context": "灭火"
+    },
+    {
+      "id": "03-a-049-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 49,
+      "index": 1,
+      "en": "I put my foot in my mouth.",
+      "zh": "我说错话了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "foot in mouth，失言",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ pʊt maɪ fʊt ɪn maɪ maʊθ/",
+        "notes": [
+          "mouth 咬唇",
+          "put my 连读"
+        ]
+      },
+      "variants": [
+        "I misspoke."
+      ],
+      "avoid": "Put foot inside mouth real.",
+      "transfer": "Foot in my ___.",
+      "context": "尴尬"
+    },
+    {
+      "id": "03-a-049-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 49,
+      "index": 2,
+      "en": "That was awkward.",
+      "zh": "尬住了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "awkward，尴尬",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðæt wʌz ˈɔkwərd/",
+        "notes": [
+          "awkward 两音节",
+          "was 弱读"
+        ]
+      },
+      "variants": [
+        "Cringe moment."
+      ],
+      "avoid": "That is strange bad.",
+      "transfer": "That was ___.",
+      "context": "尴尬"
+    },
+    {
+      "id": "03-a-049-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 49,
+      "index": 3,
+      "en": "I wanted the ground to swallow me.",
+      "zh": "我想找条地缝。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "ground swallow me，比喻",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ ˈwɑntɪd ðə ɡraʊnd tə ˈswɑloʊ mi/",
+        "notes": [
+          "swallow 两音节",
+          "ground 双元音"
+        ]
+      },
+      "variants": [
+        "I wanted to disappear."
+      ],
+      "avoid": "Ground open eat me.",
+      "transfer": "Ground to ___ me.",
+      "context": "尴尬"
+    },
+    {
+      "id": "03-a-049-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 49,
+      "index": 4,
+      "en": "Cue the awkward silence.",
+      "zh": "空气突然安静。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "awkward silence，冷场",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kju ði ˈɔkwərd ˈsaɪləns/",
+        "notes": [
+          "cue 读 /kju/",
+          "silence 两音节"
+        ]
+      },
+      "variants": [
+        "Dead air everywhere."
+      ],
+      "avoid": "Silence come on stage.",
+      "transfer": "Awkward ___.",
+      "context": "尴尬"
+    },
+    {
+      "id": "03-a-049-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 49,
+      "index": 5,
+      "en": "I played it off.",
+      "zh": "我装作没事。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "play it off，掩饰",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ pleɪd ɪt ɔf/",
+        "notes": [
+          "played 的 d",
+          "play it 连读"
+        ]
+      },
+      "variants": [
+        "I played it cool."
+      ],
+      "avoid": "Play game go away.",
+      "transfer": "Played it ___.",
+      "context": "尴尬"
+    },
+    {
+      "id": "03-a-050-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 50,
+      "index": 1,
+      "en": "We go way back.",
+      "zh": "我们是老交情。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "go way back，老友",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wi ɡoʊ weɪ bæk/",
+        "notes": [
+          "way back 连读"
+        ]
+      },
+      "variants": [
+        "We're old friends."
+      ],
+      "avoid": "We go back many year.",
+      "transfer": "Go way ___.",
+      "context": "交情"
+    },
+    {
+      "id": "03-a-050-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 50,
+      "index": 2,
+      "en": "We clicked right away.",
+      "zh": "我们一见如故。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "click，投缘",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wi klɪkt raɪt əˈweɪ/",
+        "notes": [
+          "clicked 的 kt",
+          "right away 连读"
+        ]
+      },
+      "variants": [
+        "We hit it off."
+      ],
+      "avoid": "We make click sound.",
+      "transfer": "We ___ right away.",
+      "context": "交情"
+    },
+    {
+      "id": "03-a-050-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 50,
+      "index": 3,
+      "en": "I'm a people person.",
+      "zh": "我是社交达人。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "people person，复合词",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ə ˈpipəl ˈpɜrsən/",
+        "notes": [
+          "people 两音节",
+          "person 两音节"
+        ]
+      },
+      "variants": [
+        "I thrive around others."
+      ],
+      "avoid": "I person of people.",
+      "transfer": "People ___.",
+      "context": "交情"
+    },
+    {
+      "id": "03-a-050-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 50,
+      "index": 4,
+      "en": "We hit it off.",
+      "zh": "我们一拍即合。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "hit it off，合拍",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wi hɪt ɪt ɔf/",
+        "notes": [
+          "hit it 连读"
+        ]
+      },
+      "variants": [
+        "We got along great."
+      ],
+      "avoid": "We hit thing go off.",
+      "transfer": "Hit it ___.",
+      "context": "交情"
+    },
+    {
+      "id": "03-a-050-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 50,
+      "index": 5,
+      "en": "He's the life of the party.",
+      "zh": "他是派对灵魂。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "life of the party，固定俚语",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/hiz ðə laɪf əv ðə ˈpɑrti/",
+        "notes": [
+          "party 两音节",
+          "life 长音"
+        ]
+      },
+      "variants": [
+        "He lights up the room."
+      ],
+      "avoid": "He is party life man.",
+      "transfer": "Life of the ___.",
+      "context": "交情"
+    },
+    {
+      "id": "03-a-051-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 51,
+      "index": 1,
+      "en": "Let's grab a drink.",
+      "zh": "喝一杯去。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "grab a drink，小酌",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛts ɡræb ə drɪŋk/",
+        "notes": [
+          "drink 咬唇",
+          "grab a 连读"
+        ]
+      },
+      "variants": [
+        "Let's get a round in."
+      ],
+      "avoid": "Take drink quick.",
+      "transfer": "Grab a ___.",
+      "context": "酒局"
+    },
+    {
+      "id": "03-a-051-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 51,
+      "index": 2,
+      "en": "I'm driving, so just one.",
+      "zh": "我开车，只来一杯。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "just one，节制",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ˈdraɪvɪŋ soʊ dʒʌst wʌn/",
+        "notes": [
+          "driving 两音节",
+          "so 弱读"
+        ]
+      },
+      "variants": [
+        "One and done for me."
+      ],
+      "avoid": "I drive car, one drink only.",
+      "transfer": "Just ___.",
+      "context": "节制"
+    },
+    {
+      "id": "03-a-051-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 51,
+      "index": 3,
+      "en": "Bottoms up!",
+      "zh": "干杯！",
+      "scene": "slang",
+      "level": 2,
+      "focus": "bottoms up，干杯",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈbɑtəmz ʌp/",
+        "notes": [
+          "bottoms 的 mz",
+          "up 弱读"
+        ]
+      },
+      "variants": [
+        "Cheers!"
+      ],
+      "avoid": "Cup bottom go sky.",
+      "transfer": "Bottoms ___!",
+      "context": "酒局"
+    },
+    {
+      "id": "03-a-051-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 51,
+      "index": 4,
+      "en": "I'm tipsy.",
+      "zh": "我有点上头。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "tipsy，微醺",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ˈtɪpsi/",
+        "notes": [
+          "tipsy 两音节"
+        ]
+      },
+      "variants": [
+        "I'm a little buzzed."
+      ],
+      "avoid": "I drink small fall.",
+      "transfer": "I'm ___.",
+      "context": "酒局"
+    },
+    {
+      "id": "03-a-051-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 51,
+      "index": 5,
+      "en": "I got hammered last night.",
+      "zh": "昨晚喝断片了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "hammered，酩酊",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ ɡɑt ˈhæmərd læst naɪt/",
+        "notes": [
+          "hammered 三音节"
+        ]
+      },
+      "variants": [
+        "I was wrecked last night."
+      ],
+      "avoid": "Hammer hit my head drink.",
+      "transfer": "Got ___.",
+      "context": "酒局"
+    },
+    {
+      "id": "03-a-052-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 52,
+      "index": 1,
+      "en": "Let's do lunch sometime.",
+      "zh": "改天约个午饭。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "do lunch，约饭",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/lɛs du lʌntʃ ˈsʌmtaɪm/",
+        "notes": [
+          "lunch 的 tʃ",
+          "sometime 两音节"
+        ]
+      },
+      "variants": [
+        "Lunch soon, promise."
+      ],
+      "avoid": "Make lunch together.",
+      "transfer": "Do ___.",
+      "context": "约饭"
+    },
+    {
+      "id": "03-a-052-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 52,
+      "index": 2,
+      "en": "Table for two, please.",
+      "zh": "麻烦两位。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "table for two，订位",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈteɪbəl fər tu pliz/",
+        "notes": [
+          "table 两音节",
+          "for two 连读"
+        ]
+      },
+      "variants": [
+        "Two of us, please."
+      ],
+      "avoid": "Two person one table.",
+      "transfer": "Table for ___.",
+      "context": "约饭"
+    },
+    {
+      "id": "03-a-052-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 52,
+      "index": 3,
+      "en": "I'll get the tip.",
+      "zh": "小费我来。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "get the tip，付小费",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪl ɡɛt ðə tɪp/",
+        "notes": [
+          "tip 短音",
+          "get the 连读"
+        ]
+      },
+      "variants": [
+        "Tip's on me."
+      ],
+      "avoid": "I hold the tip money.",
+      "transfer": "Get the ___.",
+      "context": "约饭"
+    },
+    {
+      "id": "03-a-052-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 52,
+      "index": 4,
+      "en": "Split the bill?",
+      "zh": "平摊账单？",
+      "scene": "slang",
+      "level": 2,
+      "focus": "split the bill，AA",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/splɪt ðə bɪl/",
+        "notes": [
+          "bill 短音",
+          "split 的 pl"
+        ]
+      },
+      "variants": [
+        "Go Dutch?"
+      ],
+      "avoid": "Cut paper money half.",
+      "transfer": "Split the ___.",
+      "context": "AA"
+    },
+    {
+      "id": "03-a-052-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 52,
+      "index": 5,
+      "en": "I'm buying next time.",
+      "zh": "下次我请。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "承诺句式",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm ˈbaɪɪŋ nɛkst taɪm/",
+        "notes": [
+          "buying 两音节",
+          "next time 连读"
+        ]
+      },
+      "variants": [
+        "Next round's on me."
+      ],
+      "avoid": "Next time I give money.",
+      "transfer": "Buying ___.",
+      "context": "约饭"
+    },
+    {
+      "id": "03-a-053-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 53,
+      "index": 1,
+      "en": "Game's on.",
+      "zh": "比赛开始了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "game's on，开赛",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɡeɪmz ɑn/",
+        "notes": [
+          "game's 读 /ɡeɪmz/"
+        ]
+      },
+      "variants": [
+        "It's starting."
+      ],
+      "avoid": "Game open now.",
+      "transfer": "Game's ___.",
+      "context": "赛事"
+    },
+    {
+      "id": "03-a-053-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 53,
+      "index": 2,
+      "en": "I binge-watched the whole season.",
+      "zh": "我一口气刷完整季。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "binge-watch，刷剧",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ ˈbɪndʒ wɑtʃt ðə hoʊl ˈsizən/",
+        "notes": [
+          "binge-watch 连读",
+          "season 两音节"
+        ]
+      },
+      "variants": [
+        "I marathoned it."
+      ],
+      "avoid": "Watch sick one time all.",
+      "transfer": "Binge-___ the season.",
+      "context": "追剧"
+    },
+    {
+      "id": "03-a-053-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 53,
+      "index": 3,
+      "en": "No spoilers!",
+      "zh": "别剧透！",
+      "scene": "slang",
+      "level": 2,
+      "focus": "spoiler，剧透",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/noʊ ˈspɔɪlərz/",
+        "notes": [
+          "spoilers 三音节"
+        ]
+      },
+      "variants": [
+        "Don't ruin it for me."
+      ],
+      "avoid": "No bad person say end.",
+      "transfer": "No ___!",
+      "context": "追剧"
+    },
+    {
+      "id": "03-a-053-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 53,
+      "index": 4,
+      "en": "Who's playing?",
+      "zh": "谁对谁？",
+      "scene": "slang",
+      "level": 2,
+      "focus": "who's playing，对阵",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/huz ˈpleɪɪŋ/",
+        "notes": [
+          "playing 两音节",
+          "who's 读 /huz/"
+        ]
+      },
+      "variants": [
+        "Which teams?"
+      ],
+      "avoid": "Who play ball now?",
+      "transfer": "Who's ___?",
+      "context": "赛事"
+    },
+    {
+      "id": "03-a-053-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 53,
+      "index": 5,
+      "en": "It's a nail-biter.",
+      "zh": "比赛揪心。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "nail-biter，悬念",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts ə ˈneɪl ˌbaɪtər/",
+        "notes": [
+          "nail-biter 连读"
+        ]
+      },
+      "variants": [
+        "Too close to call."
+      ],
+      "avoid": "Bite nail for win.",
+      "transfer": "A nail-___.",
+      "context": "赛事"
+    },
+    {
+      "id": "03-a-054-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 54,
+      "index": 1,
+      "en": "The show was lit.",
+      "zh": "演出炸了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "lit，燃",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðə ʃoʊ wʌz lɪt/",
+        "notes": [
+          "lit 短音",
+          "was 弱读"
+        ]
+      },
+      "variants": [
+        "The show slapped."
+      ],
+      "avoid": "Show have fire light.",
+      "transfer": "The show was ___.",
+      "context": "演出"
+    },
+    {
+      "id": "03-a-054-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 54,
+      "index": 2,
+      "en": "We scored front-row seats.",
+      "zh": "我们抢到前排。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "score，拿到",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wi skɔrd frʌnt roʊ sits/",
+        "notes": [
+          "scored 的 rd",
+          "front-row 连读"
+        ]
+      },
+      "variants": [
+        "We landed great seats."
+      ],
+      "avoid": "We win seat front line.",
+      "transfer": "Scored ___ seats.",
+      "context": "演出"
+    },
+    {
+      "id": "03-a-054-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 54,
+      "index": 3,
+      "en": "The encore was unreal.",
+      "zh": "返场绝了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "encore，返场",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ði ˈɑŋkɔr wʌz ʌnˈril/",
+        "notes": [
+          "encore 两音节",
+          "unreal 两音节"
+        ]
+      },
+      "variants": [
+        "They came back and killed it."
+      ],
+      "avoid": "Again song not real.",
+      "transfer": "Encore was ___.",
+      "context": "演出"
+    },
+    {
+      "id": "03-a-054-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 54,
+      "index": 4,
+      "en": "I have two left feet.",
+      "zh": "我不会跳舞。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "two left feet，笨拙",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ hæv tu lɛft fit/",
+        "notes": [
+          "two left 连读",
+          "feet 长音"
+        ]
+      },
+      "variants": [
+        "I can't dance to save my life."
+      ],
+      "avoid": "My two foot all left.",
+      "transfer": "Two ___ feet.",
+      "context": "跳舞"
+    },
+    {
+      "id": "03-a-054-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 54,
+      "index": 5,
+      "en": "Turn it up.",
+      "zh": "调大声点。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "turn up，调大",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/tɜrn ɪt ʌp/",
+        "notes": [
+          "turn it 连读"
+        ]
+      },
+      "variants": [
+        "Crank it up."
+      ],
+      "avoid": "Make it up sound.",
+      "transfer": "Turn it ___.",
+      "context": "音乐"
+    },
+    {
+      "id": "03-a-055-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 55,
+      "index": 1,
+      "en": "We're hitting the road.",
+      "zh": "我们出发了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "hit the road，上路",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wɪr ˈhɪtɪŋ ðə roʊd/",
+        "notes": [
+          "hitting 闪音",
+          "road 长音"
+        ]
+      },
+      "variants": [
+        "Off we go."
+      ],
+      "avoid": "We hit road with car.",
+      "transfer": "Hitting the ___.",
+      "context": "出发"
+    },
+    {
+      "id": "03-a-055-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 55,
+      "index": 2,
+      "en": "Travel light.",
+      "zh": "轻装上阵。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "travel light，轻装",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈtrævəl laɪt/",
+        "notes": [
+          "light 的 t 收尾"
+        ]
+      },
+      "variants": [
+        "Pack less, stress less."
+      ],
+      "avoid": "Travel with small weight.",
+      "transfer": "Travel ___.",
+      "context": "出发"
+    },
+    {
+      "id": "03-a-055-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 55,
+      "index": 3,
+      "en": "It's a red-eye flight.",
+      "zh": "这是红眼航班。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "red-eye，红眼航班",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts ə ˈrɛd aɪ flaɪt/",
+        "notes": [
+          "red-eye 连读",
+          "flight 的 t"
+        ]
+      },
+      "variants": [
+        "Overnight flight."
+      ],
+      "avoid": "Eye red plane fly.",
+      "transfer": "Red-___ flight.",
+      "context": "出发"
+    },
+    {
+      "id": "03-a-055-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 55,
+      "index": 4,
+      "en": "I need a vacation.",
+      "zh": "我需要休假。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "need a vacation，渴望休",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ nid ə veɪˈkeɪʃən/",
+        "notes": [
+          "vacation 三音节"
+        ]
+      },
+      "variants": [
+        "I'm due for time off."
+      ],
+      "avoid": "I want rest far away.",
+      "transfer": "Need a ___.",
+      "context": "出发"
+    },
+    {
+      "id": "03-a-055-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 55,
+      "index": 5,
+      "en": "Book it before it's gone.",
+      "zh": "手慢无。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "book it，订下",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/bʊk ɪt bɪˈfɔr ɪts ɡɔn/",
+        "notes": [
+          "before 弱读",
+          "it's gone 连读"
+        ]
+      },
+      "variants": [
+        "Snag it while you can."
+      ],
+      "avoid": "Book room before no more.",
+      "transfer": "Book it before it's ___.",
+      "context": "出发"
+    },
+    {
+      "id": "03-a-056-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 56,
+      "index": 1,
+      "en": "The hotel was a dump.",
+      "zh": "这酒店太破了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "dump，破地方",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðə hoʊˈtɛl wʌz ə dʌmp/",
+        "notes": [
+          "dump 的 mp",
+          "hotel 两音节"
+        ]
+      },
+      "variants": [
+        "The place was a dive."
+      ],
+      "avoid": "Hotel is rubbish house.",
+      "transfer": "Was a ___.",
+      "context": "吐槽"
+    },
+    {
+      "id": "03-a-056-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 56,
+      "index": 2,
+      "en": "The lines were endless.",
+      "zh": "队排到天荒地老。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "lines，排队",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðə laɪnz wɜr ˈɛndləs/",
+        "notes": [
+          "endless 两音节",
+          "lines 的 nz"
+        ]
+      },
+      "variants": [
+        "We queued forever."
+      ],
+      "avoid": "Line no end.",
+      "transfer": "Lines were ___.",
+      "context": "吐槽"
+    },
+    {
+      "id": "03-a-056-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 56,
+      "index": 3,
+      "en": "Jet lag is killing me.",
+      "zh": "时差要了我的命。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "jet lag，时差",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/dʒɛt læɡ ɪz ˈkɪlɪŋ mi/",
+        "notes": [
+          "jet lag 连读",
+          "killing 闪音"
+        ]
+      },
+      "variants": [
+        "My body clock is off."
+      ],
+      "avoid": "Time plane make me sick.",
+      "transfer": "Jet ___ is killing me.",
+      "context": "吐槽"
+    },
+    {
+      "id": "03-a-056-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 56,
+      "index": 4,
+      "en": "It's a tourist trap.",
+      "zh": "这是游客坑。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "tourist trap，宰客景点",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts ə ˈtʊrɪst træp/",
+        "notes": [
+          "tourist 两音节",
+          "trap 短音"
+        ]
+      },
+      "variants": [
+        "Skip it — it's a gimmick."
+      ],
+      "avoid": "Trap for people visit.",
+      "transfer": "Tourist ___.",
+      "context": "吐槽"
+    },
+    {
+      "id": "03-a-056-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 56,
+      "index": 5,
+      "en": "The view was worth it.",
+      "zh": "风景值回票价。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "worth it，值得",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðə vju wʌz wɜrθ ɪt/",
+        "notes": [
+          "view 长音",
+          "worth it 连读"
+        ]
+      },
+      "variants": [
+        "The payoff came at the top."
+      ],
+      "avoid": "See good so money ok.",
+      "transfer": "Worth ___.",
+      "context": "收尾"
+    },
+    {
+      "id": "03-a-057-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 57,
+      "index": 1,
+      "en": "Can you do better on the price?",
+      "zh": "价能再让点吗？",
+      "scene": "slang",
+      "level": 2,
+      "focus": "do better on，再让步",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/kən ju du ˈbɛtər ɑn ðə praɪs/",
+        "notes": [
+          "price 双元音",
+          "better 两音节"
+        ]
+      },
+      "variants": [
+        "Any wiggle room on price?"
+      ],
+      "avoid": "Price can more good?",
+      "transfer": "Do better on the ___.",
+      "context": "砍价"
+    },
+    {
+      "id": "03-a-057-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 57,
+      "index": 2,
+      "en": "It's on sale.",
+      "zh": "打折中。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "on sale，促销",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts ɑn seɪl/",
+        "notes": [
+          "sale 长音",
+          "on 弱读"
+        ]
+      },
+      "variants": [
+        "It's marked down."
+      ],
+      "avoid": "It in sell shop.",
+      "transfer": "On ___.",
+      "context": "砍价"
+    },
+    {
+      "id": "03-a-057-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 57,
+      "index": 3,
+      "en": "I'm just browsing.",
+      "zh": "我随便看看。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "browse，闲逛",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪm dʒʌst ˈbraʊzɪŋ/",
+        "notes": [
+          "browsing 两音节"
+        ]
+      },
+      "variants": [
+        "Just looking, thanks."
+      ],
+      "avoid": "I look no buy.",
+      "transfer": "Just ___.",
+      "context": "砍价"
+    },
+    {
+      "id": "03-a-057-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 57,
+      "index": 4,
+      "en": "Is this final sale?",
+      "zh": "这个概不退换？",
+      "scene": "slang",
+      "level": 2,
+      "focus": "final sale，清仓不退",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪz ðɪs ˈfaɪnəl seɪl/",
+        "notes": [
+          "final 两音节",
+          "the 强读 /ðɪs/"
+        ]
+      },
+      "variants": [
+        "No returns on this?"
+      ],
+      "avoid": "Sale finish cannot back?",
+      "transfer": "Final ___.",
+      "context": "砍价"
+    },
+    {
+      "id": "03-a-057-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 57,
+      "index": 5,
+      "en": "I snagged a deal.",
+      "zh": "我捡到便宜了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "snag，抢到",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ snæɡd ə dil/",
+        "notes": [
+          "snagged 的 gd 连读"
+        ]
+      },
+      "variants": [
+        "I scored a bargain."
+      ],
+      "avoid": "I catch good price animal.",
+      "transfer": "Snagged a ___.",
+      "context": "砍价"
+    },
+    {
+      "id": "03-a-058-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 58,
+      "index": 1,
+      "en": "Add to cart.",
+      "zh": "加购物车。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "cart，购物车",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/æd tə kɑrt/",
+        "notes": [
+          "cart 的 rt",
+          "add to 连读"
+        ]
+      },
+      "variants": [
+        "Toss it in the cart."
+      ],
+      "avoid": "Put in car thing.",
+      "transfer": "Add to ___.",
+      "context": "网购"
+    },
+    {
+      "id": "03-a-058-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 58,
+      "index": 2,
+      "en": "It's out of stock.",
+      "zh": "缺货了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "out of stock，缺货",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ɪts aʊt əv stɑk/",
+        "notes": [
+          "out of 连读",
+          "stock 短音"
+        ]
+      },
+      "variants": [
+        "Sold out."
+      ],
+      "avoid": "Stock go out side.",
+      "transfer": "Out of ___.",
+      "context": "网购"
+    },
+    {
+      "id": "03-a-058-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 58,
+      "index": 3,
+      "en": "Free shipping.",
+      "zh": "包邮。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "shipping，运费",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/fri ˈʃɪpɪŋ/",
+        "notes": [
+          "shipping 两音节"
+        ]
+      },
+      "variants": [
+        "Ships free."
+      ],
+      "avoid": "Ship money zero.",
+      "transfer": "Free ___.",
+      "context": "网购"
+    },
+    {
+      "id": "03-a-058-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 58,
+      "index": 4,
+      "en": "I left a review.",
+      "zh": "我写了评价。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "leave a review，评价",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/aɪ lɛft ə rɪˈvju/",
+        "notes": [
+          "review 两音节",
+          "left 的 ft"
+        ]
+      },
+      "variants": [
+        "I rated it."
+      ],
+      "avoid": "I put word good thing.",
+      "transfer": "Left a ___.",
+      "context": "网购"
+    },
+    {
+      "id": "03-a-058-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 58,
+      "index": 5,
+      "en": "What's the return policy?",
+      "zh": "退货政策是什么？",
+      "scene": "slang",
+      "level": 2,
+      "focus": "return policy，退货",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/wʌts ðə rɪˈtɜrn ˈpɑləsi/",
+        "notes": [
+          "policy 两音节",
+          "return 重音在后"
+        ]
+      },
+      "variants": [
+        "How do returns work?"
+      ],
+      "avoid": "Give back thing rule what?",
+      "transfer": "Return ___.",
+      "context": "网购"
+    },
+    {
+      "id": "03-a-059-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 59,
+      "index": 1,
+      "en": "Who's a good boy?",
+      "zh": "谁是乖宝宝？",
+      "scene": "slang",
+      "level": 2,
+      "focus": "good boy，夸狗",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/huz ə ɡʊd bɔɪ/",
+        "notes": [
+          "boy 双元音",
+          "who's 读 /huz/"
+        ]
+      },
+      "variants": [
+        "Good boy!（拖长）"
+      ],
+      "avoid": "You boy good human.",
+      "transfer": "Good ___.",
+      "context": "宠物"
+    },
+    {
+      "id": "03-a-059-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 59,
+      "index": 2,
+      "en": "Adopt, don't shop.",
+      "zh": "领养代替购买。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "对仗口号",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/əˈdɑpt doʊnt ʃɑp/",
+        "notes": [
+          "adopt 两音节",
+          "don't 弱读"
+        ]
+      },
+      "variants": [
+        "Rescue pets rock."
+      ],
+      "avoid": "Take pet not buy pet.",
+      "transfer": "Adopt, don't ___.",
+      "context": "宠物"
+    },
+    {
+      "id": "03-a-059-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 59,
+      "index": 3,
+      "en": "The cat rules the house.",
+      "zh": "猫才是家里老大。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "rule，当家",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ðə kæt rulz ðə haʊs/",
+        "notes": [
+          "rules 的 z",
+          "house 双元音"
+        ]
+      },
+      "variants": [
+        "The cat runs the show."
+      ],
+      "avoid": "Cat king in house.",
+      "transfer": "Rules the ___.",
+      "context": "宠物"
+    },
+    {
+      "id": "03-a-059-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 59,
+      "index": 4,
+      "en": "Time for walkies.",
+      "zh": "遛狗时间到。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "walkies，儿语遛狗",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/taɪm fər ˈwɔkiz/",
+        "notes": [
+          "walkies 两音节",
+          "for 弱读"
+        ]
+      },
+      "variants": [
+        "Leash time."
+      ],
+      "avoid": "Walk small word now.",
+      "transfer": "Time for ___.",
+      "context": "宠物"
+    },
+    {
+      "id": "03-a-059-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 59,
+      "index": 5,
+      "en": "She's a lap cat.",
+      "zh": "她爱趴人腿上。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "lap cat，黏人猫",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ʃiz ə læp kæt/",
+        "notes": [
+          "lap 短音",
+          "she's 读 /ʃiz/"
+        ]
+      },
+      "variants": [
+        "She's a cuddler."
+      ],
+      "avoid": "Cat sit on leg only.",
+      "transfer": "Lap ___.",
+      "context": "宠物"
+    },
+    {
+      "id": "03-a-060-1",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 60,
+      "index": 1,
+      "en": "Idioms are shortcuts.",
+      "zh": "俚语是捷径。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "shortcut，捷径",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈɪdiəmz ɑr ˈʃɔrtkʌts/",
+        "notes": [
+          "idioms 的 mz",
+          "shortcuts 的 ts"
+        ]
+      },
+      "variants": [
+        "They fast-track belonging."
+      ],
+      "avoid": "Idiom is small road fast.",
+      "transfer": "Idioms are ___.",
+      "context": "总结"
+    },
+    {
+      "id": "03-a-060-2",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 60,
+      "index": 2,
+      "en": "Context beats translation.",
+      "zh": "语境胜过直译。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "context，语境",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˈkɑntɛkst bits trænˈsleɪʃən/",
+        "notes": [
+          "context 两音节",
+          "translation 三音节"
+        ]
+      },
+      "variants": [
+        "Feel the situation first."
+      ],
+      "avoid": "Look place not word book.",
+      "transfer": "___ beats ___.",
+      "context": "总结"
+    },
+    {
+      "id": "03-a-060-3",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 60,
+      "index": 3,
+      "en": "Steal like a native.",
+      "zh": "像母语者那样“偷”。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "steal like，模仿",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/stil laɪk ə ˈneɪtɪv/",
+        "notes": [
+          "native 两音节",
+          "steal 长音"
+        ]
+      },
+      "variants": [
+        "Borrow phrases shamelessly."
+      ],
+      "avoid": "Take word like local man.",
+      "transfer": "Steal like a ___.",
+      "context": "总结"
+    },
+    {
+      "id": "03-a-060-4",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 60,
+      "index": 4,
+      "en": "Misuse is part of learning.",
+      "zh": "用错也是学。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "misuse，误用",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/ˌmɪsˈjus ɪz pɑrt əv ˈlɜrnɪŋ/",
+        "notes": [
+          "misuse 重音在后",
+          "learning 两音节"
+        ]
+      },
+      "variants": [
+        "Errors are teachers."
+      ],
+      "avoid": "Wrong use is learn step.",
+      "transfer": "Misuse is part of ___.",
+      "context": "总结"
+    },
+    {
+      "id": "03-a-060-5",
+      "plan": "03",
+      "stage": "a",
+      "unit": 2,
+      "day": 60,
+      "index": 5,
+      "en": "Two months in, you're rolling.",
+      "zh": "两个月，你上路了。",
+      "scene": "slang",
+      "level": 2,
+      "focus": "be rolling，渐入佳境",
+      "register": "casual",
+      "tags": [],
+      "pronunciation": {
+        "ipa": "/tu mʌnθs ɪn jʊr ˈroʊlɪŋ/",
+        "notes": [
+          "rolling 两音节",
+          "months 的 nθs"
+        ]
+      },
+      "variants": [
+        "You're on a roll."
+      ],
+      "avoid": "You roll wheel go now.",
+      "transfer": "You're ___.",
+      "context": "总结"
     }
   ]
 }
