@@ -1,11 +1,26 @@
 import SwiftUI
-import SpeedTalkCore
+import SwiftData
 
 @main
 struct SpeedTalkApp: App {
+    private let container: AppContainer
+    private let modelContainer: ModelContainer
+
+    init() {
+        do {
+            let container = try AppContainer.live()
+            self.container = container
+            self.modelContainer = container.modelContainer
+        } catch {
+            fatalError("内容或数据库加载失败：\(error)")
+        }
+    }
+
     var body: some Scene {
         WindowGroup {
-            Text("极速口语 \(SpeedTalkCore.version)")
+            RootView()
+                .environment(container)
+                .modelContainer(modelContainer)
         }
     }
 }
