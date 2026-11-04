@@ -95,3 +95,12 @@ import Foundation
     let issues = CurriculumService(curriculum: bundle.curriculum, library: bundle.library).validate()
     #expect(issues.isEmpty, "课纲校验问题：\(issues.joined(separator: "; "))")
 }
+
+@Test func everyPlanTotalsMatchCertificate() throws {
+    let bundle = try ContentLoader.loadBundled()
+    for plan in bundle.curriculum.plans {
+        #expect(plan.stages.count == 3, "\(plan.id) 阶段数不对")
+        #expect(plan.totalDayCount == 360, "\(plan.id) 应为 360 天")
+        #expect(plan.totalPhraseCount == 1800, "\(plan.id) 应为 1800 句")
+    }
+}

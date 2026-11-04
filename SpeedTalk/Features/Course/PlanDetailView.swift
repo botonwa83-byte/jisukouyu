@@ -6,6 +6,8 @@ struct PlanDetailView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var progressList: [PlanProgress]
     @Query private var profiles: [UserProfile]
+    @Query private var phraseProgress: [PhraseProgress]
+    @State private var showCertificate = false
 
     let plan: Curriculum.Plan
 
@@ -32,6 +34,16 @@ struct PlanDetailView: View {
                         }
                     }
                 }
+                if progress?.isCompleted == true {
+                    Section {
+                        Button {
+                            showCertificate = true
+                        } label: {
+                            Label("查看通关证书", systemImage: "checkmark.seal.fill")
+                                .foregroundStyle(Theme.positive)
+                        }
+                    }
+                }
                 Section {
                     Button(action: setActive) {
                         Text(isActive ? "当前在学" : "设为当前方案")
@@ -43,6 +55,24 @@ struct PlanDetailView: View {
         }
         .navigationTitle(plan.title)
         .navigationBarTitleDisplayMode(.inline)
+        .sheet(isPresented: $showCertificate) {
+            PlanCertificateView(
+                planID: plan.id,
+                title: plan.title,
+                subtitle: plan.subtitle,
+                totalDays: plan.totalDayCount,
+                totalPhrases: plan.totalPhraseCount,
+                masteredCount: masteredCount,
+                streak: profiles.first?.streak ?? 0,
+                finishedAt: progress?.finishedAt
+            )
+        }
+    }
+
+    private var progress: PlanProgress? { progressList.first { $0.planID == plan.id } }
+
+    private var masteredCount: Int {
+        phraseProgress.filter { $0.phraseID.hasPrefix("\(plan.id)-") && $0.masteryLevel >= 4 }.count
     }
 
     private var isActive: Bool { (profiles.first?.activePlan ?? "01") == plan.id }

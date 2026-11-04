@@ -7,12 +7,17 @@ struct TodayView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var progressList: [PlanProgress]
     @Query private var profiles: [UserProfile]
+    @Query private var phraseProgress: [PhraseProgress]
     @State private var viewModel: TodayViewModel?
     @State private var completedScores: [Int] = []
+    @State private var showCertificate = false
 
     private var activePlan: String { profiles.first?.activePlan ?? "01" }
     private var progress: PlanProgress? { progressList.first { $0.planID == activePlan } }
     private var goal: Int { profiles.first?.dailyGoal ?? 5 }
+    private var masteredForPlan: Int {
+        phraseProgress.filter { $0.phraseID.hasPrefix("\(activePlan)-") && $0.masteryLevel >= 4 }.count
+    }
 
     var body: some View {
         NavigationStack {
@@ -40,6 +45,23 @@ struct TodayView: View {
             .navigationTitle("今日")
             .navigationBarTitleDisplayMode(.inline)
         }
+        .sheet(isPresented: $showCertificate) {
+            certificateView
+        }
+    }
+
+    private var certificateView: some View {
+        let plan = container.content.curriculum.plan(id: activePlan)
+        return PlanCertificateView(
+            planID: activePlan,
+            title: plan?.title ?? "方案 \(activePlan)",
+            subtitle: plan?.subtitle ?? "",
+            totalDays: plan?.totalDayCount ?? 0,
+            totalPhrases: plan?.totalPhraseCount ?? 0,
+            masteredCount: masteredForPlan,
+            streak: profiles.first?.streak ?? 0,
+            finishedAt: progress?.finishedAt
+        )
     }
 
     private func header(_ vm: TodayViewModel) -> some View {
@@ -90,14 +112,22 @@ struct TodayView: View {
     }
 
     private func finishedState(_ vm: TodayViewModel) -> some View {
-        VStack(spacing: 14) {
+        let planFinished = progress?.isCompleted == true
+        return VStack(spacing: 14) {
             EmptyStateView(
-                title: completedScores.count >= goal ? "今天学完了" : "第 1 组完成",
-                message: completedScores.count >= goal
-                    ? "打卡完成，明天再来一组"
-                    : "还差 \(goal - completedScores.count) 句，再来一组就打卡"
+                title: planFinished ? "方案通关" : (completedScores.count >= goal ? "今天学完了" : "第 1 组完成"),
+                message: planFinished
+                    ? "1800 句全部走完，来领你的通关证书"
+                    : (completedScores.count >= goal
+                        ? "打卡完成，明天再来一组"
+                        : "还差 \(goal - completedScores.count) 句，再来一组就打卡")
             )
-            if completedScores.count < goal {
+            if planFinished {
+                PrimaryButton(title: "查看通关证书") {
+                    showCertificate = true
+                }
+                .padding(.horizontal, 20)
+            } else if completedScores.count < goal {
                 PrimaryButton(title: "再学一组") {
                     let next = container.engine
                         .advance(progress?.snapshot ?? .initial(planID: activePlan))
@@ -108,6 +138,16 @@ struct TodayView: View {
             }
             Spacer(minLength: 0)
         }
+        .onAppear { autoPresentCertificateIfNeeded() }
+    }
+
+    /// 通关后第一次回到今日页自动亮出证书，只亮一次。
+    private func autoPresentCertificateIfNeeded() {
+        guard progress?.isCompleted == true else { return }
+        let key = "certificateShown.\(activePlan)"
+        guard UserDefaults.standard.bool(forKey: key) == false else { return }
+        UserDefaults.standard.set(true, forKey: key)
+        showCertificate = true
     }
 
     private func load() {
