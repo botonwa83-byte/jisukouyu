@@ -1,11 +1,14 @@
 import SwiftUI
 import SwiftData
+import UIKit
 import SpeedTalkCore
 
 struct PracticeView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
     @Query private var profiles: [UserProfile]
+    @Environment(\.openURL) private var openURL
+    @Environment(\.scenePhase) private var scenePhase
 
     let phrase: Phrase
     let onFinished: (Int) -> Void
@@ -56,7 +59,11 @@ struct PracticeView: View {
                 }
             } else {
                 Spacer()
-                recordButton
+                if vm?.phase == .denied {
+                    deniedCard
+                } else {
+                    recordButton
+                }
                 if let message = vm?.errorMessage {
                     Text(message).font(.footnote).foregroundStyle(Theme.danger)
                 }
@@ -97,6 +104,32 @@ struct PracticeView: View {
             if vm == nil { vm = PracticeViewModel(phrase: phrase) }
             await vm?.prepare()
         }
+        .onChange(of: scenePhase) { _, phase in
+            guard phase == .active else { return }
+            Task { await vm?.prepare() }
+        }
+    }
+
+    /// 权限被拒时给出口，而不是只把录音按钮灰掉。
+    private var deniedCard: some View {
+        VStack(spacing: 10) {
+            Text("麦克风和语音识别要开一下").font(.subheadline.weight(.medium))
+            Text("只用来给这一句打分，录音不出手机。").font(.footnote).foregroundStyle(.secondary)
+            Button("去设置开启") { openSettings() }
+                .font(.subheadline.weight(.semibold))
+                .foregroundStyle(Theme.accent)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 14)
+                .background(Theme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                .buttonStyle(.plain)
+        }
+        .padding(18)
+        .background(.white, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
+    }
+
+    private func openSettings() {
+        guard let url = URL(string: UIApplication.openSettingsURLString) else { return }
+        openURL(url)
     }
 
     private var recordButton: some View {

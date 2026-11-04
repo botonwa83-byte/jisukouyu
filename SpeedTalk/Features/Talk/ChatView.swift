@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import UIKit
 import SpeedTalkCore
 
 @Observable
@@ -39,6 +40,8 @@ struct ChatView: View {
     @State private var recognizer = SpeechRecognizer()
     @State private var draft = ""
     @State private var isRecording = false
+    @State private var micDenied = false
+    @Environment(\.openURL) private var openURL
 
     var body: some View {
         VStack(spacing: 0) {
@@ -78,6 +81,15 @@ struct ChatView: View {
                     Button("发送", action: sendDraft)
                         .disabled(draft.trimmingCharacters(in: .whitespaces).isEmpty)
                 }
+                if micDenied {
+                    HStack(spacing: 6) {
+                        Text("麦克风没开，打字也能对练").font(.footnote).foregroundStyle(.secondary)
+                        Button("去设置") {
+                            if let url = URL(string: UIApplication.openSettingsURLString) { openURL(url) }
+                        }
+                        .font(.footnote.weight(.medium))
+                    }
+                }
                 Text(isRecording ? "松开结束" : "按住说一句")
                     .font(.system(size: 16, weight: .semibold, design: .rounded))
                     .foregroundStyle(.white)
@@ -102,7 +114,7 @@ struct ChatView: View {
         .navigationBarTitleDisplayMode(.inline)
         .task {
             vm.seed(scene.opener)
-            await recognizer.requestAuthorization()
+            micDenied = !(await recognizer.requestAuthorization())
         }
     }
 

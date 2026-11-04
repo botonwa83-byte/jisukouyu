@@ -27,7 +27,11 @@ final class PracticeViewModel {
 
     func prepare() async {
         let granted = await recognizer.requestAuthorization()
-        if !granted { phase = .denied }
+        if granted {
+            if phase == .denied { phase = .idle }
+        } else {
+            phase = .denied
+        }
     }
 
     func beginRecording() async {
