@@ -37,8 +37,12 @@ public struct CurriculumService: Sendable {
         for plan in curriculum.plans {
             for stage in plan.stages {
                 let days = stage.days
-                if days.count != 120 {
-                    issues.append("\(plan.id)-\(stage.id) 天数应为 120，实际 \(days.count)")
+                if days.count > 120 {
+                    issues.append("\(plan.id)-\(stage.id) 天数超过 120，实际 \(days.count)")
+                }
+                let dayNumbers = days.map(\.day).sorted()
+                if dayNumbers != Array(1...max(days.count, 1)) {
+                    issues.append("\(plan.id)-\(stage.id) 天序号不连续")
                 }
                 for day in days {
                     if day.phraseIDs.count != 5 {

@@ -1,15 +1,24 @@
 #!/usr/bin/env python3
-"""把 content/*.tsv 的语料并入 phrases.json，并重建 curriculum.json。
+"""把 content/phrases_*.tsv 并入 phrases.json，并按语料重建 curriculum.json。
 
-TSV 列（\t 分隔）：
-day  en  zh  scene  focus  ipa  notes  variants  avoid  transfer  context
+TSV 列（用 " | " 分隔，共 11 列）：
+day | en | zh | scene | focus | ipa | notes | variants | avoid | transfer | context
 
-notes / variants 用 ; 分隔多条。
+文件名约定：
+    phrases_07_18.tsv      → 默认 01 方案 a 阶段（历史文件）
+    phrases_02a_01_30.tsv  → 02 方案 a 阶段
+
+天标题文件名：
+    day_titles_1_30.tsv        → 默认 01 方案 a 阶段
+    day_titles_02a_1_30.tsv    → 02 方案 a 阶段
+格式：day | title
+
 ID 规则：{plan}-{stage}-{day:03d}-{index}
 """
 
 import json
 import pathlib
+import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -18,16 +27,48 @@ CORE = ROOT / "Core" / "Sources" / "SpeedTalkCore" / "Resources"
 PHRASES = CORE / "phrases.json"
 CURRICULUM = CORE / "curriculum.json"
 
-UNIT_TITLES = {
-    1: "第一单元：开口与点单",
-    2: "第二单元：住所与出行",
-    3: "第三单元：办事与医疗",
-    4: "第四单元：邻里与消费",
+DEFAULT_PLAN = "01"
+DEFAULT_STAGE = "a"
+
+STAGE_TITLES = {
+    ("01", "a"): "吃住行基础",
+    ("01", "b"): "办事与医疗",
+    ("01", "c"): "邻里与消费",
+    ("02", "a"): "求职与面试",
+    ("02", "b"): "职场协作",
+    ("02", "c"): "校园学术",
+    ("03", "a"): "高频俚语",
+    ("03", "b"): "社交场合",
+    ("03", "c"): "文化与幽默",
 }
+
+UNIT_TITLES = {
+    ("01", 1): "第一单元：开口与点单",
+    ("01", 2): "第二单元：住所与出行",
+    ("01", 3): "第三单元：办事与医疗",
+    ("01", 4): "第四单元：邻里与消费",
+    ("02", 1): "第一单元：求职与面试",
+    ("02", 2): "第二单元：职场协作",
+    ("02", 3): "第三单元：校园学术",
+    ("02", 4): "第四单元：综合演练",
+    ("03", 1): "第一单元：高频俚语",
+    ("03", 2): "第二单元：社交场合",
+    ("03", 3): "第三单元：文化与幽默",
+    ("03", 4): "第四单元：综合演练",
+}
+
+FILE_PATTERN = re.compile(r"^(phrases|day_titles)_(\d\d)([abc])_")
 
 
 def load_json(path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def plan_stage_of(path):
+    match = FILE_PATTERN.match(path.name)
+    if match:
+        return match.group(2), match.group(3)
+    return DEFAULT_PLAN, DEFAULT_STAGE
 
 
 def parse_tsv(path):
@@ -49,29 +90,30 @@ def main():
     titles = {}
 
     for title_path in sorted(CONTENT.glob("day_titles*.tsv")):
+        plan, stage = plan_stage_of(title_path)
         for line in title_path.read_text(encoding="utf-8").splitlines():
             if not line.strip() or line.startswith("#"):
                 continue
             day, title = line.split(" | ")
-            titles[int(day)] = title.strip()
+            titles[(plan, stage, int(day))] = title.strip()
 
     per_day = {}
     for p in phrases.values():
         per_day.setdefault((p["plan"], p["stage"], p["day"]), []).append(p)
 
     for tsv in sorted(CONTENT.glob("phrases_*.tsv")):
+        plan, stage = plan_stage_of(tsv)
         for day_s, en, zh, scene, focus, ipa, notes, variants, avoid, transfer, context in parse_tsv(tsv):
             day = int(day_s)
-            key = ("01", "a", day)
+            key = (plan, stage, day)
             bucket = per_day.setdefault(key, [])
-            existing = {p["en"] for p in bucket}
-            if en in existing:
+            if en in {p["en"] for p in bucket}:
                 continue
             index = len(bucket) + 1
             phrase = {
-                "id": f"01-a-{day:03d}-{index}",
-                "plan": "01",
-                "stage": "a",
+                "id": f"{plan}-{stage}-{day:03d}-{index}",
+                "plan": plan,
+                "stage": stage,
                 "unit": (day - 1) // 30 + 1,
                 "day": day,
                 "index": index,
@@ -100,40 +142,54 @@ def main():
         encoding="utf-8",
     )
 
-    # 重建 01-a 的 120 天课纲
-    days = {}
+    ids_by_plan_stage_day = {}
     for p in ordered:
-        if p["plan"] == "01" and p["stage"] == "a":
-            days.setdefault(p["day"], []).append(p["id"])
-
-    units = []
-    for unit_index in range(1, 5):
-        unit_days = []
-        for day in range((unit_index - 1) * 30 + 1, unit_index * 30 + 1):
-            ids = sorted(days.get(day, []))
-            if not ids:
-                continue
-            unit_days.append({
-                "day": day,
-                "title": titles.get(day, f"第 {day} 天"),
-                "phraseIDs": ids,
-            })
-        units.append({
-            "index": unit_index,
-            "title": UNIT_TITLES[unit_index],
-            "days": unit_days,
-        })
+        ids_by_plan_stage_day.setdefault((p["plan"], p["stage"], p["day"]), []).append(p["id"])
 
     curriculum = load_json(CURRICULUM)
+    total_days = 0
     for plan in curriculum["plans"]:
-        if plan["id"] == "01":
-            plan["stages"] = [{"id": "a", "title": "吃住行基础", "units": units}]
+        plan_id = plan["id"]
+        stages = []
+        for stage_id in ["a", "b", "c"]:
+            days = {
+                day: ids
+                for (p, s, day), ids in ids_by_plan_stage_day.items()
+                if p == plan_id and s == stage_id
+            }
+            if not days:
+                continue
+            units = []
+            for unit_index in range(1, 5):
+                unit_days = []
+                for day in range((unit_index - 1) * 30 + 1, unit_index * 30 + 1):
+                    ids = sorted(days.get(day, []), key=lambda x: int(x.rsplit("-", 1)[1]))
+                    if not ids:
+                        continue
+                    unit_days.append({
+                        "day": day,
+                        "title": titles.get((plan_id, stage_id, day), f"第 {day} 天"),
+                        "phraseIDs": ids,
+                    })
+                if unit_days:
+                    units.append({
+                        "index": unit_index,
+                        "title": UNIT_TITLES.get((plan_id, unit_index), f"第 {unit_index} 单元"),
+                        "days": unit_days,
+                    })
+            total_days += len(days)
+            stages.append({
+                "id": stage_id,
+                "title": STAGE_TITLES.get((plan_id, stage_id), stage_id.upper()),
+                "units": units,
+            })
+        plan["stages"] = stages
 
     CURRICULUM.write_text(
         json.dumps(curriculum, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    print(f"phrases: {len(ordered)}, days: {len(days)}")
+    print(f"phrases: {len(ordered)}, days: {total_days}")
 
 
 if __name__ == "__main__":
