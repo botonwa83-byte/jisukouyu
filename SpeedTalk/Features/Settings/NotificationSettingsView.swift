@@ -24,6 +24,7 @@ struct NotificationSettingsView: View {
                 ReminderScheduler.cancel()
             }
         }
+        .warmList()
         .navigationTitle("每日提醒")
         .navigationBarTitleDisplayMode(.inline)
     }

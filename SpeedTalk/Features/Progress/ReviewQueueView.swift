@@ -32,6 +32,7 @@ struct ReviewQueueView: View {
                 }
             }
         }
+        .warmList()
         .navigationTitle("复习")
     }
 }

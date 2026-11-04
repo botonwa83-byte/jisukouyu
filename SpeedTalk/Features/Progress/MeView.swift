@@ -63,6 +63,7 @@ struct MeView: View {
                     NavigationLink("隐私说明") { PrivacyView() }
                 }
             }
+            .warmList()
             .navigationTitle("我的")
             .task { refreshAchievements() }
         }

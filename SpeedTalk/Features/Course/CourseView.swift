@@ -53,7 +53,7 @@ struct CourseView: View {
                 }
             }
             .padding(18)
-            .background(.white, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .background(Theme.card, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
         }
         .buttonStyle(.plain)
     }

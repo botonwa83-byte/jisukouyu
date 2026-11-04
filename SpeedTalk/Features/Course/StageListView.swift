@@ -62,6 +62,7 @@ struct DayDetailView: View {
                 }
             }
         }
+        .warmList()
         .navigationTitle(title)
         .navigationBarTitleDisplayMode(.inline)
     }

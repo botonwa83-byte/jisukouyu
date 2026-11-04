@@ -46,6 +46,7 @@ struct PhraseListView: View {
                 }
             }
         }
+        .warmList()
         .navigationTitle(scene?.title ?? "搜索")
         .navigationBarTitleDisplayMode(.inline)
     }

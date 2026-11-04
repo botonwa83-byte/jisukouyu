@@ -19,7 +19,9 @@ struct SceneGridView: View {
                                     PhraseListView(scene: scene, searchText: "")
                                 } label: {
                                     VStack(alignment: .leading, spacing: 8) {
-                                        Image(systemName: scene.symbol).font(.title3)
+                                        Image(systemName: scene.symbol)
+                                            .font(.title3)
+                                            .foregroundStyle(tint(for: scene))
                                         Text(scene.title).font(.headline)
                                         Text("\(container.content.library.phrases(scene: scene).count) 句")
                                             .font(.captionLabel)
@@ -27,7 +29,7 @@ struct SceneGridView: View {
                                     }
                                     .frame(maxWidth: .infinity, alignment: .leading)
                                     .padding(16)
-                                    .background(.white, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                                    .background(Theme.card, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
                                 }
                                 .buttonStyle(.plain)
                             }
@@ -42,5 +44,11 @@ struct SceneGridView: View {
             .navigationTitle("场景")
             .searchable(text: $searchText, prompt: "搜英文、中文或标签")
         }
+    }
+
+    private func tint(for scene: SpeedTalkCore.Scene) -> Color {
+        let palette: [Color] = [Theme.accent, Theme.blush, Theme.positive, Theme.warning]
+        let index = SpeedTalkCore.Scene.allCases.firstIndex(of: scene) ?? 0
+        return palette[index % palette.count]
     }
 }

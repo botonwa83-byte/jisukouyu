@@ -40,6 +40,7 @@ struct AIConfigView: View {
                     .font(.subheadline)
             }
         }
+        .warmList()
         .navigationTitle("AI 设置")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear(perform: load)

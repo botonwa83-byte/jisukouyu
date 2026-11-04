@@ -13,13 +13,13 @@ struct StageCompletionView: View {
     let nextStageTitle: String?
     let onContinue: () -> Void
 
-    private let gold = Color(red: 0.72, green: 0.56, blue: 0.26)
+    private let gold = Theme.gold
     @State private var appeared = false
 
     var body: some View {
         ZStack {
             LinearGradient(
-                colors: [Theme.paper, Color(red: 0.96, green: 0.94, blue: 0.88)],
+                colors: [Theme.paper, Theme.card],
                 startPoint: .top,
                 endPoint: .bottom
             )
@@ -89,7 +89,7 @@ struct StageCompletionView: View {
             metric("分", value: averageScore > 0 ? "\(averageScore)" : "—", label: "本组均分")
         }
         .padding(.vertical, 14)
-        .background(.white.opacity(0.75), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+        .background(Theme.card.opacity(0.75), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
     }
 
     private func metric(_ unit: String, value: String, label: String) -> some View {

@@ -14,12 +14,12 @@ struct PlanCertificateView: View {
     let streak: Int
     let finishedAt: Date?
 
-    private let gold = Color(red: 0.72, green: 0.56, blue: 0.26)
+    private let gold = Theme.gold
 
     var body: some View {
         ZStack {
             LinearGradient(
-                colors: [Theme.paper, Color(red: 0.95, green: 0.93, blue: 0.87)],
+                colors: [Theme.paper, Theme.card],
                 startPoint: .top,
                 endPoint: .bottom
             )
@@ -109,7 +109,7 @@ struct PlanCertificateView: View {
             .padding(.top, 4)
         }
         .padding(22)
-        .background(.white, in: RoundedRectangle(cornerRadius: 26, style: .continuous))
+        .background(Theme.card, in: RoundedRectangle(cornerRadius: 26, style: .continuous))
         .overlay {
             RoundedRectangle(cornerRadius: 26, style: .continuous)
                 .strokeBorder(gold.opacity(0.35), lineWidth: 1)

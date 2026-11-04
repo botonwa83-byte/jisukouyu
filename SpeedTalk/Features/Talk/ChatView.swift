@@ -127,7 +127,7 @@ struct ChatView: View {
                 .font(.body)
                 .padding(12)
                 .background(
-                    message.role == .user ? Theme.accent.opacity(0.12) : Color.white,
+                    message.role == .user ? Theme.accent.opacity(0.12) : Theme.card,
                     in: RoundedRectangle(cornerRadius: 14, style: .continuous)
                 )
         }

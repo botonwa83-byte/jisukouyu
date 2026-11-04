@@ -29,7 +29,7 @@ struct PracticeView: View {
             }
             .padding(20)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(.white, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
+            .background(Theme.card, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
 
             if let report = vm?.report {
                 ScrollView {
@@ -124,7 +124,7 @@ struct PracticeView: View {
                 .buttonStyle(.plain)
         }
         .padding(18)
-        .background(.white, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
+        .background(Theme.card, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
     }
 
     private func openSettings() {

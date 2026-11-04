@@ -53,6 +53,7 @@ struct PlanDetailView: View {
                 }
             }
         }
+        .warmList()
         .navigationTitle(plan.title)
         .navigationBarTitleDisplayMode(.inline)
         .sheet(isPresented: $showCertificate) {

@@ -135,7 +135,7 @@ struct OnboardingView: View {
                 }
             }
             .padding(16)
-            .background(.white, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+            .background(Theme.card, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
             .overlay {
                 RoundedRectangle(cornerRadius: 18, style: .continuous)
                     .strokeBorder(
