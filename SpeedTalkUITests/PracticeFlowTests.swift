@@ -21,8 +21,8 @@ final class PracticeFlowTests: XCTestCase {
         let practice = app.buttons["按住说"]
         XCTAssertTrue(practice.waitForExistence(timeout: 5))
         practice.tap()
-        // 跟读页目标句是除导航标题「跟读」外的第一段文本
-        let en = app.staticTexts.matching(NSPredicate(format: "label != '跟读'")).firstMatch
+        // 跟读页目标句带固定标识，避免 iPad 侧边栏文字干扰
+        let en = app.staticTexts["practiceTarget"]
         XCTAssertTrue(en.waitForExistence(timeout: 5))
         return en.label
     }
@@ -49,7 +49,7 @@ final class PracticeFlowTests: XCTestCase {
         next.tap()
 
         // 仍停留在跟读页，并且目标句已经换成下一句
-        let secondEN = app.staticTexts.matching(NSPredicate(format: "label != '跟读'")).firstMatch
+        let secondEN = app.staticTexts["practiceTarget"]
         XCTAssertTrue(secondEN.waitForExistence(timeout: 5))
         let deadline = Date().addingTimeInterval(5)
         while Date() < deadline, secondEN.label == firstEN {
@@ -60,7 +60,10 @@ final class PracticeFlowTests: XCTestCase {
         XCTAssertFalse(app.buttons["下一句"].exists, "评分报告应已关闭，回到跟读状态")
 
         // 退出跟读后，今日页进度应推进到 2/5
-        app.navigationBars.buttons.firstMatch.tap()
+        // iPad 侧边栏布局里导航栏第一个按钮可能是"Hide Sidebar"，按标识取返回键
+        let backButton = app.navigationBars.buttons.matching(identifier: "BackButton").firstMatch
+        XCTAssertTrue(backButton.waitForExistence(timeout: 3), "跟读页应有返回键")
+        backButton.tap()
         XCTAssertTrue(app.staticTexts["2/5"].waitForExistence(timeout: 5), "今日页应推进到 2/5")
     }
 
@@ -71,9 +74,8 @@ final class PracticeFlowTests: XCTestCase {
         app.launchArguments = ["-skipOnboarding"]
         app.launch()
 
-        let sceneTab = app.tabBars.buttons["场景"]
-        XCTAssertTrue(sceneTab.waitForExistence(timeout: 15))
-        sceneTab.tap()
+        XCTAssertTrue(app.staticTexts["今日"].waitForExistence(timeout: 15))
+        app.openTab("场景")
         XCTAssertTrue(app.navigationBars["场景"].waitForExistence(timeout: 10))
 
         let sceneCell = app.buttons.matching(NSPredicate(format: "label CONTAINS '句'")).firstMatch
@@ -81,9 +83,11 @@ final class PracticeFlowTests: XCTestCase {
         sceneCell.tap()
 
         XCTAssertTrue(app.staticTexts["只看收藏"].waitForExistence(timeout: 8), "应进入句子列表")
-        app.cells.element(boundBy: 1).tap()
+        let row = app.descendants(matching: .any).matching(identifier: "phraseRow").firstMatch
+        XCTAssertTrue(row.waitForExistence(timeout: 8), "句子行应可点")
+        row.tap()
 
-        let detailEN = app.staticTexts.element(boundBy: 0)
+        let detailEN = app.staticTexts["phraseDetailEN"]
         XCTAssertTrue(detailEN.waitForExistence(timeout: 8))
         let firstEN = detailEN.label
 
@@ -98,16 +102,22 @@ final class PracticeFlowTests: XCTestCase {
         XCTAssertTrue(next.waitForExistence(timeout: 5))
         next.tap()
 
-        let practiceEN = app.staticTexts.matching(NSPredicate(format: "label != '跟读'")).firstMatch
+        let practiceEN = app.staticTexts["practiceTarget"]
         let deadline = Date().addingTimeInterval(5)
         while Date() < deadline, practiceEN.label == firstEN {
             usleep(200_000)
         }
-        XCTAssertNotEqual(firstEN, practiceEN.label, "下一句应换成场景里的下一句，实际还是本句")
+        let secondLabel = practiceEN.label
+        XCTAssertNotEqual(firstEN, secondLabel, "下一句应换成场景里的下一句，实际还是本句")
         XCTAssertTrue(app.navigationBars["跟读"].exists, "点下一句后应留在跟读页")
 
         // 返回后详情页也同步为刚练的那句
-        app.navigationBars.buttons.firstMatch.tap()
-        XCTAssertTrue(app.staticTexts[practiceEN.label].waitForExistence(timeout: 5), "详情页应同步为刚练的句子")
+        // iPad 侧边栏布局里导航栏第一个按钮可能是"Hide Sidebar"，按标识取返回键
+        let backButton = app.navigationBars.buttons.matching(identifier: "BackButton").firstMatch
+        XCTAssertTrue(backButton.waitForExistence(timeout: 3), "跟读页应有返回键")
+        backButton.tap()
+        let detailAfter = app.staticTexts["phraseDetailEN"]
+        XCTAssertTrue(detailAfter.waitForExistence(timeout: 5))
+        XCTAssertEqual(detailAfter.label, secondLabel, "详情页应同步为刚练的句子")
     }
 }

@@ -49,6 +49,7 @@ struct TodayView: View {
                         .task { load() }
                 }
             }
+            .frame(maxWidth: 720)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Theme.paper.ignoresSafeArea())
             .navigationTitle("今日")

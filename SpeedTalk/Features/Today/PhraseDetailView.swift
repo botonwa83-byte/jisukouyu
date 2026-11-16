@@ -12,6 +12,7 @@ struct PhraseDetailView: View {
                         .font(.phraseSmall)
                         .foregroundStyle(Theme.ink)
                         .fixedSize(horizontal: false, vertical: true)
+                        .accessibilityIdentifier("phraseDetailEN")
                     Text(phrase.zh)
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
@@ -56,6 +57,7 @@ struct PhraseDetailView: View {
             }
             .padding(20)
         }
+        .centeredColumn()
         .background(Theme.paper)
     }
 

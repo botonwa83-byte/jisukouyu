@@ -41,6 +41,7 @@ struct PracticeView: View {
                 Text(phrase.en)
                     .font(.phraseSmall)
                     .fixedSize(horizontal: false, vertical: true)
+                    .accessibilityIdentifier("practiceTarget")
                 Text(phrase.zh).font(.subheadline).foregroundStyle(.secondary)
                 PhraseAudioBar(phrase: phrase)
             }

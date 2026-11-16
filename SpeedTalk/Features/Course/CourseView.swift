@@ -17,6 +17,7 @@ struct CourseView: View {
                 }
                 .padding(20)
             }
+            .centeredColumn()
             .background(Theme.paper.ignoresSafeArea())
             .navigationTitle("课表")
         }

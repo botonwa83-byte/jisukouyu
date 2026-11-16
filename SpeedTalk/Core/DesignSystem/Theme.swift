@@ -53,4 +53,10 @@ extension View {
         scrollContentBackground(.hidden)
             .background(Theme.paper)
     }
+
+    /// iPad 等宽屏上限制内容宽度并居中，避免卡片被拉得过宽。
+    func centeredColumn(maxWidth: CGFloat = 720) -> some View {
+        frame(maxWidth: maxWidth)
+            .frame(maxWidth: .infinity)
+    }
 }

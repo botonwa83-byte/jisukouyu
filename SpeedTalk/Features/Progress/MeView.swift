@@ -64,6 +64,7 @@ struct MeView: View {
                 }
             }
             .warmList()
+            .centeredColumn()
             .navigationTitle("我的")
             .task { refreshAchievements() }
         }

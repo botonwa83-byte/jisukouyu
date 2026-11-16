@@ -31,6 +31,7 @@ struct TalkView: View {
                 }
             }
             .warmList()
+            .centeredColumn()
             .navigationTitle("对练")
         }
     }

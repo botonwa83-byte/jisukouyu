@@ -42,11 +42,13 @@ struct PhraseListView: View {
                             Text(phrase.en).font(.subheadline.weight(.medium))
                             Text(phrase.zh).font(.caption).foregroundStyle(.secondary)
                         }
+                        .accessibilityIdentifier("phraseRow")
                     }
                 }
             }
         }
         .warmList()
+        .centeredColumn()
         .navigationTitle(scene?.title ?? "搜索")
         .navigationBarTitleDisplayMode(.inline)
     }

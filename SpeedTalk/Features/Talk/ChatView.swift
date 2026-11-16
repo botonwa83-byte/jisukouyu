@@ -108,6 +108,7 @@ struct ChatView: View {
             }
             .padding(16)
         }
+        .centeredColumn()
         .background(Theme.paper.ignoresSafeArea())
         .navigationTitle(scene.title)
         .navigationBarTitleDisplayMode(.inline)
