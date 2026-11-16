@@ -241,8 +241,6 @@ struct TodayView: View {
         guard vm.isFinished else { return }
         let outcome = didCheckIn ? nil : checkIn(completedCount: vm.total)
         guard outcome?.finished != true, celebration == nil else { return }
-        // 推进额度用完就停在今天，不再自动续下一组。
-        guard (progress?.advanceRemaining ?? 0) > 0 else { return }
         didCheckIn = false
         if let target = outcome?.snapshot ?? progress?.snapshot {
             vm.load(snapshot: target)
@@ -252,12 +250,11 @@ struct TodayView: View {
     private func finishedState(_ vm: TodayViewModel) -> some View {
         let planFinished = progress?.isCompleted == true
         let checkedIn = didCheckIn || completedScores.count >= goal
-        let canAdvanceMore = (progress?.advanceRemaining ?? AdvanceBudget.dailyLimit) > 0
         let message: String
         if planFinished {
             message = "1800 句全部走完，来领你的通关证书"
         } else if checkedIn {
-            message = canAdvanceMore ? "打卡完成，想多学一组也可以" : "今天推进满 2 天，明天接着学"
+            message = "打卡完成，想多学几组也可以"
         } else {
             message = "还差 \(goal - completedScores.count) 句，再来一组就打卡"
         }
@@ -271,7 +268,7 @@ struct TodayView: View {
                     showCertificate = true
                 }
                 .padding(.horizontal, 20)
-            } else if canAdvanceMore {
+            } else {
                 PrimaryButton(title: "再学一组") {
                     let base = progress?.snapshot ?? .initial(planID: activePlan)
                     // 已打卡时进度已经推进，直接加载下一天，避免跳过一句。
@@ -334,9 +331,8 @@ struct TodayView: View {
             return created
         }()
 
-        // 一天最多推进 2 天，超额部分留到明天（spec §4 超前学习上限）。
-        let wanted = max(1, profile.dailyGoal / 5)
-        let advanceTimes = min(wanted, target.advanceRemaining)
+        // 每次打卡按目标进度推进，想继续就再来一组，不设当日上限。
+        let advanceTimes = max(1, profile.dailyGoal / 5)
         var snapshot = target.snapshot
         var finished = false
         var finishedStage: String?
@@ -347,7 +343,6 @@ struct TodayView: View {
             if let stage = result.completedStage { finishedStage = stage }
         }
         target.apply(snapshot)
-        target.consumeAdvance(advanceTimes)
         if finished {
             target.isCompleted = true
             target.finishedAt = .now

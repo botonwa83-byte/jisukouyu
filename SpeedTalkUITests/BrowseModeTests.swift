@@ -3,7 +3,7 @@ import XCTest
 final class BrowseModeTests: XCTestCase {
     func testBrowseNextPhrase() {
         let app = XCUIApplication()
-        app.launchArguments = ["-skipOnboarding", "-resetAdvanceBudget"]
+        app.launchArguments = ["-skipOnboarding"]
         app.launch()
 
         let mode = app.buttons["modeToggle"]
