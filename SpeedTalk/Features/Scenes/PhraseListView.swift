@@ -36,7 +36,7 @@ struct PhraseListView: View {
             } else {
                 ForEach(phrases) { phrase in
                     NavigationLink {
-                        PhraseDetailScreen(phrase: phrase)
+                        PhraseDetailScreen(phrase: phrase, siblings: phrases)
                     } label: {
                         VStack(alignment: .leading, spacing: 4) {
                             Text(phrase.en).font(.subheadline.weight(.medium))

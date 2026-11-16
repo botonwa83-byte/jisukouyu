@@ -49,11 +49,15 @@ struct DayDetailView: View {
     let phraseIDs: [String]
     let title: String
 
+    private var phrases: [Phrase] {
+        phraseIDs.compactMap { container.content.library.phrase(id: $0) }
+    }
+
     var body: some View {
         List {
-            ForEach(phraseIDs.compactMap { container.content.library.phrase(id: $0) }) { phrase in
+            ForEach(phrases) { phrase in
                 NavigationLink {
-                    PhraseDetailScreen(phrase: phrase)
+                    PhraseDetailScreen(phrase: phrase, siblings: phrases)
                 } label: {
                     VStack(alignment: .leading, spacing: 4) {
                         Text(phrase.en).font(.subheadline.weight(.medium))

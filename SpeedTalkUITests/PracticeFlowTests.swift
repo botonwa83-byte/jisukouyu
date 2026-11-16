@@ -63,4 +63,51 @@ final class PracticeFlowTests: XCTestCase {
         app.navigationBars.buttons.firstMatch.tap()
         XCTAssertTrue(app.staticTexts["2/5"].waitForExistence(timeout: 5), "今日页应推进到 2/5")
     }
+
+    /// 场景 → 句子详情 → 练这一句：下一句应切到场景里的下一句，而不是回本句详情。
+    @MainActor
+    func testScenePracticeAdvancesToNextPhrase() {
+        let app = XCUIApplication()
+        app.launchArguments = ["-skipOnboarding"]
+        app.launch()
+
+        let sceneTab = app.tabBars.buttons["场景"]
+        XCTAssertTrue(sceneTab.waitForExistence(timeout: 15))
+        sceneTab.tap()
+        XCTAssertTrue(app.navigationBars["场景"].waitForExistence(timeout: 10))
+
+        let sceneCell = app.buttons.matching(NSPredicate(format: "label CONTAINS '句'")).firstMatch
+        XCTAssertTrue(sceneCell.waitForExistence(timeout: 8), "场景宫格应可点")
+        sceneCell.tap()
+
+        XCTAssertTrue(app.staticTexts["只看收藏"].waitForExistence(timeout: 8), "应进入句子列表")
+        app.cells.element(boundBy: 1).tap()
+
+        let detailEN = app.staticTexts.element(boundBy: 0)
+        XCTAssertTrue(detailEN.waitForExistence(timeout: 8))
+        let firstEN = detailEN.label
+
+        let practiceEntry = app.buttons["练这一句"]
+        XCTAssertTrue(practiceEntry.waitForExistence(timeout: 5))
+        practiceEntry.tap()
+
+        XCTAssertTrue(app.navigationBars["跟读"].waitForExistence(timeout: 5))
+        scoreWithKeyboard(app)
+
+        let next = app.buttons["下一句"]
+        XCTAssertTrue(next.waitForExistence(timeout: 5))
+        next.tap()
+
+        let practiceEN = app.staticTexts.matching(NSPredicate(format: "label != '跟读'")).firstMatch
+        let deadline = Date().addingTimeInterval(5)
+        while Date() < deadline, practiceEN.label == firstEN {
+            usleep(200_000)
+        }
+        XCTAssertNotEqual(firstEN, practiceEN.label, "下一句应换成场景里的下一句，实际还是本句")
+        XCTAssertTrue(app.navigationBars["跟读"].exists, "点下一句后应留在跟读页")
+
+        // 返回后详情页也同步为刚练的那句
+        app.navigationBars.buttons.firstMatch.tap()
+        XCTAssertTrue(app.staticTexts[practiceEN.label].waitForExistence(timeout: 5), "详情页应同步为刚练的句子")
+    }
 }

@@ -15,6 +15,8 @@ struct PracticeView: View {
     let onScore: (Int) -> Void
     /// 「下一句」时由调用方给出下一句；返回 nil 表示一组练完，退出跟读。
     let nextPhrase: (() -> Phrase?)?
+    /// 原地换句后通知调用方，便于上层页面同步显示当前句子。
+    let onPhraseChange: ((Phrase) -> Void)?
 
     @State private var vm: PracticeViewModel?
     @State private var manualText = ""
@@ -24,11 +26,13 @@ struct PracticeView: View {
     init(
         phrase: Phrase,
         onScore: @escaping (Int) -> Void,
-        nextPhrase: (() -> Phrase?)? = nil
+        nextPhrase: (() -> Phrase?)? = nil,
+        onPhraseChange: ((Phrase) -> Void)? = nil
     ) {
         _phrase = State(initialValue: phrase)
         self.onScore = onScore
         self.nextPhrase = nextPhrase
+        self.onPhraseChange = onPhraseChange
     }
 
     var body: some View {
@@ -175,6 +179,7 @@ struct PracticeView: View {
         }
         phrase = next
         vm = PracticeViewModel(phrase: next)
+        onPhraseChange?(next)
     }
 
     private func save(score: Int) {
