@@ -87,13 +87,11 @@ struct AIReviewSheet: View {
             loading = false
             return
         }
-        guard let key = KeychainStore.read(), !key.isEmpty else {
+        guard let config = AISettings().makeConfig() else {
             message = "还没填 API Key，去「我的 · 设置 · AI 设置」填一下"
             loading = false
             return
         }
-
-        let config = AIConfig(baseURL: profile.aiBaseURL, model: profile.aiModel, apiKey: key)
         do {
             let result = try await OpenAIClient().review(
                 config: config,

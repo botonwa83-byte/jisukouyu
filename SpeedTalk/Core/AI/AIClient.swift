@@ -149,8 +149,32 @@ final class OpenAIClient {
         return try await chat(config: config, system: system, user: history, jsonMode: false)
     }
 
-    func ping(config: AIConfig) async throws {
-        _ = try await chat(config: config, system: "Reply with OK only.", user: "ping", jsonMode: false)
+    /// 拉取服务商可用模型列表，用于连通性验证与密钥确认。
+    func models(config: AIConfig) async throws -> [String] {
+        guard config.isUsable else { throw AIError.notConfigured }
+        let trimmed = config.baseURL.hasSuffix("/") ? String(config.baseURL.dropLast()) : config.baseURL
+        guard let url = URL(string: trimmed + "/models") else { throw AIError.badResponse }
+
+        var request = URLRequest(url: url)
+        request.httpMethod = "GET"
+        request.timeoutInterval = 15
+        request.setValue("Bearer \(config.apiKey)", forHTTPHeaderField: "Authorization")
+
+        let data: Data
+        let response: URLResponse
+        do {
+            (data, response) = try await session.data(for: request)
+        } catch {
+            throw AIError.offline
+        }
+        guard let http = response as? HTTPURLResponse else { throw AIError.badResponse }
+        guard (200..<300).contains(http.statusCode) else { throw AIError.http(http.statusCode) }
+
+        guard let root = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
+              let list = root["data"] as? [[String: Any]]
+        else { throw AIError.badResponse }
+
+        return list.compactMap { $0["id"] as? String }.sorted()
     }
 
     private func chat(config: AIConfig, system: String, user: String, jsonMode: Bool) async throws -> String {

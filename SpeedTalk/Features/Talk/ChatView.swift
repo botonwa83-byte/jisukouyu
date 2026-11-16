@@ -33,7 +33,6 @@ final class ChatViewModel {
 }
 
 struct ChatView: View {
-    @Query private var profiles: [UserProfile]
     let scene: TalkScene
 
     @State private var vm = ChatViewModel()
@@ -161,12 +160,7 @@ struct ChatView: View {
     }
 
     private func send() async {
-        guard let profile = profiles.first, let key = KeychainStore.read(), !key.isEmpty else {
-            return
-        }
-        await vm.send(
-            config: AIConfig(baseURL: profile.aiBaseURL, model: profile.aiModel, apiKey: key),
-            scene: scene
-        )
+        guard let config = AISettings().makeConfig() else { return }
+        await vm.send(config: config, scene: scene)
     }
 }
