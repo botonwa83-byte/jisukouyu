@@ -22,8 +22,22 @@ final class SpeechRecognizer {
     private(set) var state: State = .idle
     private(set) var transcript: String = ""
     private(set) var elapsed: TimeInterval = 0
+    private var interruptionObserver: NSObjectProtocol?
 
     var isAvailable: Bool { recognizer?.isAvailable ?? false }
+
+    init() {
+        interruptionObserver = NotificationCenter.default.addObserver(
+            forName: AVAudioSession.interruptionNotification,
+            object: nil,
+            queue: .main
+        ) { [weak self] notification in
+            guard let raw = notification.userInfo?[AVAudioSessionInterruptionTypeKey] as? UInt,
+                  AVAudioSession.InterruptionType(rawValue: raw) == .began
+            else { return }
+            Task { @MainActor in self?.handleInterruption() }
+        }
+    }
 
     func requestAuthorization() async -> Bool {
         let speechGranted = await withCheckedContinuation { continuation in
@@ -66,7 +80,13 @@ final class SpeechRecognizer {
         }
 
         audioEngine.prepare()
-        try audioEngine.start()
+        do {
+            try audioEngine.start()
+        } catch {
+            input.removeTap(onBus: 0)
+            AudioSessionManager.shared.deactivateRecording()
+            throw error
+        }
 
         task = recognizer.recognitionTask(with: request) { [weak self] result, error in
             Task { @MainActor in
@@ -91,17 +111,34 @@ final class SpeechRecognizer {
         audioEngine.inputNode.removeTap(onBus: 0)
         request?.endAudio()
         task?.finish()
-        AudioSessionManager.shared.deactivate()
+        AudioSessionManager.shared.deactivateRecording()
         state = .idle
         return transcript
     }
 
+    /// 识别自己结束（静音超时、出错）时的收尾，同样要还回会话。
     private func finishAudio() {
+        let wasRecording = state == .recording
         if audioEngine.isRunning {
             audioEngine.stop()
             audioEngine.inputNode.removeTap(onBus: 0)
         }
         elapsed = startedAt.map { Date.now.timeIntervalSince($0) } ?? 0
         state = .idle
+        if wasRecording {
+            AudioSessionManager.shared.deactivateRecording()
+        }
+    }
+
+    /// 来电等中断：直接收尾，避免按钮卡在录音态。
+    private func handleInterruption() {
+        guard state == .recording else { return }
+        audioEngine.stop()
+        audioEngine.inputNode.removeTap(onBus: 0)
+        request?.endAudio()
+        task?.cancel()
+        elapsed = startedAt.map { Date.now.timeIntervalSince($0) } ?? 0
+        state = .idle
+        AudioSessionManager.shared.deactivateRecording()
     }
 }

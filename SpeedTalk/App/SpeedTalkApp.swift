@@ -4,6 +4,8 @@ import UIKit
 
 @main
 struct SpeedTalkApp: App {
+    @Environment(\.scenePhase) private var scenePhase
+
     private let container: AppContainer
     private let modelContainer: ModelContainer
 
@@ -26,6 +28,12 @@ struct SpeedTalkApp: App {
             RootView()
                 .environment(container)
                 .modelContainer(modelContainer)
+                .onChange(of: scenePhase) { _, phase in
+                    // 切后台立即还回音频会话，别一直占着麦克风、压着别的 App。
+                    if phase == .background {
+                        AudioSessionManager.shared.deactivate()
+                    }
+                }
         }
     }
 }
