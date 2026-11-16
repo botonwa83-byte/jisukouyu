@@ -22,7 +22,7 @@ struct ReviewQueueView: View {
             } else {
                 ForEach(duePhrases) { phrase in
                     NavigationLink {
-                        PracticeView(phrase: phrase, onFinished: { _ in })
+                        PracticeView(phrase: phrase, onScore: { _ in })
                     } label: {
                         VStack(alignment: .leading, spacing: 4) {
                             Text(phrase.en).font(.subheadline.weight(.medium))

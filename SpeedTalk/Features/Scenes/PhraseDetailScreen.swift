@@ -26,7 +26,7 @@ struct PhraseDetailScreen: View {
                     .background(Theme.ink.opacity(0.06), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
                 }
                 NavigationLink {
-                    PracticeView(phrase: phrase, onFinished: { _ in })
+                    PracticeView(phrase: phrase, onScore: { _ in })
                 } label: {
                     Text("练这一句")
                         .frame(maxWidth: .infinity)

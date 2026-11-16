@@ -7,6 +7,20 @@ struct PhraseDetailView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(phrase.en)
+                        .font(.phraseSmall)
+                        .foregroundStyle(Theme.ink)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Text(phrase.zh)
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                    PhraseAudioBar(phrase: phrase)
+                }
+                .padding(20)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(Theme.card, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
+
                 section("怎么用") {
                     Text(phrase.context)
                 }

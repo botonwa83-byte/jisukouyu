@@ -178,9 +178,14 @@ struct TodayView: View {
     private func practiceEntry(_ vm: TodayViewModel, compact: Bool) -> some View {
         NavigationLink {
             if let phrase = vm.current {
-                PracticeView(phrase: phrase) { score in
-                    handlePracticeScore(score, vm: vm)
-                }
+                PracticeView(
+                    phrase: phrase,
+                    onScore: { score in handlePracticeScore(score, vm: vm) },
+                    nextPhrase: {
+                        vm.advance()
+                        return vm.current
+                    }
+                )
             }
         } label: {
             if compact {
@@ -232,7 +237,6 @@ struct TodayView: View {
         if completedScores.count >= goal, didCheckIn == false {
             _ = checkIn(completedCount: completedScores.count)
         }
-        vm.advance()
     }
 
     /// 速览模式翻完一组：照常打卡与推进，然后直接载入下一组，保持连续翻页。

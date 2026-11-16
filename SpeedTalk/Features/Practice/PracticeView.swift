@@ -10,13 +10,26 @@ struct PracticeView: View {
     @Environment(\.openURL) private var openURL
     @Environment(\.scenePhase) private var scenePhase
 
-    let phrase: Phrase
-    let onFinished: (Int) -> Void
+    @State private var phrase: Phrase
+    /// 记录本次得分（打卡计数等），不推进页面。
+    let onScore: (Int) -> Void
+    /// 「下一句」时由调用方给出下一句；返回 nil 表示一组练完，退出跟读。
+    let nextPhrase: (() -> Phrase?)?
 
     @State private var vm: PracticeViewModel?
     @State private var manualText = ""
     @State private var showManual = false
     @State private var showAIReview = false
+
+    init(
+        phrase: Phrase,
+        onScore: @escaping (Int) -> Void,
+        nextPhrase: (() -> Phrase?)? = nil
+    ) {
+        _phrase = State(initialValue: phrase)
+        self.onScore = onScore
+        self.nextPhrase = nextPhrase
+    }
 
     var body: some View {
         VStack(spacing: 18) {
@@ -30,6 +43,7 @@ struct PracticeView: View {
             .padding(20)
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(Theme.card, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
+            .id(phrase.id)
 
             if let report = vm?.report {
                 ScrollView {
@@ -39,8 +53,8 @@ struct PracticeView: View {
                             onRetry: { vm?.reset() },
                             onNext: {
                                 save(score: report.score)
-                                onFinished(report.score)
-                                dismiss()
+                                onScore(report.score)
+                                advanceToNext()
                             }
                         )
                         Button {
@@ -151,6 +165,16 @@ struct PracticeView: View {
                         vm?.endRecording()
                     }
             )
+    }
+
+    /// 「下一句」：原地载入下一句继续练；一组练完才退回今日页。
+    private func advanceToNext() {
+        guard let next = nextPhrase?() else {
+            dismiss()
+            return
+        }
+        phrase = next
+        vm = PracticeViewModel(phrase: next)
     }
 
     private func save(score: Int) {
