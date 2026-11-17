@@ -122,12 +122,11 @@ struct TodayView: View {
         .accessibilityLabel(browseMode ? "速览模式已开启" : "跟读模式已开启")
     }
 
-    /// 速览模式下左右滑卡片等于翻页，和「下一句」按钮等价。
+    /// 左右滑卡片 = 翻到下一句（上一句），跟读/速览模式都支持。
     private func browseSwipe(_ vm: TodayViewModel) -> some Gesture {
         DragGesture(minimumDistance: 40)
             .onEnded { value in
-                guard browseMode,
-                      abs(value.translation.width) > 60,
+                guard abs(value.translation.width) > 60,
                       abs(value.translation.width) > abs(value.translation.height)
                 else { return }
                 if value.translation.width < 0 {
@@ -155,25 +154,34 @@ struct TodayView: View {
     private func actions(_ vm: TodayViewModel) -> some View {
         HStack(spacing: 12) {
             if browseMode {
-                Button {
-                    advanceBrowsing(vm)
-                } label: {
-                    Label("下一句", systemImage: "chevron.right.circle.fill")
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 14)
-                        .background(Theme.accent, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
-                        .foregroundStyle(.white)
-                }
-                .buttonStyle(.plain)
-                .accessibilityIdentifier("browseNext")
-
+                nextButton(vm, prominent: true)
                 practiceEntry(vm, compact: true)
                 detailEntry(vm, compact: true)
             } else {
+                // 跟读模式也保留「下一句」：看到会了就翻，想练再点麦克风。
+                nextButton(vm, prominent: false)
                 practiceEntry(vm, compact: false)
                 detailEntry(vm, compact: false)
             }
         }
+    }
+
+    private func nextButton(_ vm: TodayViewModel, prominent: Bool) -> some View {
+        Button {
+            advanceBrowsing(vm)
+        } label: {
+            if prominent {
+                Label("下一句", systemImage: "chevron.right.circle.fill")
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 14)
+                    .background(Theme.accent, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                    .foregroundStyle(.white)
+            } else {
+                iconLabel("下一句", systemImage: "chevron.right.circle.fill", tint: Theme.accent)
+            }
+        }
+        .buttonStyle(.plain)
+        .accessibilityIdentifier(prominent ? "browseNext" : "nextPhrase")
     }
 
     private func practiceEntry(_ vm: TodayViewModel, compact: Bool) -> some View {
