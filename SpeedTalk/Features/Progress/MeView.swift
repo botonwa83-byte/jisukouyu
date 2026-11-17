@@ -58,6 +58,20 @@ struct MeView: View {
                     AchievementWall()
                 }
 
+                Section("完整版") {
+                    NavigationLink {
+                        PaywallView()
+                    } label: {
+                        Label {
+                            Text(StoreManager.shared.isPremium ? "完整版已解锁" : "解锁完整版 · AI 对练与点评")
+                            Text("一次买断，永久使用").font(.caption2)
+                        } icon: {
+                            Image(systemName: StoreManager.shared.isPremium ? "checkmark.seal.fill" : "crown")
+                        }
+                    }
+                    .foregroundStyle(StoreManager.shared.isPremium ? Theme.positive : Theme.accent)
+                }
+
                 Section {
                     NavigationLink("设置") { SettingsView() }
                     NavigationLink("隐私说明") { PrivacyView() }

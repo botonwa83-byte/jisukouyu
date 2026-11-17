@@ -5,20 +5,32 @@ struct RootView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var profiles: [UserProfile]
     @AppStorage(AppAppearance.storageKey) private var appearanceRaw = AppAppearance.system.rawValue
+    @State private var showWelcome = true
 
     var body: some View {
         Group {
             if let profile = profiles.first, profile.hasOnboarded {
-                ContentView()
+                mainContent
             } else if skipOnboardingForSmokeTest {
-                ContentView()
+                mainContent
             } else {
                 OnboardingView()
             }
         }
+        .environment(StoreManager.shared)
         .preferredColorScheme(AppAppearance(rawValue: appearanceRaw)?.colorScheme)
         .task {
             seedForSmokeTestIfNeeded()
+        }
+    }
+
+    /// 每次冷启动先过品牌首页（wordpulse 同款）；冒烟模式直接进主界面。
+    @ViewBuilder
+    private var mainContent: some View {
+        if showWelcome && !skipOnboardingForSmokeTest {
+            WelcomeView { showWelcome = false }
+        } else {
+            ContentView()
         }
     }
 

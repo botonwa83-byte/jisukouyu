@@ -80,4 +80,20 @@ final class NavigationSmokeTests: XCTestCase {
         app.buttons["隐私说明"].tap()
         XCTAssertTrue(app.navigationBars["隐私说明"].waitForExistence(timeout: 5))
     }
+
+    /// 付费墙能打开：权益、价格、恢复购买可见。
+    func testPaywallOpens() {
+        let app = launchApp()
+        XCTAssertTrue(app.staticTexts["今日"].waitForExistence(timeout: 15))
+        app.openTab("我的")
+        XCTAssertTrue(app.navigationBars["我的"].waitForExistence(timeout: 8))
+
+        let entry = app.staticTexts["解锁完整版 · AI 对练与点评"]
+        XCTAssertTrue(entry.waitForExistence(timeout: 5), "我的页应有完整版入口")
+        entry.tap()
+
+        XCTAssertTrue(app.navigationBars["完整版"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["终身买断"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["paywallRestore"].exists, "应有恢复购买按钮")
+    }
 }

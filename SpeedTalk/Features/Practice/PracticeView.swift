@@ -22,6 +22,7 @@ struct PracticeView: View {
     @State private var manualText = ""
     @State private var showManual = false
     @State private var showAIReview = false
+    @State private var showPaywall = false
 
     init(
         phrase: Phrase,
@@ -63,7 +64,11 @@ struct PracticeView: View {
                             }
                         )
                         Button {
-                            showAIReview = true
+                            if StoreManager.shared.isPremium {
+                                showAIReview = true
+                            } else {
+                                showPaywall = true
+                            }
                         } label: {
                             Label("AI 精细点评", systemImage: "sparkles")
                                 .font(.subheadline.weight(.medium))
@@ -100,6 +105,9 @@ struct PracticeView: View {
         .navigationBarTitleDisplayMode(.inline)
         .sheet(isPresented: $showAIReview) {
             AIReviewSheet(phrase: phrase, transcript: vm?.transcript ?? "")
+        }
+        .sheet(isPresented: $showPaywall) {
+            PaywallView(feature: "AI 精细点评")
         }
         .sheet(isPresented: $showManual) {
             NavigationStack {
