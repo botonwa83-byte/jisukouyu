@@ -1,0 +1,40 @@
+{
+  "identifier" : "com.speedtalk.storekit",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "22.00",
+      "familyShareable" : false,
+      "internalID" : "com.speedtalk.app.lifetime",
+      "localizations" : [
+        {
+          "description" : "一次买断，永久解锁完整版（全部 8 场景、AI 对练与点评、无限续学）",
+          "displayName" : "终身完整版",
+          "locale" : "zh_CN"
+        }
+      ],
+      "productID" : "com.speedtalk.app.lifetime",
+      "referenceName" : "终身完整版",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "com.speedtalk.app",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "zh_CN",
+    "_storeKitErrors" : [
+
+    ],
+    "_storefront" : "CHN"
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

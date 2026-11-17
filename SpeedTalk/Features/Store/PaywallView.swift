@@ -116,6 +116,8 @@ struct PaywallView: View {
             HStack(spacing: 8) {
                 if store.loading {
                     ProgressView().tint(.white)
+                } else if store.product == nil {
+                    Text("内购暂不可用 · 正在连接商店…")
                 } else {
                     Text("立即解锁 · \(store.price)")
                 }
@@ -124,7 +126,7 @@ struct PaywallView: View {
             .foregroundStyle(.white)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 17)
-            .background(Theme.accent, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+            .background(store.product == nil ? Theme.ink.opacity(0.35) : Theme.accent, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
         }
         .disabled(store.loading || store.product == nil)
         .accessibilityIdentifier("paywallBuy")
