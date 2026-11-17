@@ -12,7 +12,7 @@ final class StoreManager {
     static let shared = StoreManager()
 
     static let productID = "com.speedtalk.app.lifetime"
-    static let priceFallback = "¥12"
+    static let priceFallback = "¥22"
     private static let cacheKey = "premiumOwned"
 
     private(set) var isPremium: Bool

@@ -76,7 +76,7 @@ struct WelcomeView: View {
                 .font(.title3.weight(.bold))
                 .foregroundStyle(Theme.ink)
                 .multilineTextAlignment(.center)
-            Text("场景句子 × 跟读评分 × AI 纠错\n每天 5 句，三分钟，开口说英语")
+            Text("搜集使用频率最高的口语\n每天 5 句，三分钟，开口说英语")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
