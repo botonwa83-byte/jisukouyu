@@ -29,6 +29,10 @@ struct PaywallView: View {
                         restoreButton
                     }
                     legalText
+
+                    #if DEBUG
+                    debugUnlockButton
+                    #endif
                 }
                 .padding(20)
                 .centeredColumn()
@@ -156,6 +160,22 @@ struct PaywallView: View {
     }
 
     @State private var restoreFailed = false
+
+    #if DEBUG
+    private var debugUnlockButton: some View {
+        Button {
+            store.debugUnlock()
+        } label: {
+            Label("测试解锁完整版（仅开发）", systemImage: "hammer")
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(.secondary)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 10)
+                .background(Theme.ink.opacity(0.04), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+        }
+        .accessibilityIdentifier("debugUnlock")
+    }
+    #endif
 
     private var ownedCard: some View {
         VStack(spacing: 4) {

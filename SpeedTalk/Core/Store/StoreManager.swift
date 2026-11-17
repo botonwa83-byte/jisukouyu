@@ -114,4 +114,11 @@ final class StoreManager {
         isPremium = owned
         UserDefaults.standard.set(owned, forKey: Self.cacheKey)
     }
+
+    #if DEBUG
+    /// 仅开发/测试用：跳过真实购买，直接解锁完整版（沙盒测试机、审核前自测）。
+    func debugUnlock() {
+        setPremium(true)
+    }
+    #endif
 }
